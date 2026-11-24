@@ -1,20 +1,20 @@
 {
-  "name": "yukt-it-solutions",
+  "name": "vivektech",
   "version": "1.0.0",
-  "description": "Premium, modern, minimalist website for YUKT IT SOLUTIONS (yukt.online)",
+  "description": "Premium, modern, minimalist website for VIVEK TECH (vivektech.online)",
   "main": "assets/js/app.js",
   "scripts": {
     "build:css": "tailwindcss -i ./assets/css/input.css -o ./assets/css/main.css --minify",
     "watch:css": "tailwindcss -i ./assets/css/input.css -o ./assets/css/main.css --watch"
   },
   "keywords": [
-    "yukt",
+    "vivektech",
     "it-solutions",
     "website-development",
     "custom-software",
     "ai-automation"
   ],
-  "author": "YUKT IT SOLUTIONS",
+  "author": "VIVEK TECH",
   "license": "Proprietary",
   "devDependencies": {
     "autoprefixer": "^10.4.20",

@@ -9,13 +9,13 @@ require_once __DIR__ . '/includes/db.php';
 // Simple Admin Authentication Check
 // Default admin key or password
 $adminAuthKey = 'vivektech-onlineadmin';
-$isAdminLoggedIn = isset($_SESSION['yukt_admin_logged']) && $_SESSION['yukt_admin_logged'] === true;
+$isAdminLoggedIn = isset($_SESSION['vivektech_admin_logged']) && $_SESSION['vivektech_admin_logged'] === true;
 
 // Handle Admin Login
 if (isset($_POST['admin_login'])) {
     $pass = $_POST['admin_password'] ?? '';
     if ($pass === $adminAuthKey || $pass === 'vivektech@admin2026') {
-        $_SESSION['yukt_admin_logged'] = true;
+        $_SESSION['vivektech_admin_logged'] = true;
         header('Location: admin-partners.php');
         exit;
     } else {
@@ -25,7 +25,7 @@ if (isset($_POST['admin_login'])) {
 
 // Handle Admin Logout
 if (isset($_GET['action']) && $_GET['action'] === 'logout') {
-    unset($_SESSION['yukt_admin_logged']);
+    unset($_SESSION['vivektech_admin_logged']);
     header('Location: admin-partners.php');
     exit;
 }

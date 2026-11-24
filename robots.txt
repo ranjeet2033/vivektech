@@ -1,5 +1,5 @@
 # ==========================================================================
-# Robots.txt for YUKT IT SOLUTIONS (yukt.online)
+# Robots.txt for VIVEK TECH (vivektech.online)
 # ==========================================================================
 
 User-agent: *
@@ -10,4 +10,4 @@ Disallow: /legacy_archive/
 Disallow: /node_modules/
 
 # XML Sitemap
-Sitemap: https://yukt.online/sitemap.xml
+Sitemap: https://vivektech.online/sitemap.xml

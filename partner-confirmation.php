@@ -39,7 +39,7 @@ $refUrlHome = COMPANY_URL . '/?ref=' . urlencode($partnerCode);
 $refUrlPartner = COMPANY_URL . '/partner.php?ref=' . urlencode($partnerCode);
 $refUrlServices = COMPANY_URL . '/service-catalogue.php?ref=' . urlencode($partnerCode);
 
-$shareMessage = "Namaste! Agar aapko Website Development, Software, Business Automation, Professional Document Services ya Digital Marketing ki zarurat hai, to VIVEK TECH se contact kar sakte hain.\n\nYUKT Digital Partner Program ke through aap bhi apne area mein digital services ka business expand kar sakte hain.\n\nExplore: " . $refUrlHome;
+$shareMessage = "Namaste! Agar aapko Website Development, Software, Business Automation, Professional Document Services ya Digital Marketing ki zarurat hai, to VIVEK TECH se contact kar sakte hain.\n\nVIVEK TECH Digital Partner Program ke through aap bhi apne area mein digital services ka business expand kar sakte hain.\n\nExplore: " . $refUrlHome;
 $waShareUrl = 'https://api.whatsapp.com/send?text=' . rawurlencode($shareMessage);
 
 $pageTitle = 'Registration Confirmed | VIVEK TECH Digital Partner Program';
