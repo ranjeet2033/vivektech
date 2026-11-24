@@ -17,26 +17,25 @@ if (!defined('COMPANY_NAME')) {
     // Contact & Location
     define('PHONE_NUMBER', '+91 93349 68355');
     define('PHONE_RAW', '919334968355');
-    define('PHONE_SECONDARY', '+91 93349 68355');
-    define('PHONE_SECONDARY_RAW', '919334968355');
-    define('PHONE_ANSAR', '+91 93349 68355');
-    define('PHONE_ANSAR_RAW', '919334968355');
-    define('PHONE_RANJEET', '+91 93349 68355');
-    define('PHONE_RANJEET_RAW', '919334968355');
+    define('PHONE_SECONDARY', '+91 72176 45059');
+    define('PHONE_SECONDARY_RAW', '917217645059');
+    define('PHONE_VIVEK', '+91 93349 68355');
+    define('PHONE_VIVEK_RAW', '919334968355');
+    define('PHONE_RANJEET', '+91 72176 45059');
+    define('PHONE_RANJEET_RAW', '917217645059');
 
     define('WHATSAPP_NUMBER', '919334968355');
     define('WHATSAPP_FORMATTED', '+91 93349 68355');
     define('WHATSAPP_BASE_URL', 'https://wa.me/919334968355');
     define('WHATSAPP_URL', 'https://wa.me/919334968355?text=Hi%20Vivek%20Tech%2C%20I%20would%20like%20to%20discuss%20a%20project.');
-    define('WHATSAPP_ANSAR_URL', 'https://wa.me/919334968355?text=Hi%20Vivek%20Tech%2C%20I%20would%20like%20to%20discuss%20a%20project.');
-    define('WHATSAPP_RANJEET_URL', 'https://wa.me/919334968355?text=Hi%20Vivek%20Tech%2C%20I%20would%20like%20to%20discuss%20a%20project.');
+    define('WHATSAPP_VIVEK_URL', 'https://wa.me/919334968355?text=Hi%20Vivek%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20Vivek%20Tech.');
+    define('WHATSAPP_RANJEET_URL', 'https://wa.me/917217645059?text=Hi%20Ranjeet%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20Vivek%20Tech.');
 
     define('EMAIL_PRIMARY', 'contact@vivektech.online');
     define('EMAIL_SALES', 'sales@vivektech.online');
     define('EMAIL_SUPPORT', 'support@vivektech.online');
     define('OFFICE_PRIMARY', 'Block A, Ram Datt Enclave, Uttam Nagar, Delhi - 110059, India');
     define('OFFICE_PRIMARY_HINDI', 'ब्लॉक A, राम दात्त एंक्लेव, उत्तम नगर, दिल्ली, 110059');
-    define('OFFICE_SECONDARY', 'HSR Layout, Bengaluru, Karnataka, India');
     define('WORKING_HOURS', 'Mon – Sat: 9:30 AM – 7:30 PM IST');
 
     // Helper function to generate tailored WhatsApp URLs with prefilled messages (Default: Company WhatsApp)
@@ -52,37 +51,37 @@ if (!defined('COMPANY_NAME')) {
 
     // Social & Professional Profiles
     define('LINKEDIN_URL', 'https://www.linkedin.com/in/ranjeet-m-079777262/?isSelfProfile=true');
-    define('GITHUB_URL', 'https://github.com/yukt2026');
+    define('GITHUB_URL', 'https://github.com/ranjeet2033');
     define('INSTAGRAM_URL', 'https://www.instagram.com/vivektech.online/');
     define('TWITTER_URL', 'https://twitter.com/vivektechonline');
 
     // Leadership Specific Profile Links
-    define('RANJEET_GITHUB', 'https://github.com/yukt2026');
+    define('RANJEET_GITHUB', 'https://github.com/ranjeet2033');
     define('RANJEET_LINKEDIN', 'https://www.linkedin.com/in/ranjeet-m-079777262/?isSelfProfile=true');
-    define('ANSAR_GITHUB', 'https://github.com/ansaralisahh');
-    define('ANSAR_LINKEDIN', 'https://www.linkedin.com/in/ansaralisahh');
+    define('VIVEK_GITHUB', 'https://github.com/ranjeet2033');
+    define('VIVEK_LINKEDIN', 'https://www.linkedin.com/in/ranjeet-m-079777262/?isSelfProfile=true');
 
     // Verified Engineering Leadership Pod
     $LEADERSHIP_TEAM = [
         [
-            'name' => 'Ansar Ali Shah',
+            'name' => 'Vivek',
             'role' => 'Founder & Lead Technical Architect',
             'focus' => 'Web Applications, High-Performance Backends & Systems',
             'phone' => '+91 93349 68355',
             'phone_raw' => '919334968355',
-            'whatsapp_url' => 'https://wa.me/919334968355?text=' . rawurlencode('Hi Vivek Tech, I would like to discuss a project.'),
-            'github' => 'https://github.com/ansaralisahh',
-            'linkedin' => 'https://www.linkedin.com/in/ansaralisahh',
-            'avatar_initials' => 'AS'
+            'whatsapp_url' => 'https://wa.me/919334968355?text=' . rawurlencode('Hi Vivek, I would like to discuss a project with Vivek Tech.'),
+            'github' => 'https://github.com/ranjeet2033',
+            'linkedin' => 'https://www.linkedin.com/in/ranjeet-m-079777262/?isSelfProfile=true',
+            'avatar_initials' => 'VK'
         ],
         [
             'name' => 'Ranjeet',
             'role' => 'Co-Founder & Lead Solutions Architect',
             'focus' => 'Cloud Systems, Full-Stack Architecture & AI Integration',
-            'phone' => '+91 93349 68355',
-            'phone_raw' => '919334968355',
-            'whatsapp_url' => 'https://wa.me/919334968355?text=' . rawurlencode('Hi Vivek Tech, I would like to discuss a project.'),
-            'github' => 'https://github.com/yukt2026',
+            'phone' => '+91 72176 45059',
+            'phone_raw' => '917217645059',
+            'whatsapp_url' => 'https://wa.me/917217645059?text=' . rawurlencode('Hi Ranjeet, I would like to discuss a project with Vivek Tech.'),
+            'github' => 'https://github.com/ranjeet2033',
             'linkedin' => 'https://www.linkedin.com/in/ranjeet-m-079777262/?isSelfProfile=true',
             'avatar_initials' => 'RM'
         ]

@@ -57,7 +57,7 @@ if (!function_exists('getCatalogueWhatsAppUrl')) {
         </a>
 
         <a 
-          href="https://wa.me/919334968355?text=Namaste%20YUKT!%20Mujhe%20complete%20service%20catalogue%20aur%20rate%20card%20chahiye." 
+          href="https://wa.me/919334968355?text=Namaste%20VIVEK%20TECH!%20Mujhe%20complete%20service%20catalogue%20aur%20rate%20card%20chahiye." 
           target="_blank" 
           rel="noopener noreferrer" 
           class="px-4 py-2 sm:px-5 sm:py-2.5 rounded-xl font-bold text-xs sm:text-sm text-emerald-800 bg-emerald-50 hover:bg-emerald-100 border border-emerald-300 shadow-xs transition-all flex items-center gap-1.5"
@@ -219,7 +219,7 @@ if (!function_exists('getCatalogueWhatsAppUrl')) {
           कृपया कोई दूसरा कीवर्ड सर्च करें या किसी भी कस्टम सर्विस के लिए सीधे WhatsApp पर पूछें:
         </p>
         <a 
-          href="https://wa.me/919334968355?text=Namaste%20YUKT!%20Mujhe%20ek%20custom%20service%20ke%20baare%20me%20puchna%20hai." 
+          href="https://wa.me/919334968355?text=Namaste%20VIVEK%20TECH!%20Mujhe%20ek%20custom%20service%20ke%20baare%20me%20puchna%20hai." 
           target="_blank" 
           class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-emerald-600 text-white text-xs font-bold"
         >

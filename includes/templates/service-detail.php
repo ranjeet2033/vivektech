@@ -113,7 +113,7 @@ require_once __DIR__ . '/../components/section-header.php';
             </div>
             <div class="flex justify-between items-center py-1.5">
               <span class="text-slate-400">Engineering Hub</span>
-              <span class="font-semibold text-white">NCR &amp; Bengaluru, India</span>
+              <span class="font-semibold text-white">New Delhi, India</span>
             </div>
           </div>
 

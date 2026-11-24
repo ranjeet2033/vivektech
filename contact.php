@@ -75,26 +75,26 @@ require_once __DIR__ . '/includes/components/section-header.php';
         </div>
 
         <!-- Floating Glass Card 1: Ranjeet Direct Line (Top Left) -->
-        <a href="https://wa.me/919334968355?text=Hi%20Ranjeet%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" class="absolute top-2 left-0 sm:-left-4 glass-pill rounded-2xl p-3.5 w-56 sm:w-60 animate-float-slow select-none border border-emerald-400/30 shadow-xl hover:border-emerald-400/60 transition-colors">
+        <a href="https://wa.me/917217645059?text=Hi%20Ranjeet%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" class="absolute top-2 left-0 sm:-left-4 glass-pill rounded-2xl p-3.5 w-56 sm:w-60 animate-float-slow select-none border border-emerald-400/30 shadow-xl hover:border-emerald-400/60 transition-colors">
           <div class="flex items-center justify-between mb-1">
             <span class="font-mono text-[10px] text-emerald-400 uppercase tracking-wider flex items-center gap-1">
               <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span> Co-Founder &bull; Solutions
             </span>
             <i data-lucide="message-circle" class="w-3.5 h-3.5 text-emerald-400"></i>
           </div>
-          <div class="text-xs font-semibold text-white">Ranjeet (+91 93349 68355)</div>
+          <div class="text-xs font-semibold text-white">Ranjeet (+91 72176 45059)</div>
           <p class="text-[10px] text-slate-400 mt-0.5">Click for direct WhatsApp scoping</p>
         </a>
 
-        <!-- Floating Glass Card 2: Ansar Direct Line (Top Right) -->
-        <a href="https://wa.me/919334968355?text=Hi%20Ansar%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" class="absolute top-20 right-0 sm:-right-4 glass-pill rounded-2xl p-3.5 w-52 sm:w-56 animate-float-delayed select-none border border-yukt-orange/30 shadow-xl hover:border-yukt-orange/60 transition-colors">
+        <!-- Floating Glass Card 2: Vivek Direct Line (Top Right) -->
+        <a href="https://wa.me/919334968355?text=Hi%20Vivek%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" class="absolute top-20 right-0 sm:-right-4 glass-pill rounded-2xl p-3.5 w-52 sm:w-56 animate-float-delayed select-none border border-yukt-orange/30 shadow-xl hover:border-yukt-orange/60 transition-colors">
           <div class="flex items-center justify-between mb-1">
             <span class="font-mono text-[10px] text-yukt-orange uppercase tracking-wider flex items-center gap-1">
               <span class="w-1.5 h-1.5 rounded-full bg-yukt-orange animate-ping"></span> Founder &bull; Systems
             </span>
             <i data-lucide="message-circle" class="w-3.5 h-3.5 text-yukt-orange"></i>
           </div>
-          <div class="text-xs font-semibold text-white">Ansar (+91 93349 68355)</div>
+          <div class="text-xs font-semibold text-white">Vivek (+91 93349 68355)</div>
           <p class="text-[10px] text-slate-400 mt-0.5">Click for direct WhatsApp scoping</p>
         </a>
 
@@ -148,9 +148,9 @@ require_once __DIR__ . '/includes/components/section-header.php';
               <div>
                 <h4 class="font-display font-bold text-base text-slate-900">Ranjeet</h4>
                 <div class="text-[11px] font-mono text-electric-600 font-medium mt-0.5">Co-Founder &amp; Lead Solutions Architect</div>
-                <a href="tel:+919334968355" class="text-xs font-mono text-slate-600 hover:text-slate-900 block mt-0.5">+91 93349 68355</a>
+                <a href="tel:+917217645059" class="text-xs font-mono text-slate-600 hover:text-slate-900 block mt-0.5">+91 72176 45059</a>
               </div>
-              <a href="https://wa.me/919334968355?text=Hi%20Ranjeet%2C%20I%20would%20like%20to%20discuss%20a%20project%20scope%20with%20Yukt." target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 rounded-xl text-xs font-medium bg-emerald-600 hover:bg-emerald-500 text-white flex items-center gap-1.5 transition-colors shadow-sm">
+              <a href="https://wa.me/917217645059?text=Hi%20Ranjeet%2C%20I%20would%20like%20to%20discuss%20a%20project%20scope%20with%20Vivek%20Tech." target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 rounded-xl text-xs font-medium bg-emerald-600 hover:bg-emerald-500 text-white flex items-center gap-1.5 transition-colors shadow-sm">
                 <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
                 <span>WhatsApp</span>
               </a>
@@ -167,7 +167,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
             </div>
           </div>
 
-          <!-- Ansar WhatsApp Card -->
+          <!-- Vivek WhatsApp Card -->
           <div class="p-5 rounded-2xl bg-white border border-slate-200/90 shadow-sm space-y-2 hover:border-yukt-orange transition-colors">
             <div class="flex items-center justify-between">
               <span class="text-xs font-mono font-bold uppercase tracking-wider text-yukt-orange">Founder &amp; Technical Architecture</span>
@@ -177,21 +177,21 @@ require_once __DIR__ . '/includes/components/section-header.php';
             </div>
             <div class="flex items-center justify-between gap-3">
               <div>
-                <h4 class="font-display font-bold text-base text-slate-900">Ansar Ali Shah</h4>
+                <h4 class="font-display font-bold text-base text-slate-900">Vivek</h4>
                 <div class="text-[11px] font-mono text-yukt-orange font-medium mt-0.5">Founder &amp; Lead Technical Architect</div>
                 <a href="tel:+919334968355" class="text-xs font-mono text-slate-600 hover:text-slate-900 block mt-0.5">+91 93349 68355</a>
               </div>
-              <a href="https://wa.me/919334968355?text=Hi%20Ansar%2C%20I%20would%20like%20to%20discuss%20a%20project%20scope%20with%20Yukt." target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 rounded-xl text-xs font-medium bg-emerald-600 hover:bg-emerald-500 text-white flex items-center gap-1.5 transition-colors shadow-sm">
+              <a href="https://wa.me/919334968355?text=Hi%20Vivek%2C%20I%20would%20like%20to%20discuss%20a%20project%20scope%20with%20Vivek%20Tech." target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 rounded-xl text-xs font-medium bg-emerald-600 hover:bg-emerald-500 text-white flex items-center gap-1.5 transition-colors shadow-sm">
                 <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
                 <span>WhatsApp</span>
               </a>
             </div>
             <div class="pt-2 border-t border-slate-100 flex items-center gap-3 text-xs text-slate-500">
-              <a href="<?php echo ANSAR_GITHUB; ?>" target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 flex items-center gap-1.5 transition-colors">
+              <a href="<?php echo VIVEK_GITHUB; ?>" target="_blank" rel="noopener noreferrer" class="hover:text-slate-900 flex items-center gap-1.5 transition-colors">
                 <?php echo getIconSvg('github', 'w-3.5 h-3.5 text-slate-700'); ?>
                 <span>GitHub</span>
               </a>
-              <a href="<?php echo ANSAR_LINKEDIN; ?>" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 flex items-center gap-1.5 transition-colors">
+              <a href="<?php echo VIVEK_LINKEDIN; ?>" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 flex items-center gap-1.5 transition-colors">
                 <?php echo getIconSvg('linkedin', 'w-3.5 h-3.5 text-blue-600'); ?>
                 <span>LinkedIn</span>
               </a>
@@ -213,7 +213,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
               </a>
               <a href="<?php echo GITHUB_URL; ?>" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 p-2.5 rounded-xl bg-slate-50 hover:bg-slate-100 transition-colors border border-slate-200 group">
                 <?php echo getIconSvg('github', 'w-4 h-4 text-slate-800 group-hover:scale-110 transition-transform'); ?>
-                <span class="font-medium truncate">github/yukt2026</span>
+                <span class="font-medium truncate">github/ranjeet2033</span>
               </a>
               <a href="<?php echo LINKEDIN_URL; ?>" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 p-2.5 rounded-xl bg-slate-50 hover:bg-electric-50 hover:text-electric-600 transition-colors border border-slate-200 group">
                 <?php echo getIconSvg('linkedin', 'w-4 h-4 text-electric-600 group-hover:scale-110 transition-transform'); ?>
@@ -247,7 +247,6 @@ require_once __DIR__ . '/includes/components/section-header.php';
               <div class="flex-1 min-w-0">
                 <div class="text-xs font-mono uppercase tracking-wider text-slate-400">Headquarters &bull; New Delhi</div>
                 <div class="text-sm font-bold text-slate-900"><?php echo OFFICE_PRIMARY; ?></div>
-                <div class="text-xs text-slate-500 mt-0.5">Secondary Hub: <?php echo OFFICE_SECONDARY; ?></div>
               </div>
             </div>
           </div>

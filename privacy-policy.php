@@ -183,7 +183,6 @@ require_once __DIR__ . '/includes/header.php';
             <div><strong>Corporate Entity:</strong> Vivek Tech</div>
             <div><strong>Brand Identity:</strong> VIVEK TECH (vivektech.online)</div>
             <div><strong>Registered Office:</strong> Block A, Ram Datt Enclave, Uttam Nagar, Delhi - 110059, India</div>
-            <div><strong>Secondary Engineering Hub:</strong> HSR Layout, Bengaluru, Karnataka, India</div>
             <div><strong>Official Email:</strong> contact@vivektech.online | support@vivektech.online</div>
           </div>
         </section>
@@ -244,7 +243,7 @@ require_once __DIR__ . '/includes/header.php';
                 <tr>
                   <td class="p-3 font-semibold text-slate-900">Direct Inquiries</td>
                   <td class="p-3">Full Name, Business Email, WhatsApp / Phone Number, Company Name, Country</td>
-                  <td class="p-3">Responding to scoping inquiries, scheduling discovery calls with Founders (Ansar/Ranjeet).</td>
+                  <td class="p-3">Responding to scoping inquiries, scheduling discovery calls with Founders (Vivek/Ranjeet).</td>
                 </tr>
                 <tr>
                   <td class="p-3 font-semibold text-slate-900">Project Scoping</td>
@@ -616,7 +615,7 @@ require_once __DIR__ . '/includes/header.php';
               </div>
               <div>
                 <span class="text-slate-500 block text-[10px] uppercase">Founder &amp; Architecture Lead</span>
-                <span class="text-white">Ansar Ali Shah (+91 93349 68355)</span>
+                <span class="text-white">Vivek (+91 93349 68355)</span>
               </div>
               <div class="sm:col-span-2">
                 <span class="text-slate-500 block text-[10px] uppercase">Postal Physical Address</span>

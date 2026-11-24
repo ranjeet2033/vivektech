@@ -1,7 +1,7 @@
 <?php
 $activePage = 'about';
 $pageTitle = 'About VIVEK TECH | Technology Company & Engineering Pods';
-$pageDesc = 'Learn about VIVEK TECH: our engineering ethos, mission, technical leadership led by Founder Ansar Ali Shah and Co-Founder Ranjeet, and full-stack delivery model.';
+$pageDesc = 'Learn about VIVEK TECH: our engineering ethos, mission, technical leadership led by Founder Vivek and Co-Founder Ranjeet, and full-stack delivery model.';
 
 require_once __DIR__ . '/includes/header.php';
 require_once __DIR__ . '/includes/components/section-header.php';
@@ -38,7 +38,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
             <span>Explore Working Principles</span>
             <i data-lucide="arrow-down" class="w-4 h-4"></i>
           </a>
-          <a href="<?php echo getWhatsAppUrl('Hi Ranjeet and Ansar, I would like to learn more about partnering with Vivek Tech.'); ?>" target="_blank" rel="noopener noreferrer" class="px-7 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-gradient-to-r from-yukt-orange to-amber-600 hover:from-yukt-orangeLight hover:to-yukt-orange shadow-xl shadow-yukt-orange/25 transition-all flex items-center justify-center gap-2">
+          <a href="<?php echo getWhatsAppUrl('Hi Vivek and Ranjeet, I would like to learn more about partnering with Vivek Tech.'); ?>" target="_blank" rel="noopener noreferrer" class="px-7 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-gradient-to-r from-yukt-orange to-amber-600 hover:from-yukt-orangeLight hover:to-yukt-orange shadow-xl shadow-yukt-orange/25 transition-all flex items-center justify-center gap-2">
             <i data-lucide="message-circle" class="w-4 h-4"></i>
             <span>Talk to the Founders</span>
           </a>
@@ -47,7 +47,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
         <div class="pt-4 flex flex-wrap items-center gap-y-2 gap-x-6 text-xs text-slate-400 border-t border-white/10 font-mono">
           <span class="flex items-center gap-2">
             <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
-            NCR &amp; Bengaluru Hubs
+            New Delhi, India
           </span>
           <span class="flex items-center gap-2">
             <span class="w-2 h-2 rounded-full bg-electric-400"></span>
@@ -88,7 +88,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
             <span class="w-2 h-2 rounded-full bg-electric-400"></span>
             <span class="font-mono text-[10px] text-electric-400 uppercase tracking-wider">Leadership Pod</span>
           </div>
-          <div class="text-xs font-semibold text-white">Ranjeet &amp; Ansar</div>
+          <div class="text-xs font-semibold text-white">Ranjeet &amp; Vivek</div>
           <p class="text-[10px] text-slate-400 mt-0.5">Zero account management fluff</p>
         </div>
 
@@ -428,8 +428,8 @@ require_once __DIR__ . '/includes/components/section-header.php';
           <i data-lucide="map-pin" class="w-5 h-5"></i>
         </div>
         <div>
-          <div class="text-xs font-mono uppercase tracking-wider text-slate-400">Development Hubs</div>
-          <div class="text-sm font-bold text-slate-900"><?php echo OFFICE_PRIMARY; ?> &bull; <?php echo OFFICE_SECONDARY; ?></div>
+          <div class="text-xs font-mono uppercase tracking-wider text-slate-400">Headquarters</div>
+          <div class="text-sm font-bold text-slate-900"><?php echo OFFICE_PRIMARY; ?></div>
         </div>
       </div>
       <div class="flex items-center gap-3">
@@ -478,11 +478,11 @@ require_once __DIR__ . '/includes/components/section-header.php';
           <div class="mt-6 pt-5 border-t border-white/10 space-y-2.5 text-xs relative z-10">
             <div class="flex items-center justify-between">
               <span class="text-slate-400 font-mono">Direct Line:</span>
-              <a href="tel:+919334968355" class="font-mono text-slate-200 hover:text-white transition-colors">+91 93349 68355</a>
+              <a href="tel:+917217645059" class="font-mono text-slate-200 hover:text-white transition-colors">+91 72176 45059</a>
             </div>
             <div class="flex items-center justify-between">
               <span class="text-slate-400 font-mono">WhatsApp Desk:</span>
-              <a href="https://wa.me/919334968355?text=Hi%20Ranjeet%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20Yukt." target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-mono flex items-center gap-1">
+              <a href="https://wa.me/917217645059?text=Hi%20Ranjeet%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20Vivek%20Tech." target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-mono flex items-center gap-1">
                 <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
                 <span>Direct WhatsApp &rarr;</span>
               </a>
@@ -492,7 +492,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
           <div class="mt-5 pt-4 border-t border-white/10 flex flex-wrap items-center gap-3 relative z-10">
             <a href="<?php echo RANJEET_GITHUB; ?>" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/15 border border-white/10 flex items-center gap-2 text-xs text-slate-300 hover:text-white transition-colors group">
               <?php echo getIconSvg('github', 'w-3.5 h-3.5 text-white group-hover:scale-110 transition-transform'); ?>
-              <span>github.com/yukt2026</span>
+              <span>github.com/ranjeet2033</span>
             </a>
             <a href="<?php echo RANJEET_LINKEDIN; ?>" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-lg bg-white/5 hover:bg-electric-500/20 border border-white/10 flex items-center gap-2 text-xs text-slate-300 hover:text-white transition-colors group">
               <?php echo getIconSvg('linkedin', 'w-3.5 h-3.5 text-electric-400 group-hover:scale-110 transition-transform'); ?>
@@ -501,7 +501,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
           </div>
         </div>
 
-        <!-- Ansar Card -->
+        <!-- Vivek Card -->
         <div class="bg-navy-950 border border-white/10 rounded-2xl p-6 sm:p-8 text-white relative overflow-hidden shadow-xl group hover:border-yukt-orange/50 transition-all">
           <div class="absolute -top-16 -right-16 w-40 h-40 bg-yukt-orange/15 rounded-full blur-3xl pointer-events-none"></div>
           
@@ -512,7 +512,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
               </div>
               <div>
                 <div class="flex items-center gap-2">
-                  <h4 class="font-display font-bold text-xl text-white">Ansar Ali Shah</h4>
+                  <h4 class="font-display font-bold text-xl text-white">Vivek</h4>
                   <span class="px-2 py-0.5 rounded-full text-[10px] font-mono font-semibold uppercase tracking-wider bg-yukt-orange/20 text-amber-300 border border-yukt-orange/30">Founder</span>
                 </div>
                 <div class="text-xs font-mono text-yukt-orange mt-0.5">Founder &amp; Lead Technical Architect</div>
@@ -524,11 +524,11 @@ require_once __DIR__ . '/includes/components/section-header.php';
           <div class="mt-6 pt-5 border-t border-white/10 space-y-2.5 text-xs relative z-10">
             <div class="flex items-center justify-between">
               <span class="text-slate-400 font-mono">Direct Line:</span>
-              <a href="tel:+919334968355" class="font-mono text-slate-200 hover:text-white transition-colors">+91 93349 68355</a>
+              <a href="tel:+917217645059" class="font-mono text-slate-200 hover:text-white transition-colors">+91 72176 45059</a>
             </div>
             <div class="flex items-center justify-between">
               <span class="text-slate-400 font-mono">WhatsApp Desk:</span>
-              <a href="https://wa.me/919334968355?text=Hi%20Ansar%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20Yukt." target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-mono flex items-center gap-1">
+              <a href="https://wa.me/919334968355?text=Hi%20Vivek%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20Vivek%20Tech." target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-mono flex items-center gap-1">
                 <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
                 <span>Direct WhatsApp &rarr;</span>
               </a>
@@ -536,11 +536,11 @@ require_once __DIR__ . '/includes/components/section-header.php';
           </div>
 
           <div class="mt-5 pt-4 border-t border-white/10 flex flex-wrap items-center gap-3 relative z-10">
-            <a href="<?php echo ANSAR_GITHUB; ?>" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/15 border border-white/10 flex items-center gap-2 text-xs text-slate-300 hover:text-white transition-colors group">
+            <a href="<?php echo VIVEK_GITHUB; ?>" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/15 border border-white/10 flex items-center gap-2 text-xs text-slate-300 hover:text-white transition-colors group">
               <?php echo getIconSvg('github', 'w-3.5 h-3.5 text-white group-hover:scale-110 transition-transform'); ?>
-              <span>github.com/ansaralisahh</span>
+              <span>github.com/ranjeet2033</span>
             </a>
-            <a href="<?php echo ANSAR_LINKEDIN; ?>" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-lg bg-white/5 hover:bg-blue-500/20 border border-white/10 flex items-center gap-2 text-xs text-slate-300 hover:text-white transition-colors group">
+            <a href="<?php echo VIVEK_LINKEDIN; ?>" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-lg bg-white/5 hover:bg-blue-500/20 border border-white/10 flex items-center gap-2 text-xs text-slate-300 hover:text-white transition-colors group">
               <?php echo getIconSvg('linkedin', 'w-3.5 h-3.5 text-blue-400 group-hover:scale-110 transition-transform'); ?>
               <span>LinkedIn Profile</span>
             </a>

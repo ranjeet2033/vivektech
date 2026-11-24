@@ -417,7 +417,7 @@ require_once __DIR__ . '/includes/header.php';
             </div>
             <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-2">
               <span class="font-bold text-slate-900 block">Founder Hotline</span>
-              <p class="text-slate-600">Directly contact Founder Ansar Ali Shah (+91 93349 68355) or Ranjeet (+91 93349 68355).</p>
+              <p class="text-slate-600">Directly contact Founder Vivek (+91 93349 68355) or Ranjeet (+91 72176 45059).</p>
             </div>
             <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-2">
               <span class="font-bold text-slate-900 block">Purge Window</span>
@@ -426,7 +426,7 @@ require_once __DIR__ . '/includes/header.php';
           </div>
 
           <div class="pt-2">
-            <a href="https://wa.me/919334968355?text=DELETE%20MY%20DATA%3A%20Please%20erase%20all%20my%20contact%20and%20chat%20records%20from%20Yukt." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-display font-semibold text-xs text-white bg-emerald-600 hover:bg-emerald-500 transition-colors">
+            <a href="https://wa.me/919334968355?text=DELETE%20MY%20DATA%3A%20Please%20erase%20all%20my%20contact%20and%20chat%20records%20from%20Vivek%20Tech." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-display font-semibold text-xs text-white bg-emerald-600 hover:bg-emerald-500 transition-colors">
               <i data-lucide="message-circle" class="w-4 h-4"></i>
               <span>Send One-Click WhatsApp Deletion Command</span>
             </a>
@@ -581,7 +581,7 @@ require_once __DIR__ . '/includes/header.php';
               </div>
               <div>
                 <span class="text-slate-500 block text-[10px] uppercase">Lead Technical Architect</span>
-                <span class="text-white">Ansar Ali Shah (+91 93349 68355)</span>
+                <span class="text-white">Vivek (+91 93349 68355)</span>
               </div>
               <div class="sm:col-span-2">
                 <span class="text-slate-500 block text-[10px] uppercase">Registered Office</span>

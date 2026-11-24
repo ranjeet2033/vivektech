@@ -8,7 +8,7 @@ require_once __DIR__ . '/includes/db.php';
 
 // Simple Admin Authentication Check
 // Default admin key or password
-$adminAuthKey = 'yukt2026admin';
+$adminAuthKey = 'vivektech-onlineadmin';
 $isAdminLoggedIn = isset($_SESSION['yukt_admin_logged']) && $_SESSION['yukt_admin_logged'] === true;
 
 // Handle Admin Login

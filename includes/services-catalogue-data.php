@@ -4,8 +4,8 @@
 // 10 Strategic Categories | 140+ Professional Services
 // ==========================================================================
 
-if (!defined('YUKT_SERVICE_CATALOGUE_LOADED')) {
-    define('YUKT_SERVICE_CATALOGUE_LOADED', true);
+if (!defined('VIVEKTECH_SERVICE_CATALOGUE_LOADED')) {
+    define('VIVEKTECH_SERVICE_CATALOGUE_LOADED', true);
 
     $CATALOGUE_CATEGORIES = [
         'web-dev' => [

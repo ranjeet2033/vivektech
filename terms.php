@@ -147,7 +147,7 @@ require_once __DIR__ . '/includes/header.php';
               <i data-lucide="mail" class="w-3.5 h-3.5"></i>
               <span>sales@vivektech.online / legal@vivektech.online</span>
             </a>
-            <a href="<?php echo getWhatsAppUrl('Hi Ansar and Ranjeet, I would like to review a contract / SOW with Vivek Tech.'); ?>" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-xs text-emerald-600 hover:text-emerald-700 font-semibold">
+            <a href="<?php echo getWhatsAppUrl('Hi Vivek and Ranjeet, I would like to review a contract / SOW with Vivek Tech.'); ?>" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-xs text-emerald-600 hover:text-emerald-700 font-semibold">
               <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
               <span>WhatsApp Contracts Desk (+91 93349 68355)</span>
             </a>
@@ -437,7 +437,7 @@ require_once __DIR__ . '/includes/header.php';
           </h2>
           <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-2 text-xs">
             <p>
-              To the maximum extent permitted by applicable law, in no event shall <strong class="text-slate-900">Vivek Tech</strong>, its directors (Ansar Ali Shah, Ranjeet), employees, or affiliates be liable for any indirect, incidental, punitive, special, or consequential damages, including loss of profits, goodwill, data corruption, or business interruption, arising out of or related to this Agreement.
+              To the maximum extent permitted by applicable law, in no event shall <strong class="text-slate-900">Vivek Tech</strong>, its directors (Vivek, Ranjeet), employees, or affiliates be liable for any indirect, incidental, punitive, special, or consequential damages, including loss of profits, goodwill, data corruption, or business interruption, arising out of or related to this Agreement.
             </p>
             <p class="font-semibold text-slate-900">
               The total cumulative liability of Vivek Tech under any cause of action arising out of an executed Statement of Work shall be strictly capped at the total amount of fees actually paid by the Client to Vivek Tech under that specific SOW in the three (3) months immediately preceding the event giving rise to liability.
@@ -494,7 +494,7 @@ require_once __DIR__ . '/includes/header.php';
           <div class="space-y-2 text-xs pt-1">
             <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
               <strong class="text-slate-900 block mb-1">Amicable Senior Consultation:</strong>
-              In the event of any disagreement, both parties agree to first engage in good-faith executive consultations between the Client's executive and Vivek Tech Founding Partners (Ansar Ali Shah / Ranjeet) for a minimum period of thirty (30) business days.
+              In the event of any disagreement, both parties agree to first engage in good-faith executive consultations between the Client's executive and Vivek Tech Founding Partners (Vivek / Ranjeet) for a minimum period of thirty (30) business days.
             </div>
             <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
               <strong class="text-slate-900 block mb-1">Binding Arbitration:</strong>
@@ -564,11 +564,11 @@ require_once __DIR__ . '/includes/header.php';
               </div>
               <div>
                 <span class="text-slate-500 block text-[10px] uppercase">Founder &amp; Systems Architect</span>
-                <span class="text-white">Ansar Ali Shah (+91 93349 68355)</span>
+                <span class="text-white">Vivek (+91 93349 68355)</span>
               </div>
               <div>
                 <span class="text-slate-500 block text-[10px] uppercase">Co-Founder &amp; Solutions Architect</span>
-                <span class="text-white">Ranjeet (+91 93349 68355)</span>
+                <span class="text-white">Ranjeet (+91 72176 45059)</span>
               </div>
               <div class="sm:col-span-2">
                 <span class="text-slate-500 block text-[10px] uppercase">Headquarters / Registered Office</span>

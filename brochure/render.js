@@ -60,7 +60,7 @@ async function renderBrochure() {
   }
 
   // Generate the complete high-quality print PDF
-  const pdfPath = path.join(__dirname, 'YUKT_IT_SOLUTIONS_Company_Brochure.pdf');
+  const pdfPath = path.join(__dirname, 'VIVEK_TECH_Company_Brochure.pdf');
   await page.pdf({
     path: pdfPath,
     format: 'A4',

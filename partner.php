@@ -8,7 +8,7 @@ $pageTitle = 'VIVEK TECH Digital Partner Program | अपनी दुकान 
 $pageDesc = 'Cyber Cafe, CSC Centre, Jan Seva Kendra aur Computer Dukan ke liye VIVEK TECH Digital Partner Program. Zero Investment me Website, Billing Software aur Document Services provide karein.';
 
 // Capture referral code if passed
-$refCodeInput = $_GET['ref'] ?? $_SESSION['yukt_ref'] ?? $_COOKIE['yukt_ref'] ?? '';
+$refCodeInput = $_GET['ref'] ?? $_SESSION['vivektech_ref'] ?? $_COOKIE['vivektech_ref'] ?? '';
 $refCodeInput = preg_replace('/[^a-zA-Z0-9_-]/', '', $refCodeInput);
 
 require_once __DIR__ . '/includes/header.php';
@@ -133,7 +133,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
             <!-- 16:9 Banner Image Container -->
             <div class="relative rounded-xl overflow-hidden aspect-[16/9] sm:aspect-[16/10] bg-slate-100">
               <img 
-                src="assets/images/partner-hero-banner.jpg" 
+                src="assets/images/partner-hero-banner.jpg?v=2" 
                 alt="VIVEK TECH Digital Partner Program - Authorized Common Service Centre and Cyber Cafe IT Hub" 
                 class="w-full h-full object-cover object-center transform hover:scale-102 transition-transform duration-300"
                 loading="eager"
@@ -1279,11 +1279,11 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
             </a>
             <a href="tel:+919334968355" class="hover:text-blue-600 flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white border border-slate-200 shadow-2xs">
               <i data-lucide="user" class="w-3.5 h-3.5 text-blue-600"></i>
-              <span>अंसार: +91 93349 68355</span>
+              <span>विवेक: +91 93349 68355</span>
             </a>
-            <a href="tel:+919334968355" class="hover:text-blue-600 flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white border border-slate-200 shadow-2xs">
+            <a href="tel:+917217645059" class="hover:text-blue-600 flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white border border-slate-200 shadow-2xs">
               <i data-lucide="user-check" class="w-3.5 h-3.5 text-yukt-orange"></i>
-              <span>रंजीत: +91 93349 68355</span>
+              <span>रंजीत: +91 72176 45059</span>
             </a>
           </div>
         </div>

@@ -68,7 +68,7 @@ try {
         ]);
 
         // Referral Partner Attribution
-        $refCode = $_SESSION['yukt_ref'] ?? $_COOKIE['yukt_ref'] ?? null;
+        $refCode = $_SESSION['vivektech_ref'] ?? $_COOKIE['vivektech_ref'] ?? null;
         if (!empty($refCode)) {
             try {
                 $refPartner = $pdo->prepare("SELECT id, partner_code FROM partners WHERE partner_code = :c LIMIT 1");

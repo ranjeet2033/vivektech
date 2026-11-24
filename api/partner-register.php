@@ -55,7 +55,7 @@ if (isset($_POST['interested_services'])) {
 
 // Fallback to session or cookie referral code if field was empty
 if (empty($referral_code)) {
-    $referral_code = $_SESSION['yukt_ref'] ?? $_COOKIE['yukt_ref'] ?? '';
+    $referral_code = $_SESSION['vivektech_ref'] ?? $_COOKIE['vivektech_ref'] ?? '';
 }
 $referral_code = preg_replace('/[^a-zA-Z0-9_-]/', '', $referral_code);
 
@@ -144,7 +144,7 @@ try {
         exit;
     }
 
-    // Generate Unique Partner Code: e.g. YUKT7829
+    // Generate Unique Partner Code: e.g. VIVEK7829
     $partner_code = '';
     $attempts = 0;
     while ($attempts < 10) {

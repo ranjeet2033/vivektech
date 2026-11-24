@@ -20,11 +20,11 @@ if (session_status() === PHP_SESSION_NONE && !headers_sent()) {
 if (!empty($_GET['ref'])) {
     $cleanRef = preg_replace('/[^a-zA-Z0-9_-]/', '', $_GET['ref']);
     if (!empty($cleanRef)) {
-        $_SESSION['yukt_ref'] = $cleanRef;
+        $_SESSION['vivektech_ref'] = $cleanRef;
         if (!headers_sent()) {
-            setcookie('yukt_ref', $cleanRef, time() + (30 * 86400), '/');
+            setcookie('vivektech_ref', $cleanRef, time() + (30 * 86400), '/');
         }
-        if (!isset($_SESSION['yukt_ref_logged']) && isset($pdo) && $pdo) {
+        if (!isset($_SESSION['vivektech_ref_logged']) && isset($pdo) && $pdo) {
             try {
                 $refLogStmt = $pdo->prepare("
                     INSERT INTO partner_referrals (partner_code, visitor_ip, user_agent, landing_page, conversion_status)
@@ -36,7 +36,7 @@ if (!empty($_GET['ref'])) {
                     ':ua' => mb_substr($_SERVER['HTTP_USER_AGENT'] ?? '', 0, 500),
                     ':page' => mb_substr($_SERVER['REQUEST_URI'] ?? '', 0, 255)
                 ]);
-                $_SESSION['yukt_ref_logged'] = true;
+                $_SESSION['vivektech_ref_logged'] = true;
             } catch (Exception $e) {
                 // silent
             }
@@ -140,9 +140,9 @@ $schemaGraph = [
         "founder" => [
             [
                 "@type" => "Person",
-                "name" => "Ansar Ali Shah",
+                "name" => "Vivek",
                 "jobTitle" => "Founder & Lead Technical Architect",
-                "sameAs" => ANSAR_LINKEDIN
+                "sameAs" => VIVEK_LINKEDIN
             ],
             [
                 "@type" => "Person",
@@ -282,9 +282,9 @@ if (!empty($faqs) && is_array($faqs)) {
       <nav class="navbar-container rounded-2xl px-2.5 sm:px-5 lg:px-6 py-2 sm:py-2.5 flex items-center justify-between shadow-2xl shadow-black/50 border border-white/15 flex-nowrap">
         
         <!-- Brand Logo Badge -->
-        <a href="index.php" class="flex items-center gap-2 sm:gap-2.5 group focus:outline-none flex-shrink-0" aria-label="Vivek Tech Home">
-          <div class="h-8.5 sm:h-10 px-2 sm:px-2.5 py-1 rounded-xl bg-white shadow-md shadow-black/40 flex items-center justify-center group-hover:scale-105 transition-transform border border-white/40 flex-shrink-0">
-            <img src="assets/images/vivektech-logo.jpg" alt="Vivek Tech Official Logo" width="160" height="40" class="h-5 sm:h-7 w-auto object-contain flex-shrink-0">
+        <a href="index.php" class="flex items-center gap-2.5 sm:gap-3 group focus:outline-none flex-shrink-0" aria-label="Vivek Tech Home">
+          <div class="h-10 sm:h-12 px-2.5 sm:px-3 py-1 rounded-xl bg-white shadow-md shadow-black/40 flex items-center justify-center group-hover:scale-105 transition-transform border border-white/40 flex-shrink-0">
+            <img src="assets/images/vivektech-logo.jpg?v=2" alt="Vivek Tech Official Logo" width="180" height="48" class="h-8 sm:h-10 w-auto object-contain flex-shrink-0">
           </div>
           <div class="flex flex-col leading-none">
             <div class="flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
