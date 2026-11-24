@@ -29,7 +29,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
         </h1>
 
         <p class="text-base sm:text-lg text-slate-300 leading-relaxed font-normal max-w-2xl">
-          Connect directly with our senior solutions architecture team. We review your specifications, evaluate technical feasibility, and return a scoped proposal within 24 business hours.
+          Connect directly with our <strong class="text-white font-semibold">senior architecture team</strong>. We evaluate feasibility and return a <strong class="text-white font-semibold">scoped proposal within 24 hours</strong>.
         </p>
 
         <!-- CTA Action Buttons -->

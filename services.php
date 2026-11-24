@@ -30,7 +30,7 @@ require_once __DIR__ . '/includes/components/badge.php';
         </h1>
         
         <p class="text-base sm:text-lg text-slate-300 leading-relaxed font-normal max-w-2xl">
-          From sub-second web platforms and multi-tenant SaaS architectures to autonomous AI workflow agents and full-funnel digital growth, we engineer measurable business impact across 8 focused disciplines.
+          From <strong class="text-white font-semibold">sub-second web platforms</strong> and <strong class="text-white font-semibold">multi-tenant SaaS</strong> to <strong class="text-white font-semibold">autonomous AI agents</strong>, we deliver measurable impact across <strong class="text-white font-semibold">8 core disciplines</strong>.
         </p>
 
         <!-- CTA Action Buttons -->

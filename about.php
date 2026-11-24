@@ -29,7 +29,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
         </h1>
         
         <p class="text-base sm:text-lg text-slate-300 leading-relaxed font-normal max-w-2xl">
-          Founded on transparent agile execution, <strong class="text-white font-semibold">VIVEK TECH Private Limited</strong> is an Indian digital engineering studio bridging the gap between clean enterprise software, autonomous AI systems, and high-growth digital marketing.
+          <strong class="text-white font-semibold">VIVEK TECH</strong> is an Indian digital engineering studio delivering <strong class="text-white font-semibold">enterprise software</strong>, <strong class="text-white font-semibold">autonomous AI systems</strong>, and <strong class="text-white font-semibold">high-growth marketing</strong>.
         </p>
 
         <!-- CTA Action Buttons -->
@@ -63,23 +63,23 @@ require_once __DIR__ . '/includes/components/section-header.php';
       <!-- Right Column: 3D Perspective Floating UI Stage (5 Cols) -->
       <div class="lg:col-span-5 relative h-[380px] sm:h-[420px] w-full flex items-center justify-center reveal-up">
         
-        <!-- Central Glowing Sanskrit Node -->
+        <!-- Central Glowing Brand Node -->
         <div class="relative w-44 h-44 rounded-full bg-gradient-to-tr from-yukt-orange/40 via-navy-900 to-electric-500/40 p-[2px] shadow-2xl shadow-yukt-orange/20 flex items-center justify-center animate-pulse">
           <div class="w-full h-full rounded-full bg-navy-950/90 backdrop-blur-md flex flex-col items-center justify-center text-center p-4">
-            <span class="font-serif font-bold text-3xl text-white">युक्त</span>
-            <span class="font-display font-semibold text-xs text-yukt-orange mt-1">VIVEK TECH IT</span>
-            <span class="font-mono text-[9px] text-slate-400">Connected &bull; Unified</span>
+            <span class="font-display font-extrabold text-3xl text-white tracking-tight">VT</span>
+            <span class="font-display font-semibold text-xs text-yukt-orange mt-1">VIVEK TECH</span>
+            <span class="font-mono text-[9px] text-slate-400">Building Digital Solutions</span>
           </div>
         </div>
 
-        <!-- Floating Glass Card 1: Sanskrit Meaning (Top Left) -->
+        <!-- Floating Glass Card 1: Core Focus (Top Left) -->
         <div class="absolute top-2 left-0 sm:-left-4 glass-pill rounded-2xl p-3.5 w-52 sm:w-56 animate-float-slow select-none border border-white/20 shadow-xl">
           <div class="flex items-center gap-2 mb-1">
             <span class="w-2 h-2 rounded-full bg-yukt-orange"></span>
-            <span class="font-mono text-[10px] text-yukt-orange uppercase tracking-wider">Philosophical Root</span>
+            <span class="font-mono text-[10px] text-yukt-orange uppercase tracking-wider">Engineering Focus</span>
           </div>
           <div class="text-xs font-semibold text-white">Precision &amp; Synergy</div>
-          <p class="text-[10px] text-slate-400 mt-0.5">Equipped with strategic technical mastery</p>
+          <p class="text-[10px] text-slate-400 mt-0.5">Scalable digital architecture</p>
         </div>
 
         <!-- Floating Glass Card 2: Founders & Architects (Top Right) -->

@@ -19,7 +19,7 @@
             </div>
           </div>
           <p class="text-sm text-slate-400 leading-relaxed max-w-sm">
-            We build intelligent digital experiences, robust software systems, and AI-driven workflows that move businesses forward.
+            We build <strong class="text-white font-semibold">high-performance web platforms</strong>, <strong class="text-white font-semibold">custom software</strong>, and <strong class="text-white font-semibold">AI workflows</strong> that move businesses forward.
           </p>
           <div class="pt-2 space-y-2 font-mono text-xs text-slate-300">
             <div class="flex items-center gap-2">

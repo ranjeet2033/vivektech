@@ -29,7 +29,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
         </h1>
 
         <p class="text-base sm:text-lg text-slate-300 leading-relaxed font-normal max-w-2xl">
-          Explore representative architectural blueprints, technical case studies, and our registry of 42+ live commercial deployments engineered across web platforms, custom SaaS systems, AI automation, and performance marketing.
+          Explore <strong class="text-white font-semibold">architectural blueprints</strong>, technical case studies, and <strong class="text-white font-semibold">42+ live commercial deployments</strong> across web, SaaS, AI, and growth.
         </p>
 
         <!-- Category Filter Tabs -->

@@ -41,7 +41,7 @@ require_once __DIR__ . '/includes/header.php';
 
           <!-- Supporting Description -->
           <p class="text-sm sm:text-base lg:text-lg text-slate-300/95 max-w-xl leading-relaxed font-normal">
-            We build intelligent digital experiences, powerful software, and AI-driven solutions that help businesses grow faster.
+            We engineer <strong class="text-white font-semibold">high-performance websites</strong>, <strong class="text-white font-semibold">custom software</strong>, and <strong class="text-white font-semibold">AI automation</strong> that accelerate business growth.
           </p>
 
           <!-- Primary & Secondary CTA Buttons -->
