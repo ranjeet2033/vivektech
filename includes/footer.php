@@ -11,11 +11,11 @@
         <div class="lg:col-span-4 space-y-4">
           <div class="flex items-center gap-3">
             <div class="h-11 px-3 py-1 rounded-xl bg-white shadow-lg flex items-center justify-center">
-              <img src="assets/images/yukt-official-logo.png" alt="YUKT IT SOLUTIONS Official Logo" width="160" height="40" loading="lazy" decoding="async" class="h-8 w-auto object-contain">
+              <img src="assets/images/vivektech-logo.jpg" alt="Vivek Tech Official Logo" width="160" height="40" loading="lazy" decoding="async" class="h-8 w-auto object-contain">
             </div>
             <div>
-              <span class="font-display font-bold text-lg text-white tracking-tight block">YUKT IT SOLUTIONS</span>
-              <span class="font-mono text-[10px] text-slate-400">yukt.online &bull; Engineering Studio</span>
+              <span class="font-display font-bold text-lg text-white tracking-tight block">VIVEK TECH</span>
+              <span class="font-mono text-[10px] text-slate-400">vivektech.online &bull; Building Digital Solutions</span>
             </div>
           </div>
           <p class="text-sm text-slate-400 leading-relaxed max-w-sm">
@@ -24,19 +24,15 @@
           <div class="pt-2 space-y-2 font-mono text-xs text-slate-300">
             <div class="flex items-center gap-2">
               <i data-lucide="globe" class="w-3.5 h-3.5 text-electric-400"></i>
-              <a href="https://yukt.online" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">https://yukt.online</a>
+              <a href="https://vivektech.online" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">https://vivektech.online</a>
             </div>
             <div class="flex items-center gap-2">
               <i data-lucide="phone" class="w-3.5 h-3.5 text-emerald-400"></i>
-              <a href="tel:<?php echo PHONE_RAW; ?>" class="hover:text-white transition-colors">Office: <?php echo PHONE_NUMBER; ?></a>
+              <a href="tel:<?php echo PHONE_RAW; ?>" class="hover:text-white transition-colors">Call: <?php echo PHONE_NUMBER; ?></a>
             </div>
             <div class="flex items-center gap-2">
-              <i data-lucide="phone" class="w-3.5 h-3.5 text-yukt-orange"></i>
-              <a href="https://wa.me/919576338282?text=Hi%20Ansar%2C%20I%20want%20to%20discuss%20a%20project%20with%20Yukt." target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">Ansar: +91 95763 38282</a>
-            </div>
-            <div class="flex items-center gap-2">
-              <i data-lucide="phone" class="w-3.5 h-3.5 text-electric-400"></i>
-              <a href="https://wa.me/917217645059?text=Hi%20Ranjeet%2C%20I%20want%20to%20discuss%20a%20project%20with%20Yukt." target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">Ranjeet: +91 72176 45059</a>
+              <i data-lucide="message-circle" class="w-3.5 h-3.5 text-emerald-400"></i>
+              <a href="https://wa.me/919334968355?text=Hi%20Vivek%20Tech%2C%20I%20want%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">WhatsApp: +91 93349 68355</a>
             </div>
             <div class="flex items-center gap-2">
               <i data-lucide="map-pin" class="w-3.5 h-3.5 text-red-400"></i>
@@ -49,19 +45,16 @@
 
           <!-- Official Social Handles -->
           <div class="pt-3 flex items-center gap-3">
-            <a href="<?php echo defined('INSTAGRAM_URL') ? INSTAGRAM_URL : 'https://www.instagram.com/yukt_officials'; ?>" target="_blank" rel="noopener noreferrer" class="w-8 h-8 rounded-lg bg-white/5 hover:bg-pink-600/30 border border-white/10 hover:border-pink-500/50 flex items-center justify-center text-pink-400 hover:text-white transition-all group" aria-label="Yukt Officials Instagram" title="Instagram">
+            <a href="<?php echo defined('INSTAGRAM_URL') ? INSTAGRAM_URL : 'https://www.instagram.com/vivektech.online/'; ?>" target="_blank" rel="noopener noreferrer" class="w-8 h-8 rounded-lg bg-white/5 hover:bg-pink-600/30 border border-white/10 hover:border-pink-500/50 flex items-center justify-center text-pink-400 hover:text-white transition-all group" aria-label="Vivek Tech Instagram" title="Instagram">
               <?php echo getIconSvg('instagram', 'w-4 h-4 text-pink-400 group-hover:scale-110 transition-transform'); ?>
             </a>
-            <a href="<?php echo defined('GITHUB_URL') ? GITHUB_URL : 'https://github.com/yukt2026'; ?>" target="_blank" rel="noopener noreferrer" class="w-8 h-8 rounded-lg bg-white/5 hover:bg-white/15 border border-white/10 hover:border-white/30 flex items-center justify-center text-white transition-all group" aria-label="Yukt GitHub Organization" title="GitHub">
+            <a href="<?php echo defined('GITHUB_URL') ? GITHUB_URL : 'https://github.com/yukt2026'; ?>" target="_blank" rel="noopener noreferrer" class="w-8 h-8 rounded-lg bg-white/5 hover:bg-white/15 border border-white/10 hover:border-white/30 flex items-center justify-center text-white transition-all group" aria-label="Vivek Tech GitHub" title="GitHub">
               <?php echo getIconSvg('github', 'w-4 h-4 text-white group-hover:scale-110 transition-transform'); ?>
             </a>
-            <a href="<?php echo defined('RANJEET_LINKEDIN') ? RANJEET_LINKEDIN : 'https://www.linkedin.com/in/ranjeet-m-079777262/'; ?>" target="_blank" rel="noopener noreferrer" class="w-8 h-8 rounded-lg bg-white/5 hover:bg-electric-600/30 border border-white/10 hover:border-electric-500/50 flex items-center justify-center text-electric-400 hover:text-white transition-all group" aria-label="Ranjeet LinkedIn Profile" title="Ranjeet (LinkedIn)">
+            <a href="<?php echo defined('RANJEET_LINKEDIN') ? RANJEET_LINKEDIN : 'https://www.linkedin.com/in/ranjeet-m-079777262/'; ?>" target="_blank" rel="noopener noreferrer" class="w-8 h-8 rounded-lg bg-white/5 hover:bg-electric-600/30 border border-white/10 hover:border-electric-500/50 flex items-center justify-center text-electric-400 hover:text-white transition-all group" aria-label="LinkedIn Profile" title="LinkedIn">
               <?php echo getIconSvg('linkedin', 'w-4 h-4 text-electric-400 group-hover:scale-110 transition-transform'); ?>
             </a>
-            <a href="<?php echo defined('ANSAR_LINKEDIN') ? ANSAR_LINKEDIN : 'https://www.linkedin.com/in/ansaralisahh'; ?>" target="_blank" rel="noopener noreferrer" class="w-8 h-8 rounded-lg bg-white/5 hover:bg-blue-600/30 border border-white/10 hover:border-blue-500/50 flex items-center justify-center text-blue-400 hover:text-white transition-all group" aria-label="Ansar LinkedIn Profile" title="Ansar (LinkedIn)">
-              <?php echo getIconSvg('linkedin', 'w-4 h-4 text-blue-400 group-hover:scale-110 transition-transform'); ?>
-            </a>
-            <a href="<?php echo defined('TWITTER_URL') ? TWITTER_URL : 'https://twitter.com/yuktonline'; ?>" target="_blank" rel="noopener noreferrer" class="w-8 h-8 rounded-lg bg-white/5 hover:bg-sky-600/30 border border-white/10 hover:border-sky-500/50 flex items-center justify-center text-sky-400 hover:text-white transition-all group" aria-label="Yukt Twitter / X Profile" title="Twitter / X">
+            <a href="<?php echo defined('TWITTER_URL') ? TWITTER_URL : 'https://twitter.com/vivektechonline'; ?>" target="_blank" rel="noopener noreferrer" class="w-8 h-8 rounded-lg bg-white/5 hover:bg-sky-600/30 border border-white/10 hover:border-sky-500/50 flex items-center justify-center text-sky-400 hover:text-white transition-all group" aria-label="Vivek Tech Twitter / X Profile" title="Twitter / X">
               <?php echo getIconSvg('twitter', 'w-4 h-4 text-sky-400 group-hover:scale-110 transition-transform'); ?>
             </a>
           </div>
@@ -114,7 +107,7 @@
             <li><a href="partner.php" class="text-yukt-orange hover:text-amber-400 font-semibold transition-colors flex items-center gap-1"><i data-lucide="store" class="w-3.5 h-3.5"></i> Digital Partner Program</a></li>
             <li><a href="partner-login.php" class="hover:text-white transition-colors">Partner Portal Login</a></li>
             <li><a href="services.php" class="hover:text-white transition-colors">All Services Hub</a></li>
-            <li><a href="about.php" class="hover:text-white transition-colors">About YUKT &amp; Founders</a></li>
+            <li><a href="about.php" class="hover:text-white transition-colors">About Vivek Tech</a></li>
             <li><a href="portfolio.php" class="hover:text-white transition-colors">Client Work &amp; Case Studies</a></li>
             <li><a href="contact.php" class="hover:text-white transition-colors">Contact &amp; Scoping Desk</a></li>
             <li><a href="contact.php#office-map" class="hover:text-white transition-colors">Office Location &amp; Map</a></li>
@@ -128,7 +121,7 @@
       </div>
 
       <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-        <p>&copy; <?php echo date('Y'); ?> YUKT IT SOLUTIONS (yukt.online). All rights reserved.</p>
+        <p>&copy; <?php echo date('Y'); ?> VIVEK TECH (vivektech.online). All rights reserved.</p>
         <div class="flex flex-wrap items-center gap-4 text-xs font-medium">
           <a href="privacy-policy" class="hover:text-electric-400 transition-colors">Privacy Policy</a>
           <span class="text-slate-700">&bull;</span>
@@ -152,27 +145,27 @@
       <div class="flex items-center justify-between border-b border-white/10 pb-2.5">
         <div class="flex items-center gap-2">
           <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
-          <span class="font-display font-bold text-xs">YUKT IT SOLUTIONS</span>
+          <span class="font-display font-bold text-xs">VIVEK TECH</span>
         </div>
         <button type="button" id="close-wa-menu" class="text-slate-400 hover:text-white" aria-label="Close Quick Chat Menu">
           <i data-lucide="x" class="w-4 h-4"></i>
         </button>
       </div>
-      <p class="text-xs text-slate-300">Choose an engineering lead or topic to chat immediately:</p>
+      <p class="text-xs text-slate-300">Choose a topic or call us directly (+91 93349 68355):</p>
       <div class="space-y-1.5 text-xs">
-        <a href="https://wa.me/919576338282?text=Hi%20Ansar%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20YUKT." target="_blank" rel="noopener noreferrer" class="flex items-center justify-between px-3 py-2 rounded-xl bg-white/5 hover:bg-electric-500/30 border border-white/10 transition-colors">
-          <span class="flex items-center gap-1.5 font-medium">💬 Chat with Ansar (Founder)</span>
-          <span class="text-[10px] text-slate-400 font-mono">+91 95763 38282</span>
+        <a href="https://wa.me/919334968355?text=Hi%20Vivek%20Tech%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" class="flex items-center justify-between px-3 py-2 rounded-xl bg-white/5 hover:bg-electric-500/30 border border-white/10 transition-colors">
+          <span class="flex items-center gap-1.5 font-medium">💬 Chat on WhatsApp</span>
+          <span class="text-[10px] text-slate-400 font-mono">+91 93349 68355</span>
         </a>
-        <a href="https://wa.me/917217645059?text=Hi%20Ranjeet%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20YUKT." target="_blank" rel="noopener noreferrer" class="flex items-center justify-between px-3 py-2 rounded-xl bg-white/5 hover:bg-electric-500/30 border border-white/10 transition-colors">
-          <span class="flex items-center gap-1.5 font-medium">💬 Chat with Ranjeet (Co-Founder)</span>
-          <span class="text-[10px] text-slate-400 font-mono">+91 72176 45059</span>
+        <a href="tel:+919334968355" class="flex items-center justify-between px-3 py-2 rounded-xl bg-white/5 hover:bg-electric-500/30 border border-white/10 transition-colors">
+          <span class="flex items-center gap-1.5 font-medium">📞 Call Directly</span>
+          <span class="text-[10px] text-slate-400 font-mono">+91 93349 68355</span>
         </a>
         <div class="pt-1 border-t border-white/10"></div>
-        <a href="https://wa.me/918235411806?text=Hi%20YUKT%20IT%20SOLUTIONS%2C%20I%27m%20interested%20in%20Website%20or%20Software%20Development." target="_blank" rel="noopener noreferrer" class="block px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white transition-colors">
+        <a href="https://wa.me/919334968355?text=Hi%20Vivek%20Tech%2C%20I%27m%20interested%20in%20Website%20or%20Software%20Development." target="_blank" rel="noopener noreferrer" class="block px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white transition-colors">
           💻 Website / Software Development
         </a>
-        <a href="https://wa.me/918235411806?text=Hi%20YUKT%20IT%20SOLUTIONS%2C%20I%27m%20interested%20in%20AI%20Automation%20%26%20Marketing." target="_blank" rel="noopener noreferrer" class="block px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white transition-colors">
+        <a href="https://wa.me/919334968355?text=Hi%20Vivek%20Tech%2C%20I%27m%20interested%20in%20AI%20Automation%20%26%20Marketing." target="_blank" rel="noopener noreferrer" class="block px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 text-slate-300 hover:text-white transition-colors">
           🤖 AI Automation &amp; Digital Growth
         </a>
       </div>
@@ -191,10 +184,10 @@
       </button>
 
       <a 
-        href="https://wa.me/918235411806?text=Hi%20YUKT%20IT%20SOLUTIONS%2C%20I%20want%20to%20discuss%20a%20project."
+        href="https://wa.me/919334968355?text=Hi%20Vivek%20Tech%2C%20I%20want%20to%20discuss%20a%20project."
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Chat on WhatsApp with YUKT IT SOLUTIONS (+91 82354 11806)"
+        aria-label="Chat on WhatsApp with Vivek Tech (+91 93349 68355)"
         class="w-14 h-14 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-600 hover:from-emerald-400 hover:to-emerald-500 text-white flex items-center justify-center shadow-2xl shadow-emerald-500/40 border border-emerald-300/40 transition-transform hover:scale-105"
       >
         <i data-lucide="message-circle" class="w-7 h-7"></i>

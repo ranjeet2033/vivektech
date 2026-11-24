@@ -289,9 +289,9 @@ function initQuoteModal() {
     if (waBtn) {
       const targetService = defaultService || (modal.querySelector('select[name="project_type"]')?.value || '');
       const msg = targetService
-        ? `Hi Yukt IT Solutions, I would like to request an instant quote and timeline for ${targetService}.`
-        : 'Hi Yukt IT Solutions, I would like to request an instant project scope and pricing estimate.';
-      waBtn.href = `https://wa.me/918235411806?text=${encodeURIComponent(msg)}`;
+        ? `Hi Vivek Tech, I would like to request an instant quote and timeline for ${targetService}.`
+        : 'Hi Vivek Tech, I would like to request an instant project scope and pricing estimate.';
+      waBtn.href = `https://wa.me/919334968355?text=${encodeURIComponent(msg)}`;
     }
   }
 
@@ -325,9 +325,9 @@ function initQuoteModal() {
       if (waBtn) {
         const val = serviceDropdown.value;
         const msg = val
-          ? `Hi Yukt IT Solutions, I would like to request an instant quote and timeline for ${val}.`
-          : 'Hi Yukt IT Solutions, I would like to request an instant project scope and pricing estimate.';
-        waBtn.href = `https://wa.me/918235411806?text=${encodeURIComponent(msg)}`;
+          ? `Hi Vivek Tech, I would like to request an instant quote and timeline for ${val}.`
+          : 'Hi Vivek Tech, I would like to request an instant project scope and pricing estimate.';
+        waBtn.href = `https://wa.me/919334968355?text=${encodeURIComponent(msg)}`;
       }
     });
   }

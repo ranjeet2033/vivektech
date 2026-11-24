@@ -45,8 +45,8 @@ if (!empty($_GET['ref'])) {
 }
 
 $activePage = $activePage ?? 'home';
-$pageTitle = $pageTitle ?? (COMPANY_NAME . ' | Technology That Moves Your Business Forward');
-$pageDesc = $pageDesc ?? 'YUKT IT SOLUTIONS builds intelligent digital experiences, powerful software, websites, and AI-driven solutions that help businesses grow faster.';
+$pageTitle = $pageTitle ?? (COMPANY_NAME . ' | Building Digital Solutions');
+$pageDesc = $pageDesc ?? 'Vivek Tech builds intelligent digital experiences, powerful software, websites, and AI-driven solutions that help businesses grow faster.';
 $cssVersion = defined('APP_VERSION') ? APP_VERSION . '.' . (file_exists(__DIR__ . '/../assets/css/main.css') ? filemtime(__DIR__ . '/../assets/css/main.css') : time()) : time();
 
 $currentScript = basename($_SERVER['PHP_SELF']);
@@ -81,11 +81,11 @@ if (!isset($canonicalUrl)) {
   <meta property="og:description" content="<?php echo htmlspecialchars($pageDesc); ?>">
   <meta property="og:url" content="<?php echo htmlspecialchars($canonicalUrl); ?>">
   <meta property="og:site_name" content="<?php echo COMPANY_NAME; ?>">
-  <meta property="og:image" content="<?php echo COMPANY_URL; ?>/assets/images/yukt-official-logo.png">
+  <meta property="og:image" content="<?php echo COMPANY_URL; ?>/assets/images/vivektech-logo.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="<?php echo htmlspecialchars($pageTitle); ?>">
   <meta name="twitter:description" content="<?php echo htmlspecialchars($pageDesc); ?>">
-  <meta name="twitter:image" content="<?php echo COMPANY_URL; ?>/assets/images/yukt-official-logo.png">
+  <meta name="twitter:image" content="<?php echo COMPANY_URL; ?>/assets/images/vivektech-logo.jpg">
   <meta name="google-site-verification" content="oqPPOWfWv2kCTwMmT7xGdUBhuG_xoGckejq0ypIVJbE" />
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
@@ -119,7 +119,7 @@ $schemaGraph = [
         "name" => COMPANY_NAME,
         "legalName" => COMPANY_LEGAL_NAME,
         "url" => COMPANY_URL,
-        "logo" => COMPANY_URL . "/assets/images/yukt-official-logo.png",
+        "logo" => COMPANY_URL . "/assets/images/vivektech-logo.jpg",
         "description" => $pageDesc,
         "telephone" => PHONE_NUMBER,
         "email" => EMAIL_PRIMARY,
@@ -283,16 +283,16 @@ if (!empty($faqs) && is_array($faqs)) {
       <nav class="navbar-container rounded-2xl px-2.5 sm:px-5 lg:px-6 py-2 sm:py-2.5 flex items-center justify-between shadow-2xl shadow-black/50 border border-white/15 flex-nowrap">
         
         <!-- Brand Logo Badge -->
-        <a href="index.php" class="flex items-center gap-2 sm:gap-2.5 group focus:outline-none flex-shrink-0" aria-label="YUKT IT SOLUTIONS Home">
+        <a href="index.php" class="flex items-center gap-2 sm:gap-2.5 group focus:outline-none flex-shrink-0" aria-label="Vivek Tech Home">
           <div class="h-8.5 sm:h-10 px-2 sm:px-2.5 py-1 rounded-xl bg-white shadow-md shadow-black/40 flex items-center justify-center group-hover:scale-105 transition-transform border border-white/40 flex-shrink-0">
-            <img src="assets/images/yukt-official-logo.png" alt="YUKT IT SOLUTIONS Official Logo" width="160" height="40" class="h-5 sm:h-7 w-auto object-contain flex-shrink-0">
+            <img src="assets/images/vivektech-logo.jpg" alt="Vivek Tech Official Logo" width="160" height="40" class="h-5 sm:h-7 w-auto object-contain flex-shrink-0">
           </div>
           <div class="flex flex-col leading-none">
             <div class="flex items-center gap-1 sm:gap-1.5 whitespace-nowrap">
-              <span class="font-display font-bold text-sm sm:text-base lg:text-lg tracking-tight text-white">YUKT</span>
-              <span class="font-display font-semibold text-[10px] sm:text-xs lg:text-sm tracking-wider sm:tracking-widest uppercase text-electric-400">IT SOLUTIONS</span>
+              <span class="font-display font-bold text-sm sm:text-base lg:text-lg tracking-tight text-white">VIVEK</span>
+              <span class="font-display font-semibold text-[10px] sm:text-xs lg:text-sm tracking-wider sm:tracking-widest uppercase text-electric-400">TECH</span>
             </div>
-            <span class="font-mono text-[9px] sm:text-[10px] text-slate-400 tracking-wider hidden sm:inline mt-0.5">yukt.online</span>
+            <span class="font-mono text-[9px] sm:text-[10px] text-slate-400 tracking-wider hidden sm:inline mt-0.5">vivektech.online</span>
           </div>
         </a>
 
@@ -411,11 +411,11 @@ if (!empty($faqs) && is_array($faqs)) {
 
           <!-- WhatsApp Primary Action Link (Tablet & Desktop: >= 640px) -->
           <a 
-            href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I want to discuss a project.'); ?>"
+            href="<?php echo getWhatsAppUrl('Hi Vivek Tech, I want to discuss a project.'); ?>"
             target="_blank"
             rel="noopener noreferrer"
             class="hidden sm:inline-flex items-center gap-2 px-3 py-1.5 lg:px-4 lg:py-2 rounded-xl text-xs sm:text-sm font-semibold text-white bg-gradient-to-r from-electric-500 to-electric-600 bg-electric-600 hover:from-electric-400 hover:to-electric-500 border border-electric-400/30 shadow-lg shadow-electric-500/25 transition-all whitespace-nowrap flex-shrink-0"
-            title="Chat on WhatsApp (+91 82354 11806)"
+            title="Chat on WhatsApp (+91 93349 68355)"
           >
             <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
             <span>WhatsApp Us</span>
@@ -424,11 +424,11 @@ if (!empty($faqs) && is_array($faqs)) {
 
           <!-- Quick Mobile WhatsApp Button (< 640px phones) -->
           <a 
-            href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I want to discuss a project.'); ?>"
+            href="<?php echo getWhatsAppUrl('Hi Vivek Tech, I want to discuss a project.'); ?>"
             target="_blank"
             rel="noopener noreferrer"
             class="inline-flex sm:hidden items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-bold text-white bg-emerald-600 hover:bg-emerald-500 shadow-md shadow-emerald-600/30 transition-all flex-shrink-0 whitespace-nowrap"
-            title="Chat on WhatsApp (+91 82354 11806)"
+            title="Chat on WhatsApp (+91 93349 68355)"
           >
             <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
             <span class="text-[11px]">WhatsApp</span>
@@ -588,20 +588,20 @@ if (!empty($faqs) && is_array($faqs)) {
             </button>
             -->
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I want to discuss a project.'); ?>"
+              href="<?php echo getWhatsAppUrl('Hi Vivek Tech, I want to discuss a project.'); ?>"
               target="_blank"
               rel="noopener noreferrer"
               class="w-full py-3.5 px-4 rounded-xl font-display font-semibold text-xs sm:text-sm text-white bg-gradient-to-r from-yukt-orange to-amber-600 hover:from-yukt-orangeLight hover:to-yukt-orange flex items-center justify-center gap-2 shadow-xl shadow-yukt-orange/30 border border-amber-400/30 transition-all active:scale-[0.98]"
             >
               <i data-lucide="message-circle" class="w-4 h-4"></i>
-              <span>Start Project on WhatsApp (+91 82354 11806)</span>
+              <span>Start Project on WhatsApp (+91 93349 68355)</span>
             </a>
             <a 
-              href="tel:+918235411806"
+              href="tel:+919334968355"
               class="w-full py-2.5 px-4 rounded-xl font-display font-semibold text-xs text-slate-300 hover:text-white bg-white/5 hover:bg-white/10 flex items-center justify-center gap-2 border border-white/10 transition-all"
             >
               <i data-lucide="phone" class="w-3.5 h-3.5 text-blue-400"></i>
-              <span>Call Helpline (+91 82354 11806)</span>
+              <span>Call Helpline (+91 93349 68355)</span>
             </a>
           </div>
         </div>

@@ -1,39 +1,39 @@
 <?php
 // ==========================================================================
-// YUKT IT SOLUTIONS (yukt.online) — Global Configuration
+// VIVEK TECH (vivektech.online) — Global Configuration
 // ==========================================================================
 
 if (!defined('COMPANY_NAME')) {
     // Core Brand Identity
-    define('COMPANY_NAME', 'Yukt IT Solutions');
-    define('COMPANY_LEGAL_NAME', 'Yukt IT Solutions Private Limited');
-    define('COMPANY_SHORT', 'YUKT');
-    define('COMPANY_TAGLINE', 'Technology That Moves Your Business Forward');
-    define('COMPANY_DOMAIN', 'yukt.online');
-    define('COMPANY_URL', 'https://yukt.online');
+    define('COMPANY_NAME', 'Vivek Tech');
+    define('COMPANY_LEGAL_NAME', 'Vivek Tech');
+    define('COMPANY_SHORT', 'VIVEK TECH');
+    define('COMPANY_TAGLINE', 'Building Digital Solutions');
+    define('COMPANY_DOMAIN', 'vivektech.online');
+    define('COMPANY_URL', 'https://vivektech.online');
     define('COMPANY_ESTABLISHED', '2021');
     define('APP_VERSION', '2.5.0');
 
-    // Contact & Location (Indian IT Powerhouse)
-    define('PHONE_NUMBER', '+91 82354 11806');
-    define('PHONE_RAW', '918235411806');
-    define('PHONE_SECONDARY', '+91 72176 45059');
-    define('PHONE_SECONDARY_RAW', '917217645059');
-    define('PHONE_ANSAR', '+91 95763 38282');
-    define('PHONE_ANSAR_RAW', '919576338282');
-    define('PHONE_RANJEET', '+91 72176 45059');
-    define('PHONE_RANJEET_RAW', '917217645059');
+    // Contact & Location
+    define('PHONE_NUMBER', '+91 93349 68355');
+    define('PHONE_RAW', '919334968355');
+    define('PHONE_SECONDARY', '+91 93349 68355');
+    define('PHONE_SECONDARY_RAW', '919334968355');
+    define('PHONE_ANSAR', '+91 93349 68355');
+    define('PHONE_ANSAR_RAW', '919334968355');
+    define('PHONE_RANJEET', '+91 93349 68355');
+    define('PHONE_RANJEET_RAW', '919334968355');
 
-    define('WHATSAPP_NUMBER', '918235411806');
-    define('WHATSAPP_FORMATTED', '+91 82354 11806');
-    define('WHATSAPP_BASE_URL', 'https://wa.me/918235411806');
-    define('WHATSAPP_URL', 'https://wa.me/918235411806?text=Hi%20Yukt%20IT%20Solutions%2C%20I%20would%20like%20to%20discuss%20a%20project.');
-    define('WHATSAPP_ANSAR_URL', 'https://wa.me/919576338282?text=Hi%20Ansar%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20Yukt%20IT%20Solutions.');
-    define('WHATSAPP_RANJEET_URL', 'https://wa.me/917217645059?text=Hi%20Ranjeet%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20Yukt%20IT%20Solutions.');
+    define('WHATSAPP_NUMBER', '919334968355');
+    define('WHATSAPP_FORMATTED', '+91 93349 68355');
+    define('WHATSAPP_BASE_URL', 'https://wa.me/919334968355');
+    define('WHATSAPP_URL', 'https://wa.me/919334968355?text=Hi%20Vivek%20Tech%2C%20I%20would%20like%20to%20discuss%20a%20project.');
+    define('WHATSAPP_ANSAR_URL', 'https://wa.me/919334968355?text=Hi%20Vivek%20Tech%2C%20I%20would%20like%20to%20discuss%20a%20project.');
+    define('WHATSAPP_RANJEET_URL', 'https://wa.me/919334968355?text=Hi%20Vivek%20Tech%2C%20I%20would%20like%20to%20discuss%20a%20project.');
 
-    define('EMAIL_PRIMARY', 'contact@yukt.online');
-    define('EMAIL_SALES', 'sales@yukt.online');
-    define('EMAIL_SUPPORT', 'support@yukt.online');
+    define('EMAIL_PRIMARY', 'contact@vivektech.online');
+    define('EMAIL_SALES', 'sales@vivektech.online');
+    define('EMAIL_SUPPORT', 'support@vivektech.online');
     define('OFFICE_PRIMARY', 'Block A, Ram Datt Enclave, Uttam Nagar, Delhi - 110059, India');
     define('OFFICE_PRIMARY_HINDI', 'ब्लॉक A, राम दात्त एंक्लेव, उत्तम नगर, दिल्ली, 110059');
     define('OFFICE_SECONDARY', 'HSR Layout, Bengaluru, Karnataka, India');
@@ -43,20 +43,20 @@ if (!defined('COMPANY_NAME')) {
 
     // Helper function to generate tailored WhatsApp URLs with prefilled messages (Default: Company WhatsApp)
     if (!function_exists('getWhatsAppUrl')) {
-        function getWhatsAppUrl($message = '', $rawPhone = '918235411806') {
+        function getWhatsAppUrl($message = '', $rawPhone = '919334968355') {
             $base = 'https://wa.me/' . $rawPhone;
             if (!empty($message)) {
                 return $base . '?text=' . rawurlencode($message);
             }
-            return $base . '?text=' . rawurlencode('Hi Yukt IT Solutions, I would like to discuss a project.');
+            return $base . '?text=' . rawurlencode('Hi Vivek Tech, I would like to discuss a project.');
         }
     }
 
     // Social & Professional Profiles
     define('LINKEDIN_URL', 'https://www.linkedin.com/in/ranjeet-m-079777262/?isSelfProfile=true');
     define('GITHUB_URL', 'https://github.com/yukt2026');
-    define('INSTAGRAM_URL', 'https://www.instagram.com/yukt_officials?psln=MWo3bndtb3JhMmN2dQ==');
-    define('TWITTER_URL', 'https://twitter.com/yuktonline');
+    define('INSTAGRAM_URL', 'https://www.instagram.com/vivektech.online/');
+    define('TWITTER_URL', 'https://twitter.com/vivektechonline');
 
     // Leadership Specific Profile Links
     define('RANJEET_GITHUB', 'https://github.com/yukt2026');
@@ -64,15 +64,15 @@ if (!defined('COMPANY_NAME')) {
     define('ANSAR_GITHUB', 'https://github.com/ansaralisahh');
     define('ANSAR_LINKEDIN', 'https://www.linkedin.com/in/ansaralisahh');
 
-    // Verified Engineering Leadership Pod (Ansar Ali Shah: Founder, Ranjeet: Co-Founder)
+    // Verified Engineering Leadership Pod
     $LEADERSHIP_TEAM = [
         [
             'name' => 'Ansar Ali Shah',
             'role' => 'Founder & Lead Technical Architect',
             'focus' => 'Web Applications, High-Performance Backends & Systems',
-            'phone' => '+91 95763 38282',
-            'phone_raw' => '919576338282',
-            'whatsapp_url' => 'https://wa.me/919576338282?text=' . rawurlencode('Hi Ansar, I would like to discuss a project with Yukt IT Solutions.'),
+            'phone' => '+91 93349 68355',
+            'phone_raw' => '919334968355',
+            'whatsapp_url' => 'https://wa.me/919334968355?text=' . rawurlencode('Hi Vivek Tech, I would like to discuss a project.'),
             'github' => 'https://github.com/ansaralisahh',
             'linkedin' => 'https://www.linkedin.com/in/ansaralisahh',
             'avatar_initials' => 'AS'
@@ -81,9 +81,9 @@ if (!defined('COMPANY_NAME')) {
             'name' => 'Ranjeet',
             'role' => 'Co-Founder & Lead Solutions Architect',
             'focus' => 'Cloud Systems, Full-Stack Architecture & AI Integration',
-            'phone' => '+91 72176 45059',
-            'phone_raw' => '917217645059',
-            'whatsapp_url' => 'https://wa.me/917217645059?text=' . rawurlencode('Hi Ranjeet, I would like to discuss a project with Yukt IT Solutions.'),
+            'phone' => '+91 93349 68355',
+            'phone_raw' => '919334968355',
+            'whatsapp_url' => 'https://wa.me/919334968355?text=' . rawurlencode('Hi Vivek Tech, I would like to discuss a project.'),
             'github' => 'https://github.com/yukt2026',
             'linkedin' => 'https://www.linkedin.com/in/ranjeet-m-079777262/?isSelfProfile=true',
             'avatar_initials' => 'RM'
