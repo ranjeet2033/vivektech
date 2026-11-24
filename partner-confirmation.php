@@ -13,7 +13,7 @@ if (!isset($_SESSION['partner_id'])) {
 }
 
 $partnerId = $_SESSION['partner_id'];
-$partnerCode = $_SESSION['partner_code'] ?? 'YUKT' . rand(1000, 9999);
+$partnerCode = $_SESSION['partner_code'] ?? 'VIVEK TECH' . rand(1000, 9999);
 $partnerName = $_SESSION['partner_name'] ?? 'Partner';
 $partnerShop = $_SESSION['partner_shop'] ?? 'Digital Center';
 $partnerStatus = $_SESSION['partner_status'] ?? 'pending_verification';
@@ -39,11 +39,11 @@ $refUrlHome = COMPANY_URL . '/?ref=' . urlencode($partnerCode);
 $refUrlPartner = COMPANY_URL . '/partner.php?ref=' . urlencode($partnerCode);
 $refUrlServices = COMPANY_URL . '/service-catalogue.php?ref=' . urlencode($partnerCode);
 
-$shareMessage = "Namaste! Agar aapko Website Development, Software, Business Automation, Professional Document Services ya Digital Marketing ki zarurat hai, to YUKT IT SOLUTIONS se contact kar sakte hain.\n\nYUKT Digital Partner Program ke through aap bhi apne area mein digital services ka business expand kar sakte hain.\n\nExplore: " . $refUrlHome;
+$shareMessage = "Namaste! Agar aapko Website Development, Software, Business Automation, Professional Document Services ya Digital Marketing ki zarurat hai, to VIVEK TECH se contact kar sakte hain.\n\nYUKT Digital Partner Program ke through aap bhi apne area mein digital services ka business expand kar sakte hain.\n\nExplore: " . $refUrlHome;
 $waShareUrl = 'https://api.whatsapp.com/send?text=' . rawurlencode($shareMessage);
 
-$pageTitle = 'Registration Confirmed | YUKT Digital Partner Program';
-$pageDesc = 'Your YUKT Digital Partner account has been successfully created. Welcome to the YUKT digital service ecosystem.';
+$pageTitle = 'Registration Confirmed | VIVEK TECH Digital Partner Program';
+$pageDesc = 'Your VIVEK TECH Digital Partner account has been successfully created. Welcome to the VIVEK TECH digital service ecosystem.';
 $activePage = 'partner';
 
 require_once __DIR__ . '/includes/header.php';
@@ -62,7 +62,7 @@ require_once __DIR__ . '/includes/header.php';
         Application Submitted Successfully
       </div>
       <h1 class="text-3xl sm:text-4xl lg:text-5xl font-display font-bold text-white tracking-tight">
-        Welcome to the YUKT Ecosystem, <span class="text-gradient-electric"><?php echo htmlspecialchars($partnerName); ?>!</span>
+        Welcome to the VIVEK TECH Ecosystem, <span class="text-gradient-electric"><?php echo htmlspecialchars($partnerName); ?>!</span>
       </h1>
       <p class="text-slate-300 text-sm sm:text-base max-w-xl mx-auto leading-relaxed">
         Your partner profile for <strong class="text-white"><?php echo htmlspecialchars($partnerShop); ?></strong> has been generated in our system. You are now ready to offer 140+ premium digital services from your shop.
@@ -178,7 +178,7 @@ require_once __DIR__ . '/includes/header.php';
       </a>
 
       <?php
-      $waVerifyMsg = "Hi YUKT Team, I have registered as a Partner!\nPartner ID: " . $partnerCode . "\nName: " . $partnerName . "\nShop: " . $partnerShop . "\nPlease verify my account.";
+      $waVerifyMsg = "Hi VIVEK TECH Team, I have registered as a Partner!\nPartner ID: " . $partnerCode . "\nName: " . $partnerName . "\nShop: " . $partnerShop . "\nPlease verify my account.";
       $waVerifyUrl = getWhatsAppUrl($waVerifyMsg);
       ?>
       <a 

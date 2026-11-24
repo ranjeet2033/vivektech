@@ -3,7 +3,7 @@ require_once __DIR__ . '/includes/config.php';
 
 $service = $SERVICES['ecommerce-solutions'];
 
-$pageTitle = 'E-Commerce Website Development & Solutions | YUKT IT SOLUTIONS';
+$pageTitle = 'E-Commerce Website Development & Solutions | VIVEK TECH';
 $pageDesc = 'Custom e-commerce development: Shopify Plus storefronts, WooCommerce setups, bespoke Laravel stores, UPI/Razorpay payment gateway integration, and logistics sync.';
 
 $capabilities = [

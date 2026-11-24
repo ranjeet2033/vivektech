@@ -1,7 +1,7 @@
 <?php
 $activePage = 'about';
-$pageTitle = 'About YUKT IT SOLUTIONS | Technology Company & Engineering Pods';
-$pageDesc = 'Learn about YUKT IT SOLUTIONS: our engineering ethos, mission, technical leadership led by Founder Ansar Ali Shah and Co-Founder Ranjeet, and full-stack delivery model.';
+$pageTitle = 'About VIVEK TECH | Technology Company & Engineering Pods';
+$pageDesc = 'Learn about VIVEK TECH: our engineering ethos, mission, technical leadership led by Founder Ansar Ali Shah and Co-Founder Ranjeet, and full-stack delivery model.';
 
 require_once __DIR__ . '/includes/header.php';
 require_once __DIR__ . '/includes/components/section-header.php';
@@ -29,7 +29,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
         </h1>
         
         <p class="text-base sm:text-lg text-slate-300 leading-relaxed font-normal max-w-2xl">
-          Founded on transparent agile execution, <strong class="text-white font-semibold">YUKT IT SOLUTIONS Private Limited</strong> is an Indian digital engineering studio bridging the gap between clean enterprise software, autonomous AI systems, and high-growth digital marketing.
+          Founded on transparent agile execution, <strong class="text-white font-semibold">VIVEK TECH Private Limited</strong> is an Indian digital engineering studio bridging the gap between clean enterprise software, autonomous AI systems, and high-growth digital marketing.
         </p>
 
         <!-- CTA Action Buttons -->
@@ -38,7 +38,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
             <span>Explore Working Principles</span>
             <i data-lucide="arrow-down" class="w-4 h-4"></i>
           </a>
-          <a href="<?php echo getWhatsAppUrl('Hi Ranjeet and Ansar, I would like to learn more about partnering with Yukt.'); ?>" target="_blank" rel="noopener noreferrer" class="px-7 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-gradient-to-r from-yukt-orange to-amber-600 hover:from-yukt-orangeLight hover:to-yukt-orange shadow-xl shadow-yukt-orange/25 transition-all flex items-center justify-center gap-2">
+          <a href="<?php echo getWhatsAppUrl('Hi Ranjeet and Ansar, I would like to learn more about partnering with Vivek Tech.'); ?>" target="_blank" rel="noopener noreferrer" class="px-7 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-gradient-to-r from-yukt-orange to-amber-600 hover:from-yukt-orangeLight hover:to-yukt-orange shadow-xl shadow-yukt-orange/25 transition-all flex items-center justify-center gap-2">
             <i data-lucide="message-circle" class="w-4 h-4"></i>
             <span>Talk to the Founders</span>
           </a>
@@ -67,7 +67,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
         <div class="relative w-44 h-44 rounded-full bg-gradient-to-tr from-yukt-orange/40 via-navy-900 to-electric-500/40 p-[2px] shadow-2xl shadow-yukt-orange/20 flex items-center justify-center animate-pulse">
           <div class="w-full h-full rounded-full bg-navy-950/90 backdrop-blur-md flex flex-col items-center justify-center text-center p-4">
             <span class="font-serif font-bold text-3xl text-white">युक्त</span>
-            <span class="font-display font-semibold text-xs text-yukt-orange mt-1">YUKT IT</span>
+            <span class="font-display font-semibold text-xs text-yukt-orange mt-1">VIVEK TECH IT</span>
             <span class="font-mono text-[9px] text-slate-400">Connected &bull; Unified</span>
           </div>
         </div>
@@ -110,7 +110,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
 </section>
 
 <!-- ==========================================================================
-     COMPANY INTRODUCTION & THE MEANING OF "YUKT"
+     COMPANY INTRODUCTION & THE MEANING OF "VIVEK TECH"
 ========================================================================== -->
 <section class="py-20 lg:py-28 bg-slate-50 text-slate-900 bg-grid-light border-b border-slate-200">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
@@ -122,15 +122,15 @@ require_once __DIR__ . '/includes/components/section-header.php';
           <span>Our Heritage &amp; Ethos</span>
         </div>
         <h2 class="font-display font-bold text-3xl sm:text-4xl text-slate-900 tracking-tight leading-tight">
-          What does <span class="text-gradient-brand">“YUKT”</span> mean?
+          What does <span class="text-gradient-brand">“VIVEK TECH”</span> mean?
         </h2>
         
         <p class="text-base text-slate-700 leading-relaxed font-normal">
-          Our name is derived from the classical Sanskrit word <strong class="text-slate-900 font-semibold font-serif text-lg">युक्त (Yukt)</strong> — meaning <em class="text-slate-900 font-medium">connected, equipped, skilled, and engineered with precision</em>.
+          Our name is derived from the classical Sanskrit word <strong class="text-slate-900 font-semibold font-serif text-lg">युक्त (Vivek Tech)</strong> — meaning <em class="text-slate-900 font-medium">connected, equipped, skilled, and engineered with precision</em>.
         </p>
 
         <p class="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
-          In an industry often marred by bloated agencies, unvetted outsourcing chains, and fragile template shortcuts, Yukt was established to operate differently: as a focused, disciplined engineering pod where senior architects work directly with founders and technical leaders.
+          In an industry often marred by bloated agencies, unvetted outsourcing chains, and fragile template shortcuts, Vivek Tech was established to operate differently: as a focused, disciplined engineering pod where senior architects work directly with founders and technical leaders.
         </p>
 
         <p class="text-sm sm:text-base text-slate-600 leading-relaxed font-normal">
@@ -142,7 +142,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
       <div class="lg:col-span-6 reveal-up">
         <div class="bg-white border border-slate-200/90 rounded-3xl p-7 sm:p-8 shadow-xl space-y-6">
           <div class="flex items-center justify-between pb-4 border-b border-slate-100">
-            <span class="text-xs font-mono font-bold text-slate-900 uppercase tracking-wider">YUKT IT SOLUTIONS ETHOS</span>
+            <span class="text-xs font-mono font-bold text-slate-900 uppercase tracking-wider">VIVEK TECH ETHOS</span>
             <span class="text-xs font-mono text-electric-600 font-semibold">EST. 2021</span>
           </div>
 
@@ -263,7 +263,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
         Why Web, Software, AI &amp; Marketing <span class="text-gradient-brand">Work Together</span>
       </h2>
       <p class="text-slate-600 text-base sm:text-lg">
-        Modern digital excellence fails when disciplines operate in silos. At Yukt, our capabilities form a unified, synchronized flywheel.
+        Modern digital excellence fails when disciplines operate in silos. At Vivek Tech, our capabilities form a unified, synchronized flywheel.
       </p>
     </div>
 
@@ -433,11 +433,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
         </div>
       </div>
       <div class="flex items-center gap-3">
-        <a href="contact.php#office-map" class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-slate-50 hover:bg-electric-50 text-slate-700 hover:text-electric-600 text-xs font-mono font-medium transition-colors border border-slate-200">
-          <i data-lucide="map" class="w-3.5 h-3.5 text-electric-600"></i>
-          <span>View on Google Maps &rarr;</span>
-        </a>
-        <div class="text-xs font-mono text-slate-500 hidden md:block">
+        <div class="text-xs font-mono text-slate-500">
           Operating Pan-India &bull; Delivering Globally
         </div>
       </div>
@@ -451,7 +447,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
           <span>Verified Leadership</span>
         </div>
         <h3 class="font-display font-bold text-2xl sm:text-3xl lg:text-4xl text-slate-900">
-          Meet the <span class="text-gradient-brand">Technical Architects</span> Behind Yukt
+          Meet the <span class="text-gradient-brand">Technical Architects</span> Behind Vivek Tech
         </h3>
         <p class="text-sm text-slate-600 max-w-2xl mx-auto">
           Direct senior engineering access without junior hand-offs or middlemen. Connect directly with the architects who design and deploy your solutions.
@@ -482,11 +478,11 @@ require_once __DIR__ . '/includes/components/section-header.php';
           <div class="mt-6 pt-5 border-t border-white/10 space-y-2.5 text-xs relative z-10">
             <div class="flex items-center justify-between">
               <span class="text-slate-400 font-mono">Direct Line:</span>
-              <a href="tel:+917217645059" class="font-mono text-slate-200 hover:text-white transition-colors">+91 72176 45059</a>
+              <a href="tel:+919334968355" class="font-mono text-slate-200 hover:text-white transition-colors">+91 93349 68355</a>
             </div>
             <div class="flex items-center justify-between">
               <span class="text-slate-400 font-mono">WhatsApp Desk:</span>
-              <a href="https://wa.me/917217645059?text=Hi%20Ranjeet%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20Yukt." target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-mono flex items-center gap-1">
+              <a href="https://wa.me/919334968355?text=Hi%20Ranjeet%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20Yukt." target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-mono flex items-center gap-1">
                 <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
                 <span>Direct WhatsApp &rarr;</span>
               </a>
@@ -528,11 +524,11 @@ require_once __DIR__ . '/includes/components/section-header.php';
           <div class="mt-6 pt-5 border-t border-white/10 space-y-2.5 text-xs relative z-10">
             <div class="flex items-center justify-between">
               <span class="text-slate-400 font-mono">Direct Line:</span>
-              <a href="tel:+919576338282" class="font-mono text-slate-200 hover:text-white transition-colors">+91 95763 38282</a>
+              <a href="tel:+919334968355" class="font-mono text-slate-200 hover:text-white transition-colors">+91 93349 68355</a>
             </div>
             <div class="flex items-center justify-between">
               <span class="text-slate-400 font-mono">WhatsApp Desk:</span>
-              <a href="https://wa.me/919576338282?text=Hi%20Ansar%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20Yukt." target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-mono flex items-center gap-1">
+              <a href="https://wa.me/919334968355?text=Hi%20Ansar%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20Yukt." target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-mono flex items-center gap-1">
                 <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
                 <span>Direct WhatsApp &rarr;</span>
               </a>
@@ -578,7 +574,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
         <button type="button" class="px-7 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-electric-500 hover:bg-electric-400 transition-all open-quote-modal-btn shadow-lg shadow-electric-500/25">
           <span>Get a Project Estimate</span>
         </button>
-        <a href="<?php echo getWhatsAppUrl('Hi Yukt IT Solutions, I would like to learn more about partnering with your engineering team.'); ?>" target="_blank" rel="noopener noreferrer" class="px-7 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-gradient-to-r from-yukt-orange to-amber-600 hover:from-yukt-orangeLight hover:to-yukt-orange transition-all flex items-center justify-center gap-2 shadow-lg shadow-yukt-orange/25">
+        <a href="<?php echo getWhatsAppUrl('Hi Vivek Tech, I would like to learn more about partnering with your engineering team.'); ?>" target="_blank" rel="noopener noreferrer" class="px-7 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-gradient-to-r from-yukt-orange to-amber-600 hover:from-yukt-orangeLight hover:to-yukt-orange transition-all flex items-center justify-center gap-2 shadow-lg shadow-yukt-orange/25">
           <i data-lucide="message-circle" class="w-4 h-4"></i>
           <span>WhatsApp Consultation</span>
         </a>

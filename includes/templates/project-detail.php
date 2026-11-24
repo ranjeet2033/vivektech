@@ -1,6 +1,6 @@
 <?php
 // ==========================================================================
-// YUKT IT SOLUTIONS — Standardized Project Detail Template
+// VIVEK TECH — Standardized Project Detail Template
 // ==========================================================================
 
 if (!isset($project) || empty($project)) {
@@ -8,7 +8,7 @@ if (!isset($project) || empty($project)) {
     exit;
 }
 
-$pageTitle = $pageTitle ?? ($project['title'] . ' — Architecture Case Study — YUKT IT SOLUTIONS');
+$pageTitle = $pageTitle ?? ($project['title'] . ' — Architecture Case Study — VIVEK TECH');
 $pageDesc = $pageDesc ?? $project['summary'];
 $activePage = 'portfolio';
 
@@ -62,7 +62,7 @@ require_once __DIR__ . '/../components/section-header.php';
             <span>Request Similar Architecture Scope</span>
             <i data-lucide="arrow-right" class="w-4 h-4"></i>
           </button>
-          <a href="<?php echo getWhatsAppUrl("Hi YUKT IT SOLUTIONS, I would like to discuss a project similar to " . $project['title'] . "."); ?>" target="_blank" rel="noopener noreferrer" class="px-7 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-gradient-to-r from-yukt-orange to-amber-600 hover:from-yukt-orangeLight hover:to-yukt-orange transition-all flex items-center justify-center gap-2 shadow-lg shadow-yukt-orange/25">
+          <a href="<?php echo getWhatsAppUrl("Hi VIVEK TECH, I would like to discuss a project similar to " . $project['title'] . "."); ?>" target="_blank" rel="noopener noreferrer" class="px-7 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-gradient-to-r from-yukt-orange to-amber-600 hover:from-yukt-orangeLight hover:to-yukt-orange transition-all flex items-center justify-center gap-2 shadow-lg shadow-yukt-orange/25">
             <i data-lucide="message-circle" class="w-4 h-4"></i>
             <span>WhatsApp Scoping</span>
           </a>
@@ -197,7 +197,7 @@ require_once __DIR__ . '/../components/section-header.php';
             <span>Request Scoping Call</span>
             <i data-lucide="arrow-right" class="w-4 h-4"></i>
           </button>
-          <a href="<?php echo getWhatsAppUrl("Hi YUKT IT SOLUTIONS, I am interested in building a solution like " . $project['title'] . "."); ?>" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 px-4 rounded-xl font-display font-semibold text-xs text-slate-200 bg-white/10 hover:bg-white/20 border border-white/10 flex items-center justify-center gap-2 transition-colors">
+          <a href="<?php echo getWhatsAppUrl("Hi VIVEK TECH, I am interested in building a solution like " . $project['title'] . "."); ?>" target="_blank" rel="noopener noreferrer" class="w-full py-2.5 px-4 rounded-xl font-display font-semibold text-xs text-slate-200 bg-white/10 hover:bg-white/20 border border-white/10 flex items-center justify-center gap-2 transition-colors">
             <i data-lucide="message-circle" class="w-3.5 h-3.5 text-emerald-400"></i>
             <span>Direct WhatsApp Inquiry</span>
           </a>
@@ -232,7 +232,7 @@ require_once __DIR__ . '/../components/section-header.php';
         <button type="button" class="px-7 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-electric-500 hover:bg-electric-400 transition-all open-quote-modal-btn shadow-lg shadow-electric-500/25" data-service="<?php echo htmlspecialchars($project['category']); ?>">
           <span>Get a Project Estimate</span>
         </button>
-        <a href="<?php echo getWhatsAppUrl("Hi YUKT IT SOLUTIONS, I would like to discuss engineering a new digital platform."); ?>" target="_blank" rel="noopener noreferrer" class="px-7 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-gradient-to-r from-yukt-orange to-amber-600 hover:from-yukt-orangeLight hover:to-yukt-orange transition-all flex items-center justify-center gap-2 shadow-lg shadow-yukt-orange/25">
+        <a href="<?php echo getWhatsAppUrl("Hi VIVEK TECH, I would like to discuss engineering a new digital platform."); ?>" target="_blank" rel="noopener noreferrer" class="px-7 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-gradient-to-r from-yukt-orange to-amber-600 hover:from-yukt-orangeLight hover:to-yukt-orange transition-all flex items-center justify-center gap-2 shadow-lg shadow-yukt-orange/25">
           <i data-lucide="message-circle" class="w-4 h-4"></i>
           <span>Chat on WhatsApp</span>
         </a>

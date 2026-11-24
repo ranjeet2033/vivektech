@@ -1,6 +1,6 @@
 <?php
 // ==========================================================================
-// YUKT IT SOLUTIONS — Service Card Component (Linear / Stripe Style)
+// VIVEK TECH — Service Card Component (Linear / Stripe Style)
 // ==========================================================================
 
 function renderServiceCard($service, $extraClasses = '') {
@@ -34,7 +34,7 @@ function renderServiceCard($service, $extraClasses = '') {
     $arrowIcon = getIconSvg('arrow-right', 'w-4 h-4 transition-transform duration-150 group-hover:translate-x-1');
     $whatsAppIcon = getIconSvg('whatsapp', 'w-3.5 h-3.5 text-emerald-600');
     $badgeHtml = isset($service['badge']) ? "<span class=\"text-xs font-medium text-slate-400 bg-slate-50 border border-slate-200/60 px-2 py-0.5 rounded\">" . htmlspecialchars($service['badge']) . "</span>" : '';
-    $whatsAppUrl = getWhatsAppUrl('Hi Yukt IT Solutions, I would like to scope a project in ' . $service['title'] . '.');
+    $whatsAppUrl = getWhatsAppUrl('Hi Vivek Tech, I would like to scope a project in ' . $service['title'] . '.');
 
     return "
     <article class=\"group relative bg-white border border-canvas-border rounded-xl p-7 sm:p-8 $cardHoverBorder hover:shadow-card-hover hover:-translate-y-1 transition-all duration-200 ease-out flex flex-col justify-between $extraClasses\">

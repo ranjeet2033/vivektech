@@ -1,8 +1,8 @@
 <?php
 $activePage = 'privacy-policy';
-$pageTitle = 'Privacy Policy | YUKT IT SOLUTIONS - Data Protection & Compliance';
-$pageDesc = 'Official Privacy Policy of Yukt IT Solutions Private Limited (yukt.online). Comprehensive overview of data collection, DPDP Act 2023, GDPR, confidentiality, and security practices.';
-$canonicalUrl = 'https://yukt.online/privacy-policy';
+$pageTitle = 'Privacy Policy | VIVEK TECH - Data Protection & Compliance';
+$pageDesc = 'Official Privacy Policy of Vivek Tech (vivektech.online). Comprehensive overview of data collection, DPDP Act 2023, GDPR, confidentiality, and security practices.';
+$canonicalUrl = 'https://vivektech.online/privacy-policy';
 $breadcrumbName = 'Privacy Policy';
 
 require_once __DIR__ . '/includes/header.php';
@@ -41,7 +41,7 @@ require_once __DIR__ . '/includes/header.php';
       </h1>
 
       <p class="text-base sm:text-lg text-slate-300 leading-relaxed font-normal">
-        At <strong class="text-white font-semibold">Yukt IT Solutions Private Limited</strong> (operating as <strong class="text-white font-semibold">YUKT IT SOLUTIONS</strong>, <span class="text-electric-300 font-mono">yukt.online</span>), your privacy, confidentiality, and data integrity are central to our software engineering ethos. This policy governs how we collect, store, process, and protect your information.
+        At <strong class="text-white font-semibold">Vivek Tech</strong> (operating as <strong class="text-white font-semibold">VIVEK TECH</strong>, <span class="text-electric-300 font-mono">vivektech.online</span>), your privacy, confidentiality, and data integrity are central to our software engineering ethos. This policy governs how we collect, store, process, and protect your information.
       </p>
 
       <!-- Policy Meta Bar -->
@@ -141,13 +141,13 @@ require_once __DIR__ . '/includes/header.php';
           </p>
 
           <div class="space-y-2 pt-1">
-            <a href="mailto:privacy@yukt.online" class="flex items-center gap-2 text-xs text-electric-600 hover:text-electric-700 font-semibold">
+            <a href="mailto:privacy@vivektech.online" class="flex items-center gap-2 text-xs text-electric-600 hover:text-electric-700 font-semibold">
               <i data-lucide="mail" class="w-3.5 h-3.5"></i>
-              <span>privacy@yukt.online</span>
+              <span>privacy@vivektech.online</span>
             </a>
-            <a href="<?php echo getWhatsAppUrl('Hi Ranjeet, I have a data privacy / compliance inquiry regarding Yukt.'); ?>" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-xs text-emerald-600 hover:text-emerald-700 font-semibold">
+            <a href="<?php echo getWhatsAppUrl('Hi Ranjeet, I have a data privacy / compliance inquiry regarding Vivek Tech.'); ?>" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-xs text-emerald-600 hover:text-emerald-700 font-semibold">
               <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
-              <span>WhatsApp Privacy Desk (+91 72176 45059)</span>
+              <span>WhatsApp Privacy Desk (+91 93349 68355)</span>
             </a>
           </div>
 
@@ -174,17 +174,17 @@ require_once __DIR__ . '/includes/header.php';
             1. Corporate Identity &amp; Scope of this Policy
           </h2>
           <p>
-            This Privacy Policy applies to the official web properties, portals, subdomains, software applications, client staging environments, and digital engineering services owned and operated by <strong class="text-slate-900">Yukt IT Solutions Private Limited</strong> (herein referred to as <strong class="text-slate-900">"YUKT"</strong>, <strong class="text-slate-900">"Company"</strong>, <strong class="text-slate-900">"we"</strong>, <strong class="text-slate-900">"us"</strong>, or <strong class="text-slate-900">"our"</strong>), accessible primarily through our primary domain <a href="https://yukt.online" class="text-electric-600 hover:underline font-mono">https://yukt.online</a>.
+            This Privacy Policy applies to the official web properties, portals, subdomains, software applications, client staging environments, and digital engineering services owned and operated by <strong class="text-slate-900">Vivek Tech</strong> (herein referred to as <strong class="text-slate-900">"VIVEK TECH"</strong>, <strong class="text-slate-900">"Company"</strong>, <strong class="text-slate-900">"we"</strong>, <strong class="text-slate-900">"us"</strong>, or <strong class="text-slate-900">"our"</strong>), accessible primarily through our primary domain <a href="https://vivektech.online" class="text-electric-600 hover:underline font-mono">https://vivektech.online</a>.
           </p>
           <p>
             By accessing our website, requesting a project scope, engaging in technical consultations, entering into Statements of Work (SOW), or commissioning our engineering pods for website development, custom software engineering, AI automation, or IT consulting, you acknowledge that you have read, understood, and consented to the data practices described in this document.
           </p>
           <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 text-xs font-mono space-y-1 text-slate-600">
-            <div><strong>Corporate Entity:</strong> Yukt IT Solutions Private Limited</div>
-            <div><strong>Brand Identity:</strong> YUKT IT SOLUTIONS (yukt.online)</div>
+            <div><strong>Corporate Entity:</strong> Vivek Tech</div>
+            <div><strong>Brand Identity:</strong> VIVEK TECH (vivektech.online)</div>
             <div><strong>Registered Office:</strong> Block A, Ram Datt Enclave, Uttam Nagar, Delhi - 110059, India</div>
             <div><strong>Secondary Engineering Hub:</strong> HSR Layout, Bengaluru, Karnataka, India</div>
-            <div><strong>Official Email:</strong> contact@yukt.online | support@yukt.online</div>
+            <div><strong>Official Email:</strong> contact@vivektech.online | support@vivektech.online</div>
           </div>
         </section>
 
@@ -277,7 +277,7 @@ require_once __DIR__ . '/includes/header.php';
             4. WebGL, Three.js &amp; 3D Shader Telemetry
           </h2>
           <p>
-            The YUKT digital platform features interactive WebGL particle wave shaders powered by Three.js and custom GLSL vertex/fragment shaders.
+            The VIVEK TECH digital platform features interactive WebGL particle wave shaders powered by Three.js and custom GLSL vertex/fragment shaders.
           </p>
           <div class="p-5 rounded-2xl bg-electric-50/70 border border-electric-200 space-y-2">
             <div class="flex items-center gap-2 font-display font-bold text-sm text-electric-900">
@@ -371,11 +371,11 @@ require_once __DIR__ . '/includes/header.php';
               <strong class="text-slate-900">Local Storage Tokens:</strong> Storing client-side UI states, such as whether you have toggled the floating WhatsApp quick-service menu or dismissed a notification badge.
             </li>
             <li>
-              <strong class="text-slate-900">No Third-Party Retargeting Pixels:</strong> We do not deploy invasive third-party tracking pixels (such as cross-web ad spyware) that monitor your personal browsing habits outside yukt.online.
+              <strong class="text-slate-900">No Third-Party Retargeting Pixels:</strong> We do not deploy invasive third-party tracking pixels (such as cross-web ad spyware) that monitor your personal browsing habits outside vivektech.online.
             </li>
           </ul>
           <p class="text-xs text-slate-500">
-            You can configure your browser to block or delete cookies at any time. If you disable cookies, all core informational sections of yukt.online will continue functioning smoothly.
+            You can configure your browser to block or delete cookies at any time. If you disable cookies, all core informational sections of vivektech.online will continue functioning smoothly.
           </p>
         </section>
 
@@ -390,7 +390,7 @@ require_once __DIR__ . '/includes/header.php';
             8. Non-Sale &amp; Trusted Sub-Processors
           </h2>
           <p class="font-semibold text-slate-900">
-            Yukt IT Solutions does not sell, license, lease, or distribute your personal data or project confidential material to any third party for commercial gain.
+            Vivek Tech does not sell, license, lease, or distribute your personal data or project confidential material to any third party for commercial gain.
           </p>
           <p>
             To deliver our high-availability cloud infrastructure and real-time communications, we partner with industry-standard, SOC 2 and ISO 27001 certified sub-processors:
@@ -426,7 +426,7 @@ require_once __DIR__ . '/includes/header.php';
             9. Client Code, Data Isolation &amp; Mutual NDA
           </h2>
           <p>
-            When you engage Yukt to develop custom software, mobile applications, or proprietary AI agents, you frequently entrust us with sensitive business logic, database schemas, and API credentials. We implement bank-grade confidentiality controls:
+            When you engage Vivek Tech to develop custom software, mobile applications, or proprietary AI agents, you frequently entrust us with sensitive business logic, database schemas, and API credentials. We implement bank-grade confidentiality controls:
           </p>
           <div class="space-y-3 pt-1">
             <div class="flex items-start gap-3 p-3.5 rounded-xl bg-slate-50 border border-slate-200 text-xs">
@@ -502,7 +502,7 @@ require_once __DIR__ . '/includes/header.php';
             12. Technical &amp; Organizational Security Measures
           </h2>
           <p>
-            Yukt implements rigorous defense-in-depth security controls to safeguard data against unauthorized access, alteration, disclosure, or accidental destruction:
+            Vivek Tech implements rigorous defense-in-depth security controls to safeguard data against unauthorized access, alteration, disclosure, or accidental destruction:
           </p>
           <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1 text-center font-mono">
             <div class="p-4 rounded-xl bg-slate-50 border border-slate-200">
@@ -539,7 +539,7 @@ require_once __DIR__ . '/includes/header.php';
           <div class="space-y-2 text-xs">
             <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2">
               <span class="font-bold text-slate-900 min-w-32">&bull; Right to Access:</span>
-              <span>Request a digital summary of all personal data held about you by Yukt IT Solutions.</span>
+              <span>Request a digital summary of all personal data held about you by Vivek Tech.</span>
             </div>
             <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 flex items-start gap-2">
               <span class="font-bold text-slate-900 min-w-32">&bull; Right to Rectify:</span>
@@ -559,7 +559,7 @@ require_once __DIR__ . '/includes/header.php';
             </div>
           </div>
           <p class="text-xs text-slate-600">
-            To exercise any of these rights, email us at <a href="mailto:privacy@yukt.online" class="text-electric-600 font-semibold hover:underline">privacy@yukt.online</a>. We acknowledge receipt within 48 hours and process all valid requests within 30 calendar days at zero charge.
+            To exercise any of these rights, email us at <a href="mailto:privacy@vivektech.online" class="text-electric-600 font-semibold hover:underline">privacy@vivektech.online</a>. We acknowledge receipt within 48 hours and process all valid requests within 30 calendar days at zero charge.
           </p>
         </section>
 
@@ -574,7 +574,7 @@ require_once __DIR__ . '/includes/header.php';
             14. Children's Privacy Notice
           </h2>
           <p>
-            The services, websites, and technical deliverables engineered by Yukt IT Solutions are intended exclusively for commercial enterprises, founders, and adult professionals aged 18 years and above. We do not knowingly solicit or collect personal information from individuals under the age of 18. If we become aware that personal information of a minor has been mistakenly collected, we take immediate steps to delete such data from our databases.
+            The services, websites, and technical deliverables engineered by Vivek Tech are intended exclusively for commercial enterprises, founders, and adult professionals aged 18 years and above. We do not knowingly solicit or collect personal information from individuals under the age of 18. If we become aware that personal information of a minor has been mistakenly collected, we take immediate steps to delete such data from our databases.
           </p>
         </section>
 
@@ -604,19 +604,19 @@ require_once __DIR__ . '/includes/header.php';
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs font-mono text-slate-300">
               <div>
                 <span class="text-slate-500 block text-[10px] uppercase">Corporate Entity</span>
-                <span class="text-white font-semibold">Yukt IT Solutions Private Limited</span>
+                <span class="text-white font-semibold">Vivek Tech</span>
               </div>
               <div>
                 <span class="text-slate-500 block text-[10px] uppercase">Direct Grievance Email</span>
-                <a href="mailto:privacy@yukt.online" class="text-electric-400 hover:text-white underline">privacy@yukt.online</a>
+                <a href="mailto:privacy@vivektech.online" class="text-electric-400 hover:text-white underline">privacy@vivektech.online</a>
               </div>
               <div>
                 <span class="text-slate-500 block text-[10px] uppercase">Direct Grievance Phone</span>
-                <a href="tel:+917217645059" class="text-white hover:text-electric-400">+91 72176 45059</a>
+                <a href="tel:+919334968355" class="text-white hover:text-electric-400">+91 93349 68355</a>
               </div>
               <div>
                 <span class="text-slate-500 block text-[10px] uppercase">Founder &amp; Architecture Lead</span>
-                <span class="text-white">Ansar Ali Shah (+91 95763 38282)</span>
+                <span class="text-white">Ansar Ali Shah (+91 93349 68355)</span>
               </div>
               <div class="sm:col-span-2">
                 <span class="text-slate-500 block text-[10px] uppercase">Postal Physical Address</span>

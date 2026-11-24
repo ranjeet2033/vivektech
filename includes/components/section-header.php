@@ -1,6 +1,6 @@
 <?php
 // ==========================================================================
-// YUKT IT SOLUTIONS — Section Header Component
+// VIVEK TECH — Section Header Component
 // ==========================================================================
 
 function renderSectionHeader($eyebrow, $title, $description = '', $centered = true, $eyebrowColor = 'blue', $extraClasses = '') {

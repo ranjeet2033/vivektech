@@ -1,6 +1,6 @@
 <?php
 // ==========================================================================
-// YUKT PARTNER ENQUIRY SUBMISSION API
+// VIVEK TECH PARTNER ENQUIRY SUBMISSION API
 // ==========================================================================
 
 header('Content-Type: application/json');

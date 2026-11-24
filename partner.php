@@ -4,8 +4,8 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 $activePage = 'partner';
-$pageTitle = 'YUKT Digital Partner Program | अपनी दुकान से IT Services Provide Karein';
-$pageDesc = 'Cyber Cafe, CSC Centre, Jan Seva Kendra aur Computer Dukan ke liye YUKT Digital Partner Program. Zero Investment me Website, Billing Software aur Document Services provide karein.';
+$pageTitle = 'VIVEK TECH Digital Partner Program | अपनी दुकान से IT Services Provide Karein';
+$pageDesc = 'Cyber Cafe, CSC Centre, Jan Seva Kendra aur Computer Dukan ke liye VIVEK TECH Digital Partner Program. Zero Investment me Website, Billing Software aur Document Services provide karein.';
 
 // Capture referral code if passed
 $refCodeInput = $_GET['ref'] ?? $_SESSION['yukt_ref'] ?? $_COOKIE['yukt_ref'] ?? '';
@@ -20,7 +20,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
   @media (max-width: 767px) {
     /* Hide circular floating WhatsApp widget on mobile to prevent overlapping cards or bottom sticky bar */
     .fixed.bottom-6.right-6,
-    [aria-label*="WhatsApp with YUKT"] {
+    [aria-label*="WhatsApp with VIVEK TECH"] {
       display: none !important;
     }
   }
@@ -42,7 +42,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
       <div class="flex justify-center mb-2.5 sm:mb-3">
         <div class="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-emerald-50 border border-emerald-300 text-emerald-800 text-[10px] sm:text-xs font-semibold shadow-xs">
           <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-          <span>Official YUKT Digital Partner Program &bull; 100% Free Joining &bull; Zero Investment</span>
+          <span>Official VIVEK TECH Digital Partner Program &bull; 100% Free Joining &bull; Zero Investment</span>
         </div>
       </div>
 
@@ -61,7 +61,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
           <div class="p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200 shadow-xs text-slate-700 text-xs sm:text-sm leading-relaxed text-left">
             <p class="font-medium text-slate-800">
               <span class="text-yukt-orange font-bold">💡</span> 
-              "Cyber Cafe, CSC, Jan Seva Kendra aur Computer Dukan ke liye sunahara mauka. Apni dukan se <strong class="text-blue-700">Website</strong>, <strong class="text-blue-700">Billing Software</strong>, <strong class="text-blue-700">Resume / Document Typing</strong> provide karein. Pura technical kaam YUKT karega — aur 15% se 25% commission seedha aapke Bank/UPI me aayega!"
+              "Cyber Cafe, CSC, Jan Seva Kendra aur Computer Dukan ke liye sunahara mauka. Apni dukan se <strong class="text-blue-700">Website</strong>, <strong class="text-blue-700">Billing Software</strong>, <strong class="text-blue-700">Resume / Document Typing</strong> provide karein. Pura technical kaam VIVEK TECH karega — aur 15% se 25% commission seedha aapke Bank/UPI me aayega!"
             </p>
           </div>
 
@@ -87,7 +87,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
 
             <div class="p-2 sm:p-2.5 rounded-xl bg-white border border-slate-200 text-center shadow-xs">
               <div class="text-[9px] sm:text-[10px] text-slate-500 font-medium">Technical Kaam</div>
-              <div class="text-xs sm:text-base font-bold text-indigo-600">100% YUKT</div>
+              <div class="text-xs sm:text-base font-bold text-indigo-600">100% VIVEK TECH</div>
               <div class="text-[8px] sm:text-[9px] text-slate-400">No Coding Needed</div>
             </div>
           </div>
@@ -97,7 +97,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
             
             <!-- WhatsApp Chat Button (Primary) -->
             <a 
-              href="<?php echo getWhatsAppUrl('Namaste YUKT Team! Mujhe YUKT Digital Business Partner Program me judna hai. Kripya details share karein.'); ?>" 
+              href="<?php echo getWhatsAppUrl('Namaste VIVEK TECH Team! Mujhe VIVEK TECH Digital Business Partner Program me judna hai. Kripya details share karein.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
               class="px-4 py-2.5 sm:px-5 sm:py-3 rounded-xl font-bold text-xs sm:text-sm text-white bg-emerald-600 hover:bg-emerald-500 shadow-md shadow-emerald-600/20 transition-all flex items-center justify-center gap-1.5 text-center"
@@ -108,11 +108,11 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
 
             <!-- Direct Call Button -->
             <a 
-              href="tel:+918235411806" 
+              href="tel:+919334968355" 
               class="px-4 py-2.5 sm:px-5 sm:py-3 rounded-xl font-bold text-xs sm:text-sm text-slate-800 bg-white hover:bg-slate-100 border border-slate-300 shadow-xs transition-all flex items-center justify-center gap-1.5 text-center"
             >
               <i data-lucide="phone-call" class="w-4 h-4 text-blue-600"></i>
-              <span>Call Karein: +91 82354 11806</span>
+              <span>Call Karein: +91 93349 68355</span>
             </a>
 
           </div>
@@ -134,7 +134,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
             <div class="relative rounded-xl overflow-hidden aspect-[16/9] sm:aspect-[16/10] bg-slate-100">
               <img 
                 src="assets/images/partner-hero-banner.jpg" 
-                alt="YUKT Digital Partner Program - Authorized Common Service Centre and Cyber Cafe IT Hub" 
+                alt="VIVEK TECH Digital Partner Program - Authorized Common Service Centre and Cyber Cafe IT Hub" 
                 class="w-full h-full object-cover object-center transform hover:scale-102 transition-transform duration-300"
                 loading="eager"
               >
@@ -142,7 +142,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               <!-- Floating Live Badge Overlay -->
               <div class="absolute top-2 left-2 bg-white/95 backdrop-blur-md px-2 py-0.5 rounded-full shadow-xs border border-slate-100 flex items-center gap-1 text-[9px] sm:text-[10px] font-bold text-slate-800">
                 <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-ping"></span>
-                <span>YUKT Authorized Partner Hub</span>
+                <span>VIVEK TECH Authorized Partner Hub</span>
               </div>
 
               <!-- Floating Revenue Badge Overlay -->
@@ -218,14 +218,14 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
             <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-yukt-orange text-white font-display font-bold text-xs sm:text-sm flex items-center justify-center shrink-0">
               2
             </div>
-            <h3 class="text-xs sm:text-sm font-bold text-slate-900">YUKT को WhatsApp करें</h3>
+            <h3 class="text-xs sm:text-sm font-bold text-slate-900">VIVEK TECH को WhatsApp करें</h3>
           </div>
           <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed">
-            कस्टमर का नाम, नंबर और जरूरत हमारे <strong>WhatsApp (+91 82354 11806)</strong> पर भेज दें या कॉल पर बात करवा दें।
+            कस्टमर का नाम, नंबर और जरूरत हमारे <strong>WhatsApp (+91 93349 68355)</strong> पर भेज दें या कॉल पर बात करवा दें।
           </p>
           <div class="text-[10px] sm:text-[11px] font-semibold text-yukt-orange flex items-center gap-1 pt-0.5">
             <i data-lucide="check" class="w-3 h-3 text-yukt-orange"></i>
-            <span>कोटेशन और डीलिंग YUKT टीम करेगी</span>
+            <span>कोटेशन और डीलिंग VIVEK TECH टीम करेगी</span>
           </div>
         </div>
 
@@ -238,7 +238,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
             <h3 class="text-xs sm:text-sm font-bold text-slate-900">काम पूरा &bull; सीधा कमीशन</h3>
           </div>
           <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed">
-            YUKT टीम प्रोजेक्ट डिलीवर करेगी और आपका <strong>15% से 25% कमीशन</strong> तुरंत आपके <strong>Bank या UPI</strong> में आ जाएगा!
+            VIVEK TECH टीम प्रोजेक्ट डिलीवर करेगी और आपका <strong>15% से 25% कमीशन</strong> तुरंत आपके <strong>Bank या UPI</strong> में आ जाएगा!
           </p>
           <div class="text-[10px] sm:text-[11px] font-semibold text-emerald-700 flex items-center gap-1 pt-0.5">
             <i data-lucide="check" class="w-3 h-3 text-emerald-600"></i>
@@ -392,7 +392,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               <span class="text-emerald-700 font-bold font-mono text-[10px] sm:text-xs">₹1,500 – ₹10,000+</span>
             </div>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT, mujhe Website Development partnership ke baare me janna hai. Mere paas website banwane ka client hai.'); ?>" 
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, mujhe Website Development partnership ke baare me janna hai. Mere paas website banwane ka client hai.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
               class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-xs transition-all text-center"
@@ -450,7 +450,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               <span class="text-emerald-700 font-bold font-mono text-[10px] sm:text-xs">₹2,000 – ₹20,000+</span>
             </div>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT, mujhe GST Billing & Shop Software partnership ke baare me janna hai. Client ko software chahiye.'); ?>" 
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, mujhe GST Billing & Shop Software partnership ke baare me janna hai. Client ko software chahiye.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
               class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-xs transition-all text-center"
@@ -513,7 +513,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               <span class="text-emerald-700 font-bold font-mono text-[10px] sm:text-xs">₹200 – ₹3,000+</span>
             </div>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT, mujhe Advanced Document Services (Resume, Typing, Project Report, OCR) partnership ke baare me janna hai.'); ?>" 
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, mujhe Advanced Document Services (Resume, Typing, Project Report, OCR) partnership ke baare me janna hai.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
               class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-xs transition-all text-center"
@@ -571,7 +571,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               <span class="text-emerald-700 font-bold font-mono text-[10px] sm:text-xs">₹500 – ₹4,000+</span>
             </div>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT, mujhe Graphic Design (Logo, Flex Banner, Visiting Card) partnership ke baare me janna hai.'); ?>" 
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, mujhe Graphic Design (Logo, Flex Banner, Visiting Card) partnership ke baare me janna hai.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
               class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-xs transition-all text-center"
@@ -629,7 +629,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               <span class="text-emerald-700 font-bold font-mono text-[10px] sm:text-xs">₹1,000 – ₹8,000+</span>
             </div>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT, mujhe Google Business Profile / Local Marketing partnership ke baare me janna hai. Shop listing client hai.'); ?>" 
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, mujhe Google Business Profile / Local Marketing partnership ke baare me janna hai. Shop listing client hai.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
               class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-xs transition-all text-center"
@@ -687,7 +687,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               <span class="text-emerald-700 font-bold font-mono text-[10px] sm:text-xs">₹2,000 – ₹15,000+</span>
             </div>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT, mujhe WhatsApp Chatbot & AI Automation partnership ke baare me janna hai.'); ?>" 
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, mujhe WhatsApp Chatbot & AI Automation partnership ke baare me janna hai.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
               class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-xs transition-all text-center"
@@ -745,7 +745,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               <span class="text-emerald-700 font-bold font-mono text-[10px] sm:text-xs">₹5,000 – ₹25,000+</span>
             </div>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT, mujhe Mobile App Development partnership ke baare me janna hai. Client ko Android app banwana hai.'); ?>" 
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, mujhe Mobile App Development partnership ke baare me janna hai. Client ko Android app banwana hai.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
               class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-xs transition-all text-center"
@@ -803,7 +803,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               <span class="text-emerald-700 font-bold font-mono text-[10px] sm:text-xs">₹4,000 – ₹20,000+</span>
             </div>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT, mujhe School & Coaching Software partnership ke baare me janna hai. Mere contact me school/coaching hai.'); ?>" 
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, mujhe School & Coaching Software partnership ke baare me janna hai. Mere contact me school/coaching hai.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
               class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-xs transition-all text-center"
@@ -861,7 +861,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               <span class="text-emerald-700 font-bold font-mono text-[10px] sm:text-xs">₹500 – ₹5,000+</span>
             </div>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT, mujhe Domain, Hosting & Business Email partnership ke baare me janna hai.'); ?>" 
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, mujhe Domain, Hosting & Business Email partnership ke baare me janna hai.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
               class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-xs transition-all text-center"
@@ -919,7 +919,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               <span class="text-emerald-700 font-bold font-mono text-[10px] sm:text-xs">₹1,500 – ₹8,000+</span>
             </div>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT, mujhe Complete Shop Digitalization partnership ke baare me janna hai. Local shop ko digital banana hai.'); ?>" 
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, mujhe Complete Shop Digitalization partnership ke baare me janna hai. Local shop ko digital banana hai.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
               class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-xs transition-all text-center"
@@ -1052,7 +1052,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
             </div>
 
             <a 
-              href="<?php echo getWhatsAppUrl('Namaste YUKT! Mujhe [' . $srv['name'] . '] service me interest hai. Details aur partner quotation bhejein.'); ?>" 
+              href="<?php echo getWhatsAppUrl('Namaste VIVEK TECH! Mujhe [' . $srv['name'] . '] service me interest hai. Details aur partner quotation bhejein.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
               class="w-full py-1.5 sm:py-2 px-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10px] sm:text-xs flex items-center justify-center gap-1 shadow-2xs transition-all text-center"
@@ -1069,7 +1069,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
         <p class="text-xs font-bold text-slate-700">कोई सर्विस नहीं मिली</p>
         <p class="text-[10px] text-slate-500">कृपया कोई दूसरा कीवर्ड सर्च करें या सीधे WhatsApp पर पूछें:</p>
         <a 
-          href="<?php echo getWhatsAppUrl('Namaste YUKT! Mujhe custom service ke baare me puchna hai.'); ?>" 
+          href="<?php echo getWhatsAppUrl('Namaste VIVEK TECH! Mujhe custom service ke baare me puchna hai.'); ?>" 
           target="_blank" 
           class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-emerald-600 text-white text-[10px] font-bold"
         >
@@ -1120,7 +1120,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
           </a>
 
           <a 
-            href="<?php echo getWhatsAppUrl('Namaste YUKT Team! Mujhe meri dukan ke liye Free Partner Poster aur Rate Card WhatsApp par chahiye.'); ?>" 
+            href="<?php echo getWhatsAppUrl('Namaste VIVEK TECH Team! Mujhe meri dukan ke liye Free Partner Poster aur Rate Card WhatsApp par chahiye.'); ?>" 
             target="_blank" 
             rel="noopener noreferrer" 
             class="w-full sm:w-auto px-4 py-2 sm:px-5 sm:py-2.5 rounded-xl font-bold text-xs text-white bg-emerald-600 hover:bg-emerald-500 shadow-md transition-all flex items-center justify-center gap-1.5"
@@ -1273,17 +1273,17 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
             या सीधे फ़ोन करके अभी बात करें:
           </p>
           <div class="flex flex-wrap items-center justify-center gap-1.5 sm:gap-3 text-[11px] sm:text-xs font-bold text-slate-800">
-            <a href="tel:+918235411806" class="hover:text-blue-600 flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white border border-slate-200 shadow-2xs">
+            <a href="tel:+919334968355" class="hover:text-blue-600 flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white border border-slate-200 shadow-2xs">
               <i data-lucide="phone" class="w-3.5 h-3.5 text-emerald-600"></i>
-              <span>हेल्पलाइन: +91 82354 11806</span>
+              <span>हेल्पलाइन: +91 93349 68355</span>
             </a>
-            <a href="tel:+919576338282" class="hover:text-blue-600 flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white border border-slate-200 shadow-2xs">
+            <a href="tel:+919334968355" class="hover:text-blue-600 flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white border border-slate-200 shadow-2xs">
               <i data-lucide="user" class="w-3.5 h-3.5 text-blue-600"></i>
-              <span>अंसार: +91 95763 38282</span>
+              <span>अंसार: +91 93349 68355</span>
             </a>
-            <a href="tel:+917217645059" class="hover:text-blue-600 flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white border border-slate-200 shadow-2xs">
+            <a href="tel:+919334968355" class="hover:text-blue-600 flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white border border-slate-200 shadow-2xs">
               <i data-lucide="user-check" class="w-3.5 h-3.5 text-yukt-orange"></i>
-              <span>रंजीत: +91 72176 45059</span>
+              <span>रंजीत: +91 93349 68355</span>
             </a>
           </div>
         </div>
@@ -1316,7 +1316,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
             <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 group-open:rotate-180 transition-transform shrink-0 ml-2"></i>
           </summary>
           <p class="text-[11px] sm:text-xs text-slate-600 mt-1.5 leading-relaxed">
-            <strong>बिल्कुल नहीं!</strong> आपको कोई कोडिंग सीखने की जरूरत नहीं है। आपकी दुकान पर जो भी ग्राहक आता है, बस उनसे जानकारी लें। पूरा टेक्निकल काम YUKT के सीनियर इंजीनियर्स और डेवलपर्स करेंगे।
+            <strong>बिल्कुल नहीं!</strong> आपको कोई कोडिंग सीखने की जरूरत नहीं है। आपकी दुकान पर जो भी ग्राहक आता है, बस उनसे जानकारी लें। पूरा टेक्निकल काम VIVEK TECH के सीनियर इंजीनियर्स और डेवलपर्स करेंगे।
           </p>
         </details>
 
@@ -1326,7 +1326,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
             <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 group-open:rotate-180 transition-transform shrink-0 ml-2"></i>
           </summary>
           <p class="text-[11px] sm:text-xs text-slate-600 mt-1.5 leading-relaxed">
-            <strong>नहीं!</strong> YUKT पार्टनर प्रोग्राम 100% फ्री है (Zero Investment)। कोई भी जॉइनिंग फीस या सिक्योरिटी डिपॉजिट नहीं है।
+            <strong>नहीं!</strong> VIVEK TECH पार्टनर प्रोग्राम 100% फ्री है (Zero Investment)। कोई भी जॉइनिंग फीस या सिक्योरिटी डिपॉजिट नहीं है।
           </p>
         </details>
 
@@ -1373,7 +1373,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
 <div class="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-white/95 backdrop-blur-md border-t border-slate-200 px-3 py-2 shadow-2xl flex items-center gap-2">
   <!-- WhatsApp Button (Green) -->
   <a 
-    href="<?php echo getWhatsAppUrl('Namaste YUKT Team! Mujhe Digital Partner Program ke baare me janna hai.'); ?>" 
+    href="<?php echo getWhatsAppUrl('Namaste VIVEK TECH Team! Mujhe Digital Partner Program ke baare me janna hai.'); ?>" 
     target="_blank" 
     rel="noopener noreferrer" 
     class="flex-1 py-2 px-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs flex items-center justify-center gap-1.5 shadow-md shadow-emerald-600/30 text-center"
@@ -1384,7 +1384,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
 
   <!-- Phone Call Button (Blue) -->
   <a 
-    href="tel:+918235411806" 
+    href="tel:+919334968355" 
     class="flex-1 py-2 px-3 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs flex items-center justify-center gap-1.5 shadow-md shadow-blue-600/30 text-center"
   >
     <i data-lucide="phone-call" class="w-4 h-4"></i>

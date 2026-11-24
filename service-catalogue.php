@@ -4,7 +4,7 @@ if (session_status() === PHP_SESSION_NONE) {
 }
 
 $activePage = 'services';
-$pageTitle = 'Digital Services Directory (140+ Services) | YUKT IT SOLUTIONS';
+$pageTitle = 'Digital Services Directory (140+ Services) | VIVEK TECH';
 $pageDesc = 'Explore 140+ digital services across Website Development, Billing Software, Advanced Documents, Graphic Design, Digital Marketing, AI Automation and more.';
 
 require_once __DIR__ . '/includes/header.php';
@@ -14,8 +14,8 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
 // Helper for WhatsApp link
 if (!function_exists('getCatalogueWhatsAppUrl')) {
     function getCatalogueWhatsAppUrl($serviceName, $catName = '') {
-        $msg = "Namaste YUKT Team! Mujhe [{$serviceName}] service ke baare me janna hai. Kripya quotation aur timeline share karein.";
-        return 'https://wa.me/918235411806?text=' . urlencode($msg);
+        $msg = "Namaste VIVEK TECH Team! Mujhe [{$serviceName}] service ke baare me janna hai. Kripya quotation aur timeline share karein.";
+        return 'https://wa.me/919334968355?text=' . urlencode($msg);
     }
 }
 ?>
@@ -35,7 +35,7 @@ if (!function_exists('getCatalogueWhatsAppUrl')) {
       <!-- Announcement Pill -->
       <div class="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-800 text-[10px] sm:text-xs font-semibold shadow-xs">
         <span class="w-2 h-2 rounded-full bg-blue-600 animate-pulse"></span>
-        <span>YUKT Digital Service Directory &bull; 10 Strategic Categories &bull; 140+ Live Services</span>
+        <span>VIVEK TECH Digital Service Directory &bull; 10 Strategic Categories &bull; 140+ Live Services</span>
       </div>
 
       <h1 class="text-2xl sm:text-4xl lg:text-4.5xl font-display font-extrabold text-slate-900 tracking-tight leading-[1.2]">
@@ -57,7 +57,7 @@ if (!function_exists('getCatalogueWhatsAppUrl')) {
         </a>
 
         <a 
-          href="https://wa.me/918235411806?text=Namaste%20YUKT!%20Mujhe%20complete%20service%20catalogue%20aur%20rate%20card%20chahiye." 
+          href="https://wa.me/919334968355?text=Namaste%20YUKT!%20Mujhe%20complete%20service%20catalogue%20aur%20rate%20card%20chahiye." 
           target="_blank" 
           rel="noopener noreferrer" 
           class="px-4 py-2 sm:px-5 sm:py-2.5 rounded-xl font-bold text-xs sm:text-sm text-emerald-800 bg-emerald-50 hover:bg-emerald-100 border border-emerald-300 shadow-xs transition-all flex items-center gap-1.5"
@@ -219,7 +219,7 @@ if (!function_exists('getCatalogueWhatsAppUrl')) {
           कृपया कोई दूसरा कीवर्ड सर्च करें या किसी भी कस्टम सर्विस के लिए सीधे WhatsApp पर पूछें:
         </p>
         <a 
-          href="https://wa.me/918235411806?text=Namaste%20YUKT!%20Mujhe%20ek%20custom%20service%20ke%20baare%20me%20puchna%20hai." 
+          href="https://wa.me/919334968355?text=Namaste%20YUKT!%20Mujhe%20ek%20custom%20service%20ke%20baare%20me%20puchna%20hai." 
           target="_blank" 
           class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-emerald-600 text-white text-xs font-bold"
         >
@@ -240,7 +240,7 @@ if (!function_exists('getCatalogueWhatsAppUrl')) {
         अपनी दुकान से ये सभी 140+ सर्विसेज Provide करना चाहते हैं?
       </h2>
       <p class="text-xs sm:text-sm text-slate-200 max-w-2xl mx-auto">
-        YUKT डिजिटल पार्टनर प्रोग्राम 100% फ्री है। कोई जॉइनिंग फीस नहीं। प्रोजेक्ट्स रेफर करें और हर काम पर 15% से 25% तक सीधा कमीशन पाएं!
+        VIVEK TECH डिजिटल पार्टनर प्रोग्राम 100% फ्री है। कोई जॉइनिंग फीस नहीं। प्रोजेक्ट्स रेफर करें और हर काम पर 15% से 25% तक सीधा कमीशन पाएं!
       </p>
       <div class="flex flex-wrap items-center justify-center gap-2.5 pt-2">
         <a 

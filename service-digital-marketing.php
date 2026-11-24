@@ -3,7 +3,7 @@ require_once __DIR__ . '/includes/config.php';
 
 $service = $SERVICES['digital-marketing'];
 
-$pageTitle = 'Digital Marketing Services, SEO & Performance Ads | YUKT IT SOLUTIONS';
+$pageTitle = 'Digital Marketing Services, SEO & Performance Ads | VIVEK TECH';
 $pageDesc = 'Data-driven digital marketing: SEO services, YouTube & Meta ad campaigns, LinkedIn B2B lead generation, social media marketing, and conversion optimization.';
 
 $capabilities = [

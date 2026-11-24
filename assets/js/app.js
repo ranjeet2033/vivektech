@@ -1,5 +1,5 @@
 /**
- * YUKT IT SOLUTIONS — Core Application JavaScript
+ * VIVEK TECH — Core Application JavaScript
  * Clean, lightweight, zero-bloat vanilla ES6+ interactions
  */
 

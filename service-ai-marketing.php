@@ -3,7 +3,7 @@ require_once __DIR__ . '/includes/config.php';
 
 $service = $SERVICES['ai-marketing'];
 
-$pageTitle = 'AI-Powered Marketing & Content Automation Services | YUKT IT SOLUTIONS';
+$pageTitle = 'AI-Powered Marketing & Content Automation Services | VIVEK TECH';
 $pageDesc = 'Algorithmic marketing systems: Generative AI content production, Answer Engine Optimization (AEO for ChatGPT & Perplexity), predictive lead scoring, and video ads.';
 
 $capabilities = [

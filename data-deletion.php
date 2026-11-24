@@ -1,8 +1,8 @@
 <?php
 $activePage = 'data-deletion';
-$pageTitle = 'User Data Deletion Instructions & Request | YUKT IT SOLUTIONS';
-$pageDesc = 'Official User Data Deletion Instructions & Self-Service Request Portal for Yukt IT Solutions Private Limited (yukt.online). Compliant with Meta Platform Terms, DPDP Act 2023, and GDPR.';
-$canonicalUrl = 'https://yukt.online/data-deletion';
+$pageTitle = 'User Data Deletion Instructions & Request | VIVEK TECH';
+$pageDesc = 'Official User Data Deletion Instructions & Self-Service Request Portal for Vivek Tech (vivektech.online). Compliant with Meta Platform Terms, DPDP Act 2023, and GDPR.';
+$canonicalUrl = 'https://vivektech.online/data-deletion';
 $breadcrumbName = 'Data Deletion Request';
 
 require_once __DIR__ . '/includes/header.php';
@@ -45,7 +45,7 @@ require_once __DIR__ . '/includes/header.php';
       </h1>
 
       <p class="text-base sm:text-lg text-slate-300 leading-relaxed font-normal">
-        According to Meta Platform Policy, the Digital Personal Data Protection Act, 2023 (DPDP Act, India), and GDPR Article 17 (Right to Erasure), you have the absolute legal entitlement to request the irreversible deletion of your personal data held by <strong class="text-white font-semibold">Yukt IT Solutions Private Limited</strong> (<span class="text-electric-300 font-mono">yukt.online</span>).
+        According to Meta Platform Policy, the Digital Personal Data Protection Act, 2023 (DPDP Act, India), and GDPR Article 17 (Right to Erasure), you have the absolute legal entitlement to request the irreversible deletion of your personal data held by <strong class="text-white font-semibold">Vivek Tech</strong> (<span class="text-electric-300 font-mono">vivektech.online</span>).
       </p>
 
       <!-- Meta Bar -->
@@ -136,13 +136,13 @@ require_once __DIR__ . '/includes/header.php';
           </p>
 
           <div class="space-y-2 pt-1">
-            <a href="mailto:privacy@yukt.online?subject=%5BDATA%20DELETION%20REQUEST%5D%20Urgent%20Erasure%20Notice" class="flex items-center gap-2 text-xs text-electric-600 hover:text-electric-700 font-semibold">
+            <a href="mailto:privacy@vivektech.online?subject=%5BDATA%20DELETION%20REQUEST%5D%20Urgent%20Erasure%20Notice" class="flex items-center gap-2 text-xs text-electric-600 hover:text-electric-700 font-semibold">
               <i data-lucide="mail" class="w-3.5 h-3.5"></i>
-              <span>privacy@yukt.online</span>
+              <span>privacy@vivektech.online</span>
             </a>
             <a href="<?php echo getWhatsAppUrl('Hi Ranjeet, I am submitting a formal Data Deletion Request under DPDP Act / GDPR for my records.'); ?>" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-xs text-emerald-600 hover:text-emerald-700 font-semibold">
               <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
-              <span>WhatsApp Deletion Desk (+91 72176 45059)</span>
+              <span>WhatsApp Deletion Desk (+91 93349 68355)</span>
             </a>
           </div>
 
@@ -291,7 +291,7 @@ require_once __DIR__ . '/includes/header.php';
                 class="mt-1 w-4 h-4 rounded text-electric-600 focus:ring-electric-500 border-slate-300"
               >
               <label for="verify_auth" class="text-xs text-slate-600 leading-relaxed">
-                I hereby declare that I am the authorized owner of the specified email address/phone number and request Yukt IT Solutions to permanently erase these records in accordance with applicable data privacy laws.
+                I hereby declare that I am the authorized owner of the specified email address/phone number and request Vivek Tech to permanently erase these records in accordance with applicable data privacy laws.
               </label>
             </div>
 
@@ -324,7 +324,7 @@ require_once __DIR__ . '/includes/header.php';
           </h2>
 
           <p class="text-sm">
-            If you have authorized a Yukt IT Solutions app or Facebook Login integration, you can remove your activities and initiate an automated data deletion request directly from your Facebook account settings. Follow these official steps:
+            If you have authorized a Vivek Tech app or Facebook Login integration, you can remove your activities and initiate an automated data deletion request directly from your Facebook account settings. Follow these official steps:
           </p>
 
           <!-- Step-by-Step Cards -->
@@ -362,9 +362,9 @@ require_once __DIR__ . '/includes/header.php';
                 3
               </div>
               <div class="space-y-1">
-                <span class="font-bold text-slate-900 block text-sm">Select Yukt App &amp; Click Remove</span>
+                <span class="font-bold text-slate-900 block text-sm">Select Vivek Tech App &amp; Click Remove</span>
                 <p class="text-slate-600">
-                  Locate <strong class="text-slate-900">Yukt IT Solutions</strong> in your active apps list, check the checkbox or click the app details, and click the blue <strong class="text-slate-900">Remove</strong> button.
+                  Locate <strong class="text-slate-900">Vivek Tech</strong> in your active apps list, check the checkbox or click the app details, and click the blue <strong class="text-slate-900">Remove</strong> button.
                 </p>
               </div>
             </div>
@@ -377,7 +377,7 @@ require_once __DIR__ . '/includes/header.php';
               <div class="space-y-1">
                 <span class="font-bold text-slate-900 block text-sm">Trigger Automated Deletion Request Callback</span>
                 <p class="text-slate-600">
-                  Switch to the <strong class="text-slate-900">Removed</strong> tab in your Apps and Websites dashboard, find <strong>Yukt IT Solutions</strong>, and click <strong class="text-slate-900">Send Request</strong>. Facebook will immediately transmit an encrypted signed deletion callback to our servers.
+                  Switch to the <strong class="text-slate-900">Removed</strong> tab in your Apps and Websites dashboard, find <strong>Vivek Tech</strong>, and click <strong class="text-slate-900">Send Request</strong>. Facebook will immediately transmit an encrypted signed deletion callback to our servers.
                 </p>
               </div>
             </div>
@@ -417,7 +417,7 @@ require_once __DIR__ . '/includes/header.php';
             </div>
             <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-2">
               <span class="font-bold text-slate-900 block">Founder Hotline</span>
-              <p class="text-slate-600">Directly contact Founder Ansar Ali Shah (+91 95763 38282) or Ranjeet (+91 72176 45059).</p>
+              <p class="text-slate-600">Directly contact Founder Ansar Ali Shah (+91 93349 68355) or Ranjeet (+91 93349 68355).</p>
             </div>
             <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-2">
               <span class="font-bold text-slate-900 block">Purge Window</span>
@@ -426,7 +426,7 @@ require_once __DIR__ . '/includes/header.php';
           </div>
 
           <div class="pt-2">
-            <a href="https://wa.me/918235411806?text=DELETE%20MY%20DATA%3A%20Please%20erase%20all%20my%20contact%20and%20chat%20records%20from%20Yukt." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-display font-semibold text-xs text-white bg-emerald-600 hover:bg-emerald-500 transition-colors">
+            <a href="https://wa.me/919334968355?text=DELETE%20MY%20DATA%3A%20Please%20erase%20all%20my%20contact%20and%20chat%20records%20from%20Yukt." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl font-display font-semibold text-xs text-white bg-emerald-600 hover:bg-emerald-500 transition-colors">
               <i data-lucide="message-circle" class="w-4 h-4"></i>
               <span>Send One-Click WhatsApp Deletion Command</span>
             </a>
@@ -569,19 +569,19 @@ require_once __DIR__ . '/includes/header.php';
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs font-mono text-slate-300">
               <div>
                 <span class="text-slate-500 block text-[10px] uppercase">Corporate Entity</span>
-                <span class="text-white font-semibold">Yukt IT Solutions Private Limited</span>
+                <span class="text-white font-semibold">Vivek Tech</span>
               </div>
               <div>
                 <span class="text-slate-500 block text-[10px] uppercase">Official Deletion Email</span>
-                <a href="mailto:privacy@yukt.online" class="text-electric-400 hover:text-white underline">privacy@yukt.online</a>
+                <a href="mailto:privacy@vivektech.online" class="text-electric-400 hover:text-white underline">privacy@vivektech.online</a>
               </div>
               <div>
                 <span class="text-slate-500 block text-[10px] uppercase">DPO Direct Phone</span>
-                <a href="tel:+917217645059" class="text-white hover:text-electric-400">+91 72176 45059</a>
+                <a href="tel:+919334968355" class="text-white hover:text-electric-400">+91 93349 68355</a>
               </div>
               <div>
                 <span class="text-slate-500 block text-[10px] uppercase">Lead Technical Architect</span>
-                <span class="text-white">Ansar Ali Shah (+91 95763 38282)</span>
+                <span class="text-white">Ansar Ali Shah (+91 93349 68355)</span>
               </div>
               <div class="sm:col-span-2">
                 <span class="text-slate-500 block text-[10px] uppercase">Registered Office</span>
@@ -665,7 +665,7 @@ document.addEventListener('DOMContentLoaded', function () {
       .catch(err => {
         alertBox.classList.remove('hidden');
         alertBox.classList.add('bg-red-50', 'text-red-800', 'border', 'border-red-200');
-        alertBox.innerHTML = '<strong>Connection Error:</strong> Could not connect to the server. Please email privacy@yukt.online directly.';
+        alertBox.innerHTML = '<strong>Connection Error:</strong> Could not connect to the server. Please email privacy@vivektech.online directly.';
       })
       .finally(() => {
         if (submitBtn) {

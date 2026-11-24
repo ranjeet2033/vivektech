@@ -3,7 +3,7 @@ require_once __DIR__ . '/includes/config.php';
 
 $service = $SERVICES['it-consulting'];
 
-$pageTitle = 'IT Consulting Services & Dedicated Developer Pods | YUKT IT SOLUTIONS';
+$pageTitle = 'IT Consulting Services & Dedicated Developer Pods | VIVEK TECH';
 $pageDesc = 'Enterprise IT consulting, rapid startup MVP engineering, dedicated developer pods (React, Laravel, Python), system architecture audits, and corporate IT training.';
 
 $capabilities = [

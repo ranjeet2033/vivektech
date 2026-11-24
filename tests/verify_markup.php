@@ -1,11 +1,11 @@
 <?php
 $routes = [
-    "http://localhost/yukt/index.php",
-    "http://localhost/yukt/about.php",
-    "http://localhost/yukt/services.php",
-    "http://localhost/yukt/portfolio.php",
-    "http://localhost/yukt/contact.php",
-    "http://localhost/yukt/design-system.php"
+    "http://localhost/vivektech/index.php",
+    "http://localhost/vivektech/about.php",
+    "http://localhost/vivektech/services.php",
+    "http://localhost/vivektech/portfolio.php",
+    "http://localhost/vivektech/contact.php",
+    "http://localhost/vivektech/design-system.php"
 ];
 
 $errors = [];

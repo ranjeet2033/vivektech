@@ -1,6 +1,6 @@
 <?php
 // ==========================================================================
-// YUKT DIGITAL BUSINESS PARTNER PROGRAM — REGISTRATION API
+// VIVEK TECH DIGITAL BUSINESS PARTNER PROGRAM — REGISTRATION API
 // ==========================================================================
 
 header('Content-Type: application/json');
@@ -148,7 +148,7 @@ try {
     $partner_code = '';
     $attempts = 0;
     while ($attempts < 10) {
-        $candidate = 'YUKT' . rand(1000, 9999);
+        $candidate = 'VIVEK TECH' . rand(1000, 9999);
         $codeCheck = $pdo->prepare("SELECT id FROM partners WHERE partner_code = :code LIMIT 1");
         $codeCheck->execute([':code' => $candidate]);
         if (!$codeCheck->fetch()) {
@@ -158,7 +158,7 @@ try {
         $attempts++;
     }
     if (empty($partner_code)) {
-        $partner_code = 'YUKT' . time() % 100000;
+        $partner_code = 'VIVEK TECH' . time() % 100000;
     }
 
     // Hash password securely

@@ -1,9 +1,9 @@
 <?php
 /**
- * YUKT IT SOLUTIONS — Automated Test Suite & Production Readiness Verification
+ * VIVEK TECH — Automated Test Suite & Production Readiness Verification
  */
 
-$baseUrl = 'http://localhost/yukt';
+$baseUrl = 'http://localhost/vivektech';
 $results = [];
 $totalTests = 0;
 $passedTests = 0;
@@ -41,7 +41,7 @@ function fetchUrl($url, $options = []) {
 }
 
 echo "========================================================================\n";
-echo " YUKT IT SOLUTIONS — Automated Test Suite\n";
+echo " VIVEK TECH — Automated Test Suite\n";
 echo "========================================================================\n\n";
 
 // -------------------------------------------------------------------------
@@ -49,8 +49,8 @@ echo "========================================================================\n
 // -------------------------------------------------------------------------
 echo "1. Checking Core Static Assets...\n";
 
-$logoExists = file_exists(__DIR__ . '/../assets/images/yukt-logo.svg');
-logTest('Static Asset: yukt-logo.svg', $logoExists, $logoExists ? 'Found' : 'Missing');
+$logoExists = file_exists(__DIR__ . '/../assets/images/vivektech-logo.jpg');
+logTest('Static Asset: vivektech-logo.jpg', $logoExists, $logoExists ? 'Found' : 'Missing');
 
 $faviconExists = file_exists(__DIR__ . '/../assets/images/favicon.svg');
 logTest('Static Asset: favicon.svg', $faviconExists, $faviconExists ? 'Found' : 'Missing');
@@ -129,7 +129,7 @@ require_once __DIR__ . '/../includes/db.php';
 // Test 3A: Valid Contact Submission
 $contactData = [
     'full_name' => 'QA Automated Test User',
-    'email' => 'qa.test@yukt.online',
+    'email' => 'qa.test@vivektech.online',
     'phone' => '+91 99999 88888',
     'service_needed' => 'Website Design & Development',
     'budget' => '₹1,50,000 – ₹5,00,000',
@@ -144,7 +144,7 @@ logTest('API: Valid Contact Form Submission', $contactValid, $contactJson['messa
 $dbContactCount = 0;
 if ($pdo) {
     $stmt = $pdo->prepare("SELECT COUNT(*) FROM inquiries WHERE email = :email");
-    $stmt->execute([':email' => 'qa.test@yukt.online']);
+    $stmt->execute([':email' => 'qa.test@vivektech.online']);
     $dbContactCount = $stmt->fetchColumn();
 }
 logTest('DB: Contact Inquiries Table Record Exists', $dbContactCount > 0, "Found $dbContactCount row(s)");
@@ -177,7 +177,7 @@ logTest('Validation: Invalid Email Rejection (HTTP 400)', ($resInvalid['code'] =
 // Test 3D: Valid Quote Request Submission
 $quoteData = [
     'client_name' => 'QA Quote Requester',
-    'client_email' => 'quote.qa@yukt.online',
+    'client_email' => 'quote.qa@vivektech.online',
     'client_phone' => '+91 99999 77777',
     'project_type' => 'Custom Software / SaaS',
     'estimated_budget' => '₹5,00,000 – ₹15,00,000',
@@ -192,13 +192,13 @@ logTest('API: Valid Quote Request Modal Submission', $quoteValid);
 $dbQuoteCount = 0;
 if ($pdo) {
     $stmt = $pdo->prepare("SELECT COUNT(*) FROM quote_requests WHERE client_email = :email");
-    $stmt->execute([':email' => 'quote.qa@yukt.online']);
+    $stmt->execute([':email' => 'quote.qa@vivektech.online']);
     $dbQuoteCount = $stmt->fetchColumn();
 }
 logTest('DB: Quote Requests Table Record Exists', $dbQuoteCount > 0, "Found $dbQuoteCount row(s)");
 
 // Test 3E: Newsletter Subscription
-$newsData = ['email' => 'newsletter.qa@yukt.online'];
+$newsData = ['email' => 'newsletter.qa@vivektech.online'];
 $resNews = fetchUrl($baseUrl . '/api/newsletter-submit.php', ['post' => $newsData]);
 $newsJson = json_decode($resNews['body'], true);
 $newsValid = ($resNews['code'] === 200 && !empty($newsJson['success']));
@@ -207,7 +207,7 @@ logTest('API: Newsletter Subscription Endpoint', $newsValid);
 // Test 3F: Partner Registration System API
 $partnerTestData = [
     'full_name' => 'QA Cyber Cafe Partner',
-    'email' => 'partner.qa@yukt.online',
+    'email' => 'partner.qa@vivektech.online',
     'phone' => '+91 98888 77777',
     'whatsapp' => '+91 98888 77777',
     'password' => 'secret1234',
@@ -233,7 +233,7 @@ $dbPartnerStatus = '';
 $dbPartnerCode = '';
 if ($pdo) {
     $stmt = $pdo->prepare("SELECT partner_code, status FROM partners WHERE email = :email LIMIT 1");
-    $stmt->execute([':email' => 'partner.qa@yukt.online']);
+    $stmt->execute([':email' => 'partner.qa@vivektech.online']);
     $pRow = $stmt->fetch();
     if ($pRow) {
         $dbPartnerCode = $pRow['partner_code'];
@@ -262,10 +262,10 @@ logTest('Security: Partner Honeypot Traps Bot (0 DB Rows)', ($dbPartnerSpamCount
 
 // Clean up QA test rows
 if ($pdo) {
-    $pdo->exec("DELETE FROM inquiries WHERE email IN ('qa.test@yukt.online', 'spambot@automated-crawler.com')");
-    $pdo->exec("DELETE FROM quote_requests WHERE client_email = 'quote.qa@yukt.online'");
-    $pdo->exec("DELETE FROM newsletter_subscribers WHERE email = 'newsletter.qa@yukt.online'");
-    $pdo->exec("DELETE FROM partners WHERE email IN ('partner.qa@yukt.online', 'spampartner@bot.com')");
+    $pdo->exec("DELETE FROM inquiries WHERE email IN ('qa.test@vivektech.online', 'spambot@automated-crawler.com')");
+    $pdo->exec("DELETE FROM quote_requests WHERE client_email = 'quote.qa@vivektech.online'");
+    $pdo->exec("DELETE FROM newsletter_subscribers WHERE email = 'newsletter.qa@vivektech.online'");
+    $pdo->exec("DELETE FROM partners WHERE email IN ('partner.qa@vivektech.online', 'spampartner@bot.com')");
 }
 
 // -------------------------------------------------------------------------

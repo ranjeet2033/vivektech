@@ -3,7 +3,7 @@ const path = require('path');
 const fs = require('fs');
 
 async function renderBrochure() {
-  console.log('--- Starting YUKT IT SOLUTIONS Brochure Render ---');
+  console.log('--- Starting VIVEK TECH Brochure Render ---');
   const chromePath = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
   const htmlPath = path.resolve(__dirname, 'index.html');
   const fileUrl = 'file:///' + htmlPath.replace(/\\/g, '/');

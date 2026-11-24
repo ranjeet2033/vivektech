@@ -74,7 +74,7 @@ try {
         ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
         -- ==========================================================
-        -- YUKT DIGITAL BUSINESS PARTNER PROGRAM SCHEMA
+        -- VIVEK TECH DIGITAL BUSINESS PARTNER PROGRAM SCHEMA
         -- ==========================================================
         CREATE TABLE IF NOT EXISTS partners (
             id INT AUTO_INCREMENT PRIMARY KEY,

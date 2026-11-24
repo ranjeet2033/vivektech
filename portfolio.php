@@ -1,7 +1,7 @@
 <?php
 $activePage = 'portfolio';
-$pageTitle = 'Client Work & Case Studies | YUKT IT SOLUTIONS';
-$pageDesc = 'Explore verified production case studies, cloud software architectures, SaaS platforms, and AI automation solutions engineered by YUKT IT SOLUTIONS.';
+$pageTitle = 'Client Work & Case Studies | VIVEK TECH';
+$pageDesc = 'Explore verified production case studies, cloud software architectures, SaaS platforms, and AI automation solutions engineered by VIVEK TECH.';
 
 require_once __DIR__ . '/includes/header.php';
 require_once __DIR__ . '/includes/components/section-header.php';
@@ -206,7 +206,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
           Client Websites <span class="text-gradient-brand">In Production</span>
         </h2>
         <p class="text-slate-600 text-sm sm:text-base leading-relaxed">
-          Explore authentic live commercial websites, portals, and platforms designed, engineered, and managed by Yukt IT Solutions. Click any project to inspect live.
+          Explore authentic live commercial websites, portals, and platforms designed, engineered, and managed by Vivek Tech. Click any project to inspect live.
         </p>
       </div>
 
@@ -305,7 +305,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
         <button type="button" class="px-7 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-electric-500 hover:bg-electric-400 transition-all open-quote-modal-btn shadow-lg shadow-electric-500/25">
           <span>Get a Scoped Estimate</span>
         </button>
-        <a href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I reviewed your portfolio and would like to discuss a project.'); ?>" target="_blank" rel="noopener noreferrer" class="px-7 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-gradient-to-r from-yukt-orange to-amber-600 hover:from-yukt-orangeLight hover:to-yukt-orange transition-all flex items-center justify-center gap-2 shadow-lg shadow-yukt-orange/25">
+        <a href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I reviewed your portfolio and would like to discuss a project.'); ?>" target="_blank" rel="noopener noreferrer" class="px-7 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-gradient-to-r from-yukt-orange to-amber-600 hover:from-yukt-orangeLight hover:to-yukt-orange transition-all flex items-center justify-center gap-2 shadow-lg shadow-yukt-orange/25">
           <i data-lucide="message-circle" class="w-4 h-4"></i>
           <span>Chat on WhatsApp</span>
         </a>

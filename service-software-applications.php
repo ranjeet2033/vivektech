@@ -3,7 +3,7 @@ require_once __DIR__ . '/includes/config.php';
 
 $service = $SERVICES['software-applications'];
 
-$pageTitle = 'Custom Software & Mobile App Development Services | YUKT IT SOLUTIONS';
+$pageTitle = 'Custom Software & Mobile App Development Services | VIVEK TECH';
 $pageDesc = 'Custom enterprise software, bespoke CRM/ERP systems, multi-tenant SaaS platforms, iOS & Android mobile apps, admin panels, and cloud API integrations.';
 
 $capabilities = [

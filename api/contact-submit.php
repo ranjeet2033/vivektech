@@ -122,7 +122,7 @@ try {
 
     echo json_encode([
         'success' => true,
-        'message' => 'Your message has been sent successfully. A Yukt specialist will contact you shortly!'
+        'message' => 'Your message has been sent successfully. A Vivek Tech specialist will contact you shortly!'
     ]);
 } catch (Exception $e) {
     error_log("Contact submission error: " . $e->getMessage());

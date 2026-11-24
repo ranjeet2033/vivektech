@@ -1,7 +1,7 @@
 <?php
 $activePage = 'contact';
-$pageTitle = 'Contact YUKT IT SOLUTIONS | Project Scoping & Tech Consultation';
-$pageDesc = 'Contact YUKT IT SOLUTIONS for custom web development, software engineering, AI automation, and digital marketing. Speak directly with a solutions architect today.';
+$pageTitle = 'Contact VIVEK TECH | Project Scoping & Tech Consultation';
+$pageDesc = 'Contact VIVEK TECH for custom web development, software engineering, AI automation, and digital marketing. Speak directly with a solutions architect today.';
 
 require_once __DIR__ . '/includes/header.php';
 require_once __DIR__ . '/includes/components/section-header.php';
@@ -38,7 +38,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
             <span>Fill Scoping Form</span>
             <i data-lucide="arrow-down" class="w-4 h-4"></i>
           </a>
-          <a href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I would like to discuss our project scope directly.'); ?>" target="_blank" rel="noopener noreferrer" class="px-7 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 shadow-xl shadow-emerald-600/25 transition-all flex items-center justify-center gap-2">
+          <a href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I would like to discuss our project scope directly.'); ?>" target="_blank" rel="noopener noreferrer" class="px-7 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 shadow-xl shadow-emerald-600/25 transition-all flex items-center justify-center gap-2">
             <i data-lucide="message-circle" class="w-4 h-4"></i>
             <span>Instant WhatsApp Desk</span>
           </a>
@@ -75,26 +75,26 @@ require_once __DIR__ . '/includes/components/section-header.php';
         </div>
 
         <!-- Floating Glass Card 1: Ranjeet Direct Line (Top Left) -->
-        <a href="https://wa.me/917217645059?text=Hi%20Ranjeet%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" class="absolute top-2 left-0 sm:-left-4 glass-pill rounded-2xl p-3.5 w-56 sm:w-60 animate-float-slow select-none border border-emerald-400/30 shadow-xl hover:border-emerald-400/60 transition-colors">
+        <a href="https://wa.me/919334968355?text=Hi%20Ranjeet%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" class="absolute top-2 left-0 sm:-left-4 glass-pill rounded-2xl p-3.5 w-56 sm:w-60 animate-float-slow select-none border border-emerald-400/30 shadow-xl hover:border-emerald-400/60 transition-colors">
           <div class="flex items-center justify-between mb-1">
             <span class="font-mono text-[10px] text-emerald-400 uppercase tracking-wider flex items-center gap-1">
               <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span> Co-Founder &bull; Solutions
             </span>
             <i data-lucide="message-circle" class="w-3.5 h-3.5 text-emerald-400"></i>
           </div>
-          <div class="text-xs font-semibold text-white">Ranjeet (+91 72176 45059)</div>
+          <div class="text-xs font-semibold text-white">Ranjeet (+91 93349 68355)</div>
           <p class="text-[10px] text-slate-400 mt-0.5">Click for direct WhatsApp scoping</p>
         </a>
 
         <!-- Floating Glass Card 2: Ansar Direct Line (Top Right) -->
-        <a href="https://wa.me/919576338282?text=Hi%20Ansar%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" class="absolute top-20 right-0 sm:-right-4 glass-pill rounded-2xl p-3.5 w-52 sm:w-56 animate-float-delayed select-none border border-yukt-orange/30 shadow-xl hover:border-yukt-orange/60 transition-colors">
+        <a href="https://wa.me/919334968355?text=Hi%20Ansar%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" class="absolute top-20 right-0 sm:-right-4 glass-pill rounded-2xl p-3.5 w-52 sm:w-56 animate-float-delayed select-none border border-yukt-orange/30 shadow-xl hover:border-yukt-orange/60 transition-colors">
           <div class="flex items-center justify-between mb-1">
             <span class="font-mono text-[10px] text-yukt-orange uppercase tracking-wider flex items-center gap-1">
               <span class="w-1.5 h-1.5 rounded-full bg-yukt-orange animate-ping"></span> Founder &bull; Systems
             </span>
             <i data-lucide="message-circle" class="w-3.5 h-3.5 text-yukt-orange"></i>
           </div>
-          <div class="text-xs font-semibold text-white">Ansar (+91 95763 38282)</div>
+          <div class="text-xs font-semibold text-white">Ansar (+91 93349 68355)</div>
           <p class="text-[10px] text-slate-400 mt-0.5">Click for direct WhatsApp scoping</p>
         </a>
 
@@ -148,9 +148,9 @@ require_once __DIR__ . '/includes/components/section-header.php';
               <div>
                 <h4 class="font-display font-bold text-base text-slate-900">Ranjeet</h4>
                 <div class="text-[11px] font-mono text-electric-600 font-medium mt-0.5">Co-Founder &amp; Lead Solutions Architect</div>
-                <a href="tel:+917217645059" class="text-xs font-mono text-slate-600 hover:text-slate-900 block mt-0.5">+91 72176 45059</a>
+                <a href="tel:+919334968355" class="text-xs font-mono text-slate-600 hover:text-slate-900 block mt-0.5">+91 93349 68355</a>
               </div>
-              <a href="https://wa.me/917217645059?text=Hi%20Ranjeet%2C%20I%20would%20like%20to%20discuss%20a%20project%20scope%20with%20Yukt." target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 rounded-xl text-xs font-medium bg-emerald-600 hover:bg-emerald-500 text-white flex items-center gap-1.5 transition-colors shadow-sm">
+              <a href="https://wa.me/919334968355?text=Hi%20Ranjeet%2C%20I%20would%20like%20to%20discuss%20a%20project%20scope%20with%20Yukt." target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 rounded-xl text-xs font-medium bg-emerald-600 hover:bg-emerald-500 text-white flex items-center gap-1.5 transition-colors shadow-sm">
                 <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
                 <span>WhatsApp</span>
               </a>
@@ -179,9 +179,9 @@ require_once __DIR__ . '/includes/components/section-header.php';
               <div>
                 <h4 class="font-display font-bold text-base text-slate-900">Ansar Ali Shah</h4>
                 <div class="text-[11px] font-mono text-yukt-orange font-medium mt-0.5">Founder &amp; Lead Technical Architect</div>
-                <a href="tel:+919576338282" class="text-xs font-mono text-slate-600 hover:text-slate-900 block mt-0.5">+91 95763 38282</a>
+                <a href="tel:+919334968355" class="text-xs font-mono text-slate-600 hover:text-slate-900 block mt-0.5">+91 93349 68355</a>
               </div>
-              <a href="https://wa.me/919576338282?text=Hi%20Ansar%2C%20I%20would%20like%20to%20discuss%20a%20project%20scope%20with%20Yukt." target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 rounded-xl text-xs font-medium bg-emerald-600 hover:bg-emerald-500 text-white flex items-center gap-1.5 transition-colors shadow-sm">
+              <a href="https://wa.me/919334968355?text=Hi%20Ansar%2C%20I%20would%20like%20to%20discuss%20a%20project%20scope%20with%20Yukt." target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 rounded-xl text-xs font-medium bg-emerald-600 hover:bg-emerald-500 text-white flex items-center gap-1.5 transition-colors shadow-sm">
                 <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
                 <span>WhatsApp</span>
               </a>
@@ -209,7 +209,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
               <a href="<?php echo INSTAGRAM_URL; ?>" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 p-2.5 rounded-xl bg-slate-50 hover:bg-pink-50 hover:text-pink-600 transition-colors border border-slate-200 group">
                 <?php echo getIconSvg('instagram', 'w-4 h-4 text-pink-500 group-hover:scale-110 transition-transform'); ?>
-                <span class="font-medium truncate">@yukt_officials</span>
+                <span class="font-medium truncate">@vivektech.online</span>
               </a>
               <a href="<?php echo GITHUB_URL; ?>" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 p-2.5 rounded-xl bg-slate-50 hover:bg-slate-100 transition-colors border border-slate-200 group">
                 <?php echo getIconSvg('github', 'w-4 h-4 text-slate-800 group-hover:scale-110 transition-transform'); ?>
@@ -221,7 +221,7 @@ require_once __DIR__ . '/includes/components/section-header.php';
               </a>
               <a href="<?php echo TWITTER_URL; ?>" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 p-2.5 rounded-xl bg-slate-50 hover:bg-sky-50 hover:text-sky-600 transition-colors border border-slate-200 group">
                 <?php echo getIconSvg('twitter', 'w-4 h-4 text-sky-500 group-hover:scale-110 transition-transform'); ?>
-                <span class="font-medium truncate">@yuktonline</span>
+                <span class="font-medium truncate">@vivektechonline</span>
               </a>
             </div>
           </div>
@@ -249,16 +249,6 @@ require_once __DIR__ . '/includes/components/section-header.php';
                 <div class="text-sm font-bold text-slate-900"><?php echo OFFICE_PRIMARY; ?></div>
                 <div class="text-xs text-slate-500 mt-0.5">Secondary Hub: <?php echo OFFICE_SECONDARY; ?></div>
               </div>
-            </div>
-            <div class="pt-2 border-t border-slate-100 flex items-center justify-between text-xs">
-              <a href="#office-map" class="text-electric-600 hover:text-electric-700 font-medium flex items-center gap-1.5 transition-colors">
-                <i data-lucide="map" class="w-3.5 h-3.5"></i>
-                <span>Interactive Map &darr;</span>
-              </a>
-              <a href="<?php echo GOOGLE_MAPS_VIEW_URL; ?>" target="_blank" rel="noopener noreferrer" class="text-slate-600 hover:text-slate-900 font-medium flex items-center gap-1 transition-colors">
-                <span>Google Maps</span>
-                <i data-lucide="external-link" class="w-3 h-3 text-slate-400"></i>
-              </a>
             </div>
           </div>
 
@@ -361,9 +351,9 @@ require_once __DIR__ . '/includes/components/section-header.php';
             </div>
 
             <div class="pt-2 text-center sm:text-right">
-              <a href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I would like to discuss our project scope on WhatsApp.'); ?>" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-700 hover:text-emerald-800 transition-colors">
+              <a href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I would like to discuss our project scope on WhatsApp.'); ?>" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-700 hover:text-emerald-800 transition-colors">
                 <i data-lucide="message-circle" class="w-3.5 h-3.5 text-emerald-600"></i>
-                <span>Prefer instant chat? Connect on WhatsApp (+91 82354 11806) &rarr;</span>
+                <span>Prefer instant chat? Connect on WhatsApp (+91 93349 68355) &rarr;</span>
               </a>
             </div>
 
@@ -373,164 +363,6 @@ require_once __DIR__ . '/includes/components/section-header.php';
             </p>
 
           </form>
-
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
-<!-- ==========================================================================
-     OFFICE LOCATION & INTERACTIVE GOOGLE MAPS SECTION
-========================================================================== -->
-<section id="office-map" class="py-20 lg:py-28 bg-white border-b border-slate-200 scroll-mt-20">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10">
-    
-    <div class="max-w-3xl mx-auto text-center space-y-4 mb-12 reveal-up">
-      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-electric-500/10 border border-electric-500/20 text-electric-600 font-mono text-xs uppercase tracking-widest">
-        <i data-lucide="map-pin" class="w-3.5 h-3.5"></i>
-        <span>Verified Office Location</span>
-      </div>
-      <h2 class="font-display font-bold text-3xl sm:text-4xl lg:text-5xl tracking-tight text-slate-900">
-        Visit Our Delivery Hub on <span class="text-gradient-brand">Google Maps</span>
-      </h2>
-      <p class="text-slate-600 text-base sm:text-lg">
-        Located in Uttam Nagar, New Delhi (NCR), our engineering studio houses our cloud, software architecture, and AI automation teams.
-      </p>
-    </div>
-
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
-      
-      <!-- Left Column: Location Details & Quick Actions (4 Cols) -->
-      <div class="lg:col-span-4 flex flex-col justify-between gap-6 reveal-up">
-        
-        <div class="space-y-4">
-          <!-- Main Location Card -->
-          <div class="p-6 rounded-3xl bg-slate-50 border border-slate-200 shadow-sm space-y-4">
-            <div class="flex items-center justify-between">
-              <span class="text-xs font-mono font-bold uppercase tracking-wider text-electric-600">Headquarters / Hub</span>
-              <span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-[11px] font-mono font-medium">
-                <span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span> Verified Listing
-              </span>
-            </div>
-            
-            <div>
-              <h3 class="font-display font-bold text-xl text-slate-900">Yukt IT Solutions</h3>
-              <p class="text-xs text-slate-500 mt-0.5">Technology That Moves Your Business Forward</p>
-            </div>
-
-            <div class="space-y-3 pt-3 border-t border-slate-200 text-xs sm:text-sm">
-              <div class="flex items-start gap-3">
-                <i data-lucide="map-pin" class="w-4 h-4 text-electric-600 mt-1 shrink-0"></i>
-                <div>
-                  <strong class="text-slate-900 block font-medium">Physical Address:</strong>
-                  <span class="text-slate-800 font-medium block"><?php echo OFFICE_PRIMARY; ?></span>
-                  <span class="text-slate-500 text-xs block mt-0.5 font-normal"><?php echo OFFICE_PRIMARY_HINDI; ?></span>
-                </div>
-              </div>
-
-              <div class="flex items-start gap-3">
-                <i data-lucide="clock" class="w-4 h-4 text-yukt-orange mt-1 shrink-0"></i>
-                <div>
-                  <strong class="text-slate-900 block font-medium">Operational Hours:</strong>
-                  <span class="text-slate-600"><?php echo WORKING_HOURS; ?></span>
-                </div>
-              </div>
-
-              <div class="flex items-start gap-3">
-                <i data-lucide="phone" class="w-4 h-4 text-emerald-600 mt-1 shrink-0"></i>
-                <div>
-                  <strong class="text-slate-900 block font-medium">Direct Telephone:</strong>
-                  <a href="tel:<?php echo PHONE_RAW; ?>" class="text-electric-600 hover:underline"><?php echo PHONE_NUMBER; ?></a>
-                </div>
-              </div>
-
-              <div class="flex items-start gap-3">
-                <i data-lucide="mail" class="w-4 h-4 text-sky-600 mt-1 shrink-0"></i>
-                <div>
-                  <strong class="text-slate-900 block font-medium">Electronic Desk:</strong>
-                  <a href="mailto:<?php echo EMAIL_PRIMARY; ?>" class="text-electric-600 hover:underline"><?php echo EMAIL_PRIMARY; ?></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Secondary Hub Note -->
-          <div class="p-4 rounded-2xl bg-white border border-slate-200 text-xs text-slate-600 flex items-center gap-3">
-            <div class="w-8 h-8 rounded-lg bg-electric-50 text-electric-600 flex items-center justify-center shrink-0">
-              <i data-lucide="building" class="w-4 h-4"></i>
-            </div>
-            <div>
-              <span class="font-bold text-slate-900 block">South India Delivery Hub:</span>
-              <span><?php echo OFFICE_SECONDARY; ?></span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Action CTAs -->
-        <div class="space-y-3 pt-2">
-          <a 
-            href="<?php echo GOOGLE_MAPS_VIEW_URL; ?>" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            class="w-full inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-gradient-to-r from-electric-600 to-blue-700 hover:from-electric-500 hover:to-blue-600 shadow-lg shadow-electric-600/25 transition-all group"
-          >
-            <i data-lucide="navigation" class="w-4 h-4 group-hover:rotate-45 transition-transform"></i>
-            <span>Get Directions on Google Maps</span>
-            <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
-          </a>
-
-          <a 
-            href="<?php echo getWhatsAppUrl('Hi Yukt IT Solutions, I would like to schedule an in-person meeting at your office.'); ?>" 
-            target="_blank" 
-            rel="noopener noreferrer" 
-            class="w-full inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-medium text-xs sm:text-sm text-emerald-800 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 transition-colors"
-          >
-            <i data-lucide="message-circle" class="w-4 h-4 text-emerald-600"></i>
-            <span>Schedule In-Person Meeting</span>
-          </a>
-        </div>
-
-      </div>
-
-      <!-- Right Column: Interactive Embedded Map (8 Cols) -->
-      <div class="lg:col-span-8 reveal-up">
-        <div class="h-full min-h-[420px] sm:min-h-[480px] lg:min-h-[520px] rounded-3xl border-2 border-slate-200 bg-slate-100 shadow-xl overflow-hidden flex flex-col relative group">
-          
-          <!-- Map Header Ribbon -->
-          <div class="px-5 py-3 bg-slate-900 text-white flex items-center justify-between text-xs font-mono shrink-0">
-            <div class="flex items-center gap-2 truncate">
-              <span class="w-2.5 h-2.5 rounded-full bg-red-500 animate-pulse"></span>
-              <span class="font-medium text-slate-200">Google Maps &bull; Yukt IT Solutions (Uttam Nagar, Delhi)</span>
-            </div>
-            <a 
-              href="<?php echo GOOGLE_MAPS_VIEW_URL; ?>" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              class="text-electric-400 hover:text-white flex items-center gap-1 transition-colors shrink-0"
-              title="Open full map in new tab"
-            >
-              <span>Open in Maps</span>
-              <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
-            </a>
-          </div>
-
-          <!-- Embedded Iframe -->
-          <div class="flex-1 w-full relative">
-            <iframe 
-              src="<?php echo GOOGLE_MAPS_EMBED_SRC; ?>" 
-              width="100%" 
-              height="100%" 
-              style="border:0;" 
-              allowfullscreen="" 
-              loading="lazy" 
-              referrerpolicy="strict-origin-when-cross-origin" 
-              title="Yukt IT Solutions Office Location Map"
-              class="w-full h-full min-h-[380px] sm:min-h-[440px] lg:min-h-[480px] block border-0"
-            ></iframe>
-          </div>
 
         </div>
       </div>

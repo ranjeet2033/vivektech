@@ -1,6 +1,6 @@
 <?php
 // ==========================================================================
-// YUKT IT SOLUTIONS — Button Component
+// VIVEK TECH — Button Component
 // ==========================================================================
 
 function renderButton($text, $href = null, $variant = 'primary', $size = 'md', $icon = null, $iconPosition = 'right', $extraClasses = '', $attributes = '') {

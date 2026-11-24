@@ -63,8 +63,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 
-$pageTitle = 'Partner Portal Login | YUKT IT SOLUTIONS';
-$pageDesc = 'Log in to your YUKT Digital Partner dashboard to track referrals, submit client project inquiries, and manage commission payouts.';
+$pageTitle = 'Partner Portal Login | VIVEK TECH';
+$pageDesc = 'Log in to your VIVEK TECH Digital Partner dashboard to track referrals, submit client project inquiries, and manage commission payouts.';
 $activePage = 'partner';
 
 require_once __DIR__ . '/includes/header.php';
@@ -124,7 +124,7 @@ require_once __DIR__ . '/includes/header.php';
               Password
             </label>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT Support, I forgot my partner account password. My phone/email is: '); ?>" 
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH Support, I forgot my partner account password. My phone/email is: '); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
               class="text-[11px] text-electric-400 hover:text-electric-300 transition-colors"
@@ -170,7 +170,7 @@ require_once __DIR__ . '/includes/header.php';
     <!-- Quick Support Link -->
     <div class="mt-6 text-center">
       <a 
-        href="<?php echo getWhatsAppUrl('Hi YUKT Support Desk, I need assistance logging into the Partner Portal.'); ?>" 
+        href="<?php echo getWhatsAppUrl('Hi VIVEK TECH Support Desk, I need assistance logging into the Partner Portal.'); ?>" 
         target="_blank" 
         rel="noopener noreferrer" 
         class="inline-flex items-center gap-1.5 text-xs text-slate-400 hover:text-slate-200 transition-colors"

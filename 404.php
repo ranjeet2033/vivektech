@@ -1,13 +1,13 @@
 <?php
 // ==========================================================================
-// YUKT IT SOLUTIONS — Custom 404 Not Found Page
+// VIVEK TECH — Custom 404 Not Found Page
 // ==========================================================================
 
 http_response_code(404);
 
 $activePage = '404';
-$pageTitle = '404 — Page Not Found | YUKT IT SOLUTIONS';
-$pageDesc = 'The requested system coordinate or page could not be found. Explore YUKT IT SOLUTIONS services, client case studies, or contact our engineering pod directly.';
+$pageTitle = '404 — Page Not Found | VIVEK TECH';
+$pageDesc = 'The requested system coordinate or page could not be found. Explore VIVEK TECH services, client case studies, or contact our engineering pod directly.';
 
 require_once __DIR__ . '/includes/header.php';
 ?>
@@ -63,7 +63,7 @@ require_once __DIR__ . '/includes/header.php';
         </a>
 
         <a 
-          href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I was browsing your website and encountered a 404 page.'); ?>" 
+          href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I was browsing your website and encountered a 404 page.'); ?>" 
           target="_blank" 
           rel="noopener noreferrer" 
           class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-gradient-to-r from-yukt-orange to-amber-600 hover:from-yukt-orangeLight hover:to-yukt-orange shadow-lg shadow-yukt-orange/25 transition-all"

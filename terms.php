@@ -1,8 +1,8 @@
 <?php
 $activePage = 'terms';
-$pageTitle = 'Terms & Conditions | YUKT IT SOLUTIONS - Service Agreement & Client Terms';
-$pageDesc = 'Official Terms and Conditions of Yukt IT Solutions Private Limited (yukt.online). Comprehensive client agreement covering 100% code ownership, milestones, hypercare warranty, and IP.';
-$canonicalUrl = 'https://yukt.online/terms';
+$pageTitle = 'Terms & Conditions | VIVEK TECH - Service Agreement & Client Terms';
+$pageDesc = 'Official Terms and Conditions of Vivek Tech (vivektech.online). Comprehensive client agreement covering 100% code ownership, milestones, hypercare warranty, and IP.';
+$canonicalUrl = 'https://vivektech.online/terms';
 $breadcrumbName = 'Terms & Conditions';
 
 require_once __DIR__ . '/includes/header.php';
@@ -41,7 +41,7 @@ require_once __DIR__ . '/includes/header.php';
       </h1>
 
       <p class="text-base sm:text-lg text-slate-300 leading-relaxed font-normal">
-        These Terms and Conditions constitute a legally binding agreement between you and <strong class="text-white font-semibold">Yukt IT Solutions Private Limited</strong>. We believe in engineering clarity, milestone transparency, 100% client code ownership, and zero lock-in.
+        These Terms and Conditions constitute a legally binding agreement between you and <strong class="text-white font-semibold">Vivek Tech</strong>. We believe in engineering clarity, milestone transparency, 100% client code ownership, and zero lock-in.
       </p>
 
       <!-- Terms Meta Bar -->
@@ -117,7 +117,7 @@ require_once __DIR__ . '/includes/header.php';
             <span class="font-mono text-xs uppercase tracking-wider text-yukt-orange font-semibold">Core Contract Principles</span>
           </div>
           <p class="text-xs text-slate-300 leading-relaxed">
-            Every engagement at Yukt is governed by transparent milestones, senior developer delivery, continuous Git commits, and zero vendor lock-in.
+            Every engagement at Vivek Tech is governed by transparent milestones, senior developer delivery, continuous Git commits, and zero vendor lock-in.
           </p>
           <div class="pt-2 border-t border-white/10 flex flex-col gap-2 text-xs font-mono text-slate-300">
             <div class="flex items-center justify-between">
@@ -143,13 +143,13 @@ require_once __DIR__ . '/includes/header.php';
           </p>
 
           <div class="space-y-2 pt-1">
-            <a href="mailto:sales@yukt.online" class="flex items-center gap-2 text-xs text-electric-600 hover:text-electric-700 font-semibold">
+            <a href="mailto:sales@vivektech.online" class="flex items-center gap-2 text-xs text-electric-600 hover:text-electric-700 font-semibold">
               <i data-lucide="mail" class="w-3.5 h-3.5"></i>
-              <span>sales@yukt.online / legal@yukt.online</span>
+              <span>sales@vivektech.online / legal@vivektech.online</span>
             </a>
-            <a href="<?php echo getWhatsAppUrl('Hi Ansar and Ranjeet, I would like to review a contract / SOW with Yukt.'); ?>" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-xs text-emerald-600 hover:text-emerald-700 font-semibold">
+            <a href="<?php echo getWhatsAppUrl('Hi Ansar and Ranjeet, I would like to review a contract / SOW with Vivek Tech.'); ?>" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-xs text-emerald-600 hover:text-emerald-700 font-semibold">
               <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
-              <span>WhatsApp Contracts Desk (+91 82354 11806)</span>
+              <span>WhatsApp Contracts Desk (+91 93349 68355)</span>
             </a>
           </div>
 
@@ -176,7 +176,7 @@ require_once __DIR__ . '/includes/header.php';
             1. Agreement &amp; Acceptance of Terms
           </h2>
           <p>
-            These Terms and Conditions (<strong class="text-slate-900">"Terms"</strong>, <strong class="text-slate-900">"Agreement"</strong>) govern your access to and utilization of the website <a href="https://yukt.online" class="text-electric-600 hover:underline font-mono">https://yukt.online</a>, and constitute the foundational terms for all professional software engineering, web application development, mobile engineering, AI automation, and IT consulting services provided by <strong class="text-slate-900">Yukt IT Solutions Private Limited</strong> (operating as <strong class="text-slate-900">"YUKT"</strong>, <strong class="text-slate-900">"we"</strong>, <strong class="text-slate-900">"us"</strong>, or <strong class="text-slate-900">"our"</strong>).
+            These Terms and Conditions (<strong class="text-slate-900">"Terms"</strong>, <strong class="text-slate-900">"Agreement"</strong>) govern your access to and utilization of the website <a href="https://vivektech.online" class="text-electric-600 hover:underline font-mono">https://vivektech.online</a>, and constitute the foundational terms for all professional software engineering, web application development, mobile engineering, AI automation, and IT consulting services provided by <strong class="text-slate-900">Vivek Tech</strong> (operating as <strong class="text-slate-900">"VIVEK TECH"</strong>, <strong class="text-slate-900">"we"</strong>, <strong class="text-slate-900">"us"</strong>, or <strong class="text-slate-900">"our"</strong>).
           </p>
           <p>
             By browsing our website, requesting a project quotation, commissioning an engineering pod, executing a Statement of Work (SOW), or paying a milestone invoice, you (<strong class="text-slate-900">"Client"</strong>, <strong class="text-slate-900">"you"</strong>, or <strong class="text-slate-900">"your"</strong>) unconditionally agree to be bound by these Terms. If you represent an enterprise or corporate entity, you represent and warrant that you possess the requisite corporate authority to bind that entity to this Agreement.
@@ -194,7 +194,7 @@ require_once __DIR__ . '/includes/header.php';
             2. Scope of Services &amp; Engagement Models
           </h2>
           <p>
-            Yukt IT Solutions delivers senior-led, full-stack digital engineering across eight core capabilities:
+            Vivek Tech delivers senior-led, full-stack digital engineering across eight core capabilities:
           </p>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs pt-1">
             <div class="p-3 rounded-xl bg-slate-50 border border-slate-200">
@@ -243,7 +243,7 @@ require_once __DIR__ . '/includes/header.php';
           <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-2 text-xs">
             <span class="font-bold text-slate-900 block">Formal Change Management Protocol:</span>
             <p>
-              Any feature request, architectural alteration, or integration not explicitly enumerated in the signed SOW constitutes a <strong class="text-slate-900">"Change Request"</strong>. Yukt will evaluate the engineering impact and deliver a written Change Order specifying additional effort, timeline adjustments, and commercials. No change will be implemented without written client authorization (via email or signed addendum).
+              Any feature request, architectural alteration, or integration not explicitly enumerated in the signed SOW constitutes a <strong class="text-slate-900">"Change Request"</strong>. Vivek Tech will evaluate the engineering impact and deliver a written Change Order specifying additional effort, timeline adjustments, and commercials. No change will be implemented without written client authorization (via email or signed addendum).
             </p>
           </div>
         </section>
@@ -285,7 +285,7 @@ require_once __DIR__ . '/includes/header.php';
           <div class="p-5 rounded-2xl bg-emerald-50/80 border border-emerald-200 space-y-2">
             <div class="flex items-center gap-2 font-display font-bold text-sm text-emerald-900">
               <i data-lucide="check-circle" class="w-4 h-4 text-emerald-600"></i>
-              <span>The YUKT 100% Code Ownership Guarantee</span>
+              <span>The VIVEK TECH 100% Code Ownership Guarantee</span>
             </div>
             <p class="text-xs text-emerald-800 leading-relaxed">
               Upon receipt of <strong>100% full payment</strong> for the contracted milestone or project, <strong>all custom source code, unique design systems, database schemas, algorithms, and technical artifacts created specifically for the Client are unconditionally assigned, transferred, and vested exclusively in the Client</strong>. You receive complete Git repository ownership with zero ongoing royalties or vendor lock-in.
@@ -293,13 +293,13 @@ require_once __DIR__ . '/includes/header.php';
           </div>
 
           <p class="text-sm pt-1">
-            <strong>Open-Source Frameworks &amp; Third-Party Libraries:</strong> Software developed by Yukt may leverage world-class open-source libraries (e.g. React, Next.js, Vue, Tailwind CSS, Three.js, Laravel, Python packages). These components remain governed by their standard open-source licenses (MIT, Apache 2.0, BSD).
+            <strong>Open-Source Frameworks &amp; Third-Party Libraries:</strong> Software developed by Vivek Tech may leverage world-class open-source libraries (e.g. React, Next.js, Vue, Tailwind CSS, Three.js, Laravel, Python packages). These components remain governed by their standard open-source licenses (MIT, Apache 2.0, BSD).
           </p>
           <p class="text-sm">
-            <strong>Pre-Existing Tools &amp; Generic Boilerplates:</strong> Yukt retains ownership of our proprietary, reusable boilerplate utility modules, build scripts, and standard developer tools. We grant the Client an irrevocable, perpetual, royalty-free, worldwide license to utilize, modify, and distribute these tools strictly as integrated within the deliverable software.
+            <strong>Pre-Existing Tools &amp; Generic Boilerplates:</strong> Vivek Tech retains ownership of our proprietary, reusable boilerplate utility modules, build scripts, and standard developer tools. We grant the Client an irrevocable, perpetual, royalty-free, worldwide license to utilize, modify, and distribute these tools strictly as integrated within the deliverable software.
           </p>
           <p class="text-xs text-slate-500">
-            <strong>Portfolio Showcase Rights:</strong> Unless explicitly prohibited by a signed Non-Disclosure Agreement (NDA) or white-label contract, Yukt reserves the professional right to display screenshots of public designs, website URLs, and anonymized performance metrics in our portfolio and marketing materials.
+            <strong>Portfolio Showcase Rights:</strong> Unless explicitly prohibited by a signed Non-Disclosure Agreement (NDA) or white-label contract, Vivek Tech reserves the professional right to display screenshots of public designs, website URLs, and anonymized performance metrics in our portfolio and marketing materials.
           </p>
         </section>
 
@@ -343,7 +343,7 @@ require_once __DIR__ . '/includes/header.php';
             Upon delivery of a milestone build or final production staging deployment, the Client has a formal <strong class="text-slate-900">User Acceptance Testing (UAT) window of ten (10) business days</strong> to test functionality against the approved SOW specifications.
           </p>
           <p class="text-sm">
-            Any reproducible defects or deviations from the SOW submitted during this UAT window will be prioritized and resolved by Yukt at no extra charge. If the Client does not report any material non-conformities within the 10-day UAT period, or deploys the software into live commercial production, the milestone will be deemed formally accepted.
+            Any reproducible defects or deviations from the SOW submitted during this UAT window will be prioritized and resolved by Vivek Tech at no extra charge. If the Client does not report any material non-conformities within the 10-day UAT period, or deploys the software into live commercial production, the milestone will be deemed formally accepted.
           </p>
         </section>
 
@@ -363,7 +363,7 @@ require_once __DIR__ . '/includes/header.php';
               <span>Post-Launch Hypercare Protection</span>
             </div>
             <p class="text-xs text-slate-700 leading-relaxed">
-              Yukt provides a <strong class="text-slate-900">thirty (30) calendar day complimentary hypercare warranty</strong> commencing immediately upon production deployment or final handover. During this period, our engineering pod will resolve any reproducible functional bugs, layout breaks, or deviations from the agreed SOW at zero additional fee.
+              Vivek Tech provides a <strong class="text-slate-900">thirty (30) calendar day complimentary hypercare warranty</strong> commencing immediately upon production deployment or final handover. During this period, our engineering pod will resolve any reproducible functional bugs, layout breaks, or deviations from the agreed SOW at zero additional fee.
             </p>
             <div class="pt-2 border-t border-slate-200 text-xs text-slate-600 space-y-1">
               <strong>Warranty Exclusions:</strong> The warranty does not cover: (a) defects arising from modifications made to the source code by the Client or third parties, (b) outages or upstream breaking API changes from external providers (AWS, payment gateways, Meta, OpenAI), or (c) new feature additions outside the original SOW. Extended SLA and DevOps support retainers are available following the 30-day hypercare period.
@@ -385,7 +385,7 @@ require_once __DIR__ . '/includes/header.php';
             Modern applications depend on third-party cloud infrastructure (AWS, DigitalOcean, Hostinger), payment gateways (Razorpay, Stripe), communication networks (WhatsApp Business, Twilio), and AI model APIs (OpenAI, Anthropic).
           </p>
           <p class="text-sm">
-            Client is responsible for maintaining their own direct billing accounts with third-party vendors unless managed hosting is explicitly contracted under our SOW. Yukt is not legally liable for service interruptions, upstream downtime, rate limits, or price modifications enacted by independent third-party platforms.
+            Client is responsible for maintaining their own direct billing accounts with third-party vendors unless managed hosting is explicitly contracted under our SOW. Vivek Tech is not legally liable for service interruptions, upstream downtime, rate limits, or price modifications enacted by independent third-party platforms.
           </p>
         </section>
 
@@ -400,7 +400,7 @@ require_once __DIR__ . '/includes/header.php';
             10. Mutual Non-Disclosure &amp; Confidentiality
           </h2>
           <p>
-            Both Yukt and the Client agree to hold all Confidential Information (including business processes, proprietary software, data models, financial figures, customer databases, and product roadmaps) in strict confidence. Neither party shall disclose Confidential Information to any third party without prior written authorization, exercising the same degree of care it uses for its own confidential assets (and in no case less than reasonable care).
+            Both Vivek Tech and the Client agree to hold all Confidential Information (including business processes, proprietary software, data models, financial figures, customer databases, and product roadmaps) in strict confidence. Neither party shall disclose Confidential Information to any third party without prior written authorization, exercising the same degree of care it uses for its own confidential assets (and in no case less than reasonable care).
           </p>
           <p class="text-xs text-slate-500">
             This confidentiality obligation survives termination of this Agreement for a duration of <strong>three (3) years</strong> following contract conclusion.
@@ -418,10 +418,10 @@ require_once __DIR__ . '/includes/header.php';
             11. AI Disclaimers &amp; Marketing Performance Disclaimers
           </h2>
           <p class="text-sm">
-            <strong class="text-slate-900">Artificial Intelligence &amp; LLM Automation:</strong> When building AI workflows, autonomous agents, and RAG architectures, the Client acknowledges that Large Language Models operate probabilistically. While Yukt builds rigorous deterministic validation layers, guardrails, and unit test suites, we cannot warrant that third-party AI models will produce 100% hallucination-free outputs under all edge-case prompts.
+            <strong class="text-slate-900">Artificial Intelligence &amp; LLM Automation:</strong> When building AI workflows, autonomous agents, and RAG architectures, the Client acknowledges that Large Language Models operate probabilistically. While Vivek Tech builds rigorous deterministic validation layers, guardrails, and unit test suites, we cannot warrant that third-party AI models will produce 100% hallucination-free outputs under all edge-case prompts.
           </p>
           <p class="text-sm">
-            <strong class="text-slate-900">SEO &amp; Ad Performance:</strong> For digital marketing and SEO engagements, Yukt executes industry-leading technical optimization and conversion strategies. However, because search engines (Google) and advertising algorithms (Meta, LinkedIn) undergo proprietary algorithm updates, Yukt does not guarantee specific organic ranking positions or guaranteed conversion multiples.
+            <strong class="text-slate-900">SEO &amp; Ad Performance:</strong> For digital marketing and SEO engagements, Vivek Tech executes industry-leading technical optimization and conversion strategies. However, because search engines (Google) and advertising algorithms (Meta, LinkedIn) undergo proprietary algorithm updates, Vivek Tech does not guarantee specific organic ranking positions or guaranteed conversion multiples.
           </p>
         </section>
 
@@ -437,10 +437,10 @@ require_once __DIR__ . '/includes/header.php';
           </h2>
           <div class="p-4 rounded-xl bg-slate-50 border border-slate-200 space-y-2 text-xs">
             <p>
-              To the maximum extent permitted by applicable law, in no event shall <strong class="text-slate-900">Yukt IT Solutions Private Limited</strong>, its directors (Ansar Ali Shah, Ranjeet), employees, or affiliates be liable for any indirect, incidental, punitive, special, or consequential damages, including loss of profits, goodwill, data corruption, or business interruption, arising out of or related to this Agreement.
+              To the maximum extent permitted by applicable law, in no event shall <strong class="text-slate-900">Vivek Tech</strong>, its directors (Ansar Ali Shah, Ranjeet), employees, or affiliates be liable for any indirect, incidental, punitive, special, or consequential damages, including loss of profits, goodwill, data corruption, or business interruption, arising out of or related to this Agreement.
             </p>
             <p class="font-semibold text-slate-900">
-              The total cumulative liability of Yukt under any cause of action arising out of an executed Statement of Work shall be strictly capped at the total amount of fees actually paid by the Client to Yukt under that specific SOW in the three (3) months immediately preceding the event giving rise to liability.
+              The total cumulative liability of Vivek Tech under any cause of action arising out of an executed Statement of Work shall be strictly capped at the total amount of fees actually paid by the Client to Vivek Tech under that specific SOW in the three (3) months immediately preceding the event giving rise to liability.
             </p>
           </div>
         </section>
@@ -456,7 +456,7 @@ require_once __DIR__ . '/includes/header.php';
             13. Indemnification
           </h2>
           <p class="text-sm">
-            The Client agrees to defend, indemnify, and hold harmless Yukt IT Solutions and its officers against any third-party claims, liabilities, damages, and legal expenses arising from: (a) any materials, content, logos, or data provided by the Client that infringe upon the intellectual property or copyright of a third party, (b) the commercial operation of the Client's business or products built with the software, or (c) any violation of applicable laws by the Client.
+            The Client agrees to defend, indemnify, and hold harmless Vivek Tech and its officers against any third-party claims, liabilities, damages, and legal expenses arising from: (a) any materials, content, logos, or data provided by the Client that infringe upon the intellectual property or copyright of a third party, (b) the commercial operation of the Client's business or products built with the software, or (c) any violation of applicable laws by the Client.
           </p>
         </section>
 
@@ -474,7 +474,7 @@ require_once __DIR__ . '/includes/header.php';
             Either party may terminate an ongoing engagement: (a) for convenience upon giving <strong>fourteen (14) calendar days written notice</strong> to the other party, or (b) immediately if the other party commits a material breach and fails to remedy such breach within fourteen (14) days of receiving written notice.
           </p>
           <p class="text-sm">
-            Upon termination, the Client shall promptly pay Yukt for all completed milestones, approved deliverables, and pro-rata engineering hours rendered up to the effective termination date. Upon complete settlement of outstanding invoices, Yukt will transfer all corresponding work-in-progress code repositories and design assets to the Client.
+            Upon termination, the Client shall promptly pay Vivek Tech for all completed milestones, approved deliverables, and pro-rata engineering hours rendered up to the effective termination date. Upon complete settlement of outstanding invoices, Vivek Tech will transfer all corresponding work-in-progress code repositories and design assets to the Client.
           </p>
         </section>
 
@@ -494,7 +494,7 @@ require_once __DIR__ . '/includes/header.php';
           <div class="space-y-2 text-xs pt-1">
             <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
               <strong class="text-slate-900 block mb-1">Amicable Senior Consultation:</strong>
-              In the event of any disagreement, both parties agree to first engage in good-faith executive consultations between the Client's executive and Yukt Founding Partners (Ansar Ali Shah / Ranjeet) for a minimum period of thirty (30) business days.
+              In the event of any disagreement, both parties agree to first engage in good-faith executive consultations between the Client's executive and Vivek Tech Founding Partners (Ansar Ali Shah / Ranjeet) for a minimum period of thirty (30) business days.
             </div>
             <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200">
               <strong class="text-slate-900 block mb-1">Binding Arbitration:</strong>
@@ -541,13 +541,13 @@ require_once __DIR__ . '/includes/header.php';
             17. Legal Notices &amp; Commercial Inquiries
           </h2>
           <p>
-            Formal legal notices, contract inquiries, and Master Services Agreement (MSA) requests should be dispatched to the official legal desk of Yukt IT Solutions:
+            Formal legal notices, contract inquiries, and Master Services Agreement (MSA) requests should be dispatched to the official legal desk of Vivek Tech:
           </p>
 
           <div class="p-6 rounded-2xl bg-slate-900 text-white space-y-4 border border-slate-800 shadow-xl">
             <div class="flex items-center justify-between pb-3 border-b border-white/10">
               <div>
-                <span class="font-display font-bold text-base text-white">Yukt IT Solutions Private Limited</span>
+                <span class="font-display font-bold text-base text-white">Vivek Tech</span>
                 <span class="text-xs text-electric-400 block font-mono">Corporate Legal &amp; Contracts Desk</span>
               </div>
               <span class="text-[10px] font-mono px-2 py-0.5 rounded-full bg-electric-500/20 text-electric-400 border border-electric-500/30">Official Commercial Desk</span>
@@ -556,19 +556,19 @@ require_once __DIR__ . '/includes/header.php';
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs font-mono text-slate-300">
               <div>
                 <span class="text-slate-500 block text-[10px] uppercase">Official Website</span>
-                <a href="https://yukt.online" class="text-white hover:text-electric-400">https://yukt.online</a>
+                <a href="https://vivektech.online" class="text-white hover:text-electric-400">https://vivektech.online</a>
               </div>
               <div>
                 <span class="text-slate-500 block text-[10px] uppercase">Legal &amp; Contracts Email</span>
-                <a href="mailto:legal@yukt.online" class="text-electric-400 hover:text-white underline">legal@yukt.online</a>
+                <a href="mailto:legal@vivektech.online" class="text-electric-400 hover:text-white underline">legal@vivektech.online</a>
               </div>
               <div>
                 <span class="text-slate-500 block text-[10px] uppercase">Founder &amp; Systems Architect</span>
-                <span class="text-white">Ansar Ali Shah (+91 95763 38282)</span>
+                <span class="text-white">Ansar Ali Shah (+91 93349 68355)</span>
               </div>
               <div>
                 <span class="text-slate-500 block text-[10px] uppercase">Co-Founder &amp; Solutions Architect</span>
-                <span class="text-white">Ranjeet (+91 72176 45059)</span>
+                <span class="text-white">Ranjeet (+91 93349 68355)</span>
               </div>
               <div class="sm:col-span-2">
                 <span class="text-slate-500 block text-[10px] uppercase">Headquarters / Registered Office</span>

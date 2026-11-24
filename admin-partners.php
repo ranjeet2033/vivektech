@@ -14,7 +14,7 @@ $isAdminLoggedIn = isset($_SESSION['yukt_admin_logged']) && $_SESSION['yukt_admi
 // Handle Admin Login
 if (isset($_POST['admin_login'])) {
     $pass = $_POST['admin_password'] ?? '';
-    if ($pass === $adminAuthKey || $pass === 'yukt@admin2026') {
+    if ($pass === $adminAuthKey || $pass === 'vivektech@admin2026') {
         $_SESSION['yukt_admin_logged'] = true;
         header('Location: admin-partners.php');
         exit;
@@ -32,7 +32,7 @@ if (isset($_GET['action']) && $_GET['action'] === 'logout') {
 
 // If not logged in, render simple login screen
 if (!$isAdminLoggedIn):
-    $pageTitle = 'Admin Portal | YUKT IT SOLUTIONS';
+    $pageTitle = 'Admin Portal | VIVEK TECH';
     require_once __DIR__ . '/includes/header.php';
 ?>
 <div class="min-h-screen bg-navy-950 bg-grid-dark text-slate-100 pt-32 pb-20 px-4 flex items-center justify-center">
@@ -41,7 +41,7 @@ if (!$isAdminLoggedIn):
       <div class="w-12 h-12 rounded-2xl bg-electric-500/20 text-electric-400 flex items-center justify-center mx-auto">
         <i data-lucide="shield" class="w-6 h-6"></i>
       </div>
-      <h2 class="text-xl font-display font-bold text-white">YUKT Admin Console</h2>
+      <h2 class="text-xl font-display font-bold text-white">VIVEK TECH Admin Console</h2>
       <p class="text-xs text-slate-400">Partner &amp; Commission Management</p>
     </div>
 
@@ -201,7 +201,7 @@ $allEnquiries = $pdo ? $pdo->query("SELECT * FROM partner_enquiries ORDER BY cre
 $allCommissions = $pdo ? $pdo->query("SELECT c.*, p.full_name as partner_name, p.partner_code, p.shop_name, p.upi_id, p.bank_account_no, p.bank_ifsc FROM partner_commissions c JOIN partners p ON c.partner_id = p.id ORDER BY c.created_at DESC")->fetchAll() : [];
 $allTickets = $pdo ? $pdo->query("SELECT t.*, p.full_name as partner_name, p.partner_code, p.phone FROM partner_support_tickets t JOIN partners p ON t.partner_id = p.id ORDER BY t.created_at DESC")->fetchAll() : [];
 
-$pageTitle = 'Partner Admin Management | YUKT IT SOLUTIONS';
+$pageTitle = 'Partner Admin Management | VIVEK TECH';
 require_once __DIR__ . '/includes/header.php';
 ?>
 
@@ -211,7 +211,7 @@ require_once __DIR__ . '/includes/header.php';
     <!-- Admin Top Bar -->
     <div class="bg-navy-900 border border-white/15 rounded-3xl p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-4">
       <div>
-        <span class="text-xs font-mono text-electric-400 uppercase tracking-wider block">YUKT IT SOLUTIONS</span>
+        <span class="text-xs font-mono text-electric-400 uppercase tracking-wider block">VIVEK TECH</span>
         <h1 class="text-2xl font-display font-bold text-white">Partner Program Administration Console</h1>
       </div>
       <div class="flex items-center gap-3">

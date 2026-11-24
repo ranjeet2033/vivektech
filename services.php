@@ -1,7 +1,7 @@
 <?php
 $activePage = 'services';
-$pageTitle = 'IT Services & Digital Engineering Solutions | YUKT IT SOLUTIONS';
-$pageDesc = 'Explore full-cycle digital engineering services by YUKT IT SOLUTIONS: Custom Websites, Enterprise Software, Mobile Apps, AI Automation, Digital Marketing, and IT Consulting.';
+$pageTitle = 'IT Services & Digital Engineering Solutions | VIVEK TECH';
+$pageDesc = 'Explore full-cycle digital engineering services by VIVEK TECH: Custom Websites, Enterprise Software, Mobile Apps, AI Automation, Digital Marketing, and IT Consulting.';
 
 require_once __DIR__ . '/includes/header.php';
 require_once __DIR__ . '/includes/components/section-header.php';
@@ -39,7 +39,7 @@ require_once __DIR__ . '/includes/components/badge.php';
             <span>Request Scoping Document</span>
             <i data-lucide="arrow-right" class="w-4 h-4"></i>
           </button>
-          <a href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I would like to scope a project across your 8 service disciplines.'); ?>" target="_blank" rel="noopener noreferrer" class="px-7 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-gradient-to-r from-yukt-orange to-amber-600 hover:from-yukt-orangeLight hover:to-yukt-orange shadow-xl shadow-yukt-orange/25 transition-all flex items-center justify-center gap-2">
+          <a href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I would like to scope a project across your 8 service disciplines.'); ?>" target="_blank" rel="noopener noreferrer" class="px-7 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-gradient-to-r from-yukt-orange to-amber-600 hover:from-yukt-orangeLight hover:to-yukt-orange shadow-xl shadow-yukt-orange/25 transition-all flex items-center justify-center gap-2">
             <i data-lucide="message-circle" class="w-4 h-4"></i>
             <span>Instant WhatsApp Desk</span>
           </a>
@@ -68,7 +68,7 @@ require_once __DIR__ . '/includes/components/badge.php';
             <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-electric-500 to-yukt-orange flex items-center justify-center text-white mb-2 shadow-lg shadow-electric-500/30">
               <i data-lucide="layers" class="w-6 h-6"></i>
             </div>
-            <span class="font-display font-bold text-xs text-white">YUKT 8-CORE</span>
+            <span class="font-display font-bold text-xs text-white">VIVEK TECH 8-CORE</span>
             <span class="font-mono text-[9px] text-electric-400">Production Ready</span>
           </div>
         </div>
@@ -152,7 +152,7 @@ require_once __DIR__ . '/includes/components/badge.php';
 
         <!-- Quick Action Buttons -->
         <div class="flex items-center gap-2.5 flex-shrink-0">
-          <a href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I would like to scope a project for ' . $service['title'] . '.'); ?>" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center gap-2 px-3.5 py-2.5 text-xs font-semibold rounded-xl bg-emerald-50 text-emerald-700 border border-emerald-200 hover:bg-emerald-100 transition-colors">
+          <a href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I would like to scope a project for ' . $service['title'] . '.'); ?>" target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center gap-2 px-3.5 py-2.5 text-xs font-semibold rounded-xl bg-emerald-50 text-emerald-700 border border-emerald-200 hover:bg-emerald-100 transition-colors">
             <i data-lucide="message-circle" class="w-4 h-4 text-emerald-600"></i>
             <span>WhatsApp</span>
           </a>
@@ -267,7 +267,7 @@ require_once __DIR__ . '/includes/components/badge.php';
         <button type="button" class="px-7 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-electric-500 hover:bg-electric-400 transition-all open-quote-modal-btn shadow-lg shadow-electric-500/25">
           <span>Get a Free Project Estimate</span>
         </button>
-        <a href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I would like to inquire about your engineering services.'); ?>" target="_blank" rel="noopener noreferrer" class="px-7 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-gradient-to-r from-yukt-orange to-amber-600 hover:from-yukt-orangeLight hover:to-yukt-orange transition-all flex items-center justify-center gap-2 shadow-lg shadow-yukt-orange/25">
+        <a href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I would like to inquire about your engineering services.'); ?>" target="_blank" rel="noopener noreferrer" class="px-7 py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-gradient-to-r from-yukt-orange to-amber-600 hover:from-yukt-orangeLight hover:to-yukt-orange transition-all flex items-center justify-center gap-2 shadow-lg shadow-yukt-orange/25">
           <i data-lucide="message-circle" class="w-4 h-4"></i>
           <span>WhatsApp Scoping</span>
         </a>

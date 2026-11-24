@@ -1,7 +1,7 @@
 <?php
 $activePage = 'home';
-$pageTitle = 'YUKT IT SOLUTIONS | Website Development, Software & AI Solutions';
-$pageDesc = 'YUKT IT SOLUTIONS builds modern websites, custom software, mobile apps, AI automation, and digital marketing solutions to help businesses grow.';
+$pageTitle = 'VIVEK TECH | Website Development, Software & AI Solutions';
+$pageDesc = 'VIVEK TECH builds modern websites, custom software, mobile apps, AI automation, and digital marketing solutions to help businesses grow.';
 
 require_once __DIR__ . '/includes/header.php';
 ?>
@@ -30,7 +30,7 @@ require_once __DIR__ . '/includes/header.php';
             </span>
             <span class="hidden sm:inline-block w-1 h-1 rounded-full bg-slate-500"></span>
             <span class="hidden sm:inline-block font-mono text-[11px] text-electric-400 font-medium">
-              YUKT IT SOLUTIONS
+              VIVEK TECH
             </span>
           </div>
 
@@ -55,7 +55,7 @@ require_once __DIR__ . '/includes/header.php';
             </a>
 
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I want to discuss a project.'); ?>"
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I want to discuss a project.'); ?>"
               target="_blank"
               rel="noopener noreferrer"
               class="inline-flex items-center justify-center gap-2.5 px-6 py-3.5 sm:py-3.5 rounded-xl font-display font-semibold text-sm text-white bg-gradient-to-r from-yukt-orange to-amber-600 hover:from-yukt-orangeLight hover:to-yukt-orange shadow-xl shadow-yukt-orange/25 border border-amber-400/40 transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0 focus:outline-none focus:ring-2 focus:ring-yukt-orange group w-full sm:w-auto"
@@ -102,7 +102,7 @@ require_once __DIR__ . '/includes/header.php';
                   <div class="w-16 h-16 mx-auto rounded-2xl bg-gradient-to-br from-electric-500 to-yukt-orange flex items-center justify-center shadow-lg">
                     <i data-lucide="box" class="w-8 h-8 text-white"></i>
                   </div>
-                  <p class="font-display font-semibold text-white text-sm">YUKT 3D Core Engine</p>
+                  <p class="font-display font-semibold text-white text-sm">VIVEK TECH 3D Core Engine</p>
                   <p class="text-xs text-slate-400">Interactive architectural preview mode active.</p>
                 </div>
               </div>
@@ -248,7 +248,7 @@ require_once __DIR__ . '/includes/header.php';
               <i data-lucide="arrow-right" class="w-3.5 h-3.5 group-hover/link:translate-x-1 transition-transform"></i>
             </a>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I\'m interested in Website Development.'); ?>"
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I\'m interested in Website Development.'); ?>"
               target="_blank"
               rel="noopener noreferrer"
               class="px-2.5 py-1.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200 text-xs font-mono font-medium flex items-center gap-1.5 transition-colors"
@@ -303,7 +303,7 @@ require_once __DIR__ . '/includes/header.php';
               <i data-lucide="arrow-right" class="w-3.5 h-3.5 group-hover/link:translate-x-1 transition-transform"></i>
             </a>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I\'m interested in Software & App Development.'); ?>"
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I\'m interested in Software & App Development.'); ?>"
               target="_blank"
               rel="noopener noreferrer"
               class="px-2.5 py-1.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200 text-xs font-mono font-medium flex items-center gap-1.5 transition-colors"
@@ -359,7 +359,7 @@ require_once __DIR__ . '/includes/header.php';
               <i data-lucide="arrow-right" class="w-3.5 h-3.5 group-hover/link:translate-x-1 transition-transform"></i>
             </a>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I\'m interested in AI Automation solutions.'); ?>"
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I\'m interested in AI Automation solutions.'); ?>"
               target="_blank"
               rel="noopener noreferrer"
               class="px-2.5 py-1.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200 text-xs font-mono font-medium flex items-center gap-1.5 transition-colors"
@@ -414,7 +414,7 @@ require_once __DIR__ . '/includes/header.php';
               <i data-lucide="arrow-right" class="w-3.5 h-3.5 group-hover/link:translate-x-1 transition-transform"></i>
             </a>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I\'m interested in Digital Marketing services.'); ?>"
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I\'m interested in Digital Marketing services.'); ?>"
               target="_blank"
               rel="noopener noreferrer"
               class="px-2.5 py-1.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200 text-xs font-mono font-medium flex items-center gap-1.5 transition-colors"
@@ -467,7 +467,7 @@ require_once __DIR__ . '/includes/header.php';
               <i data-lucide="arrow-right" class="w-3.5 h-3.5 group-hover/link:translate-x-1 transition-transform"></i>
             </a>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I\'m interested in AI Marketing & Creative Studio.'); ?>"
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I\'m interested in AI Marketing & Creative Studio.'); ?>"
               target="_blank"
               rel="noopener noreferrer"
               class="px-2.5 py-1.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200 text-xs font-mono font-medium flex items-center gap-1.5 transition-colors"
@@ -523,7 +523,7 @@ require_once __DIR__ . '/includes/header.php';
               <i data-lucide="arrow-right" class="w-3.5 h-3.5 group-hover/link:translate-x-1 transition-transform"></i>
             </a>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I\'m interested in IT Consulting & Training.'); ?>"
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I\'m interested in IT Consulting & Training.'); ?>"
               target="_blank"
               rel="noopener noreferrer"
               class="px-2.5 py-1.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200 text-xs font-mono font-medium flex items-center gap-1.5 transition-colors"
@@ -577,7 +577,7 @@ require_once __DIR__ . '/includes/header.php';
               <i data-lucide="arrow-right" class="w-3.5 h-3.5 group-hover/link:translate-x-1 transition-transform"></i>
             </a>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I\'m interested in E-Commerce Solutions.'); ?>"
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I\'m interested in E-Commerce Solutions.'); ?>"
               target="_blank"
               rel="noopener noreferrer"
               class="px-2.5 py-1.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200 text-xs font-mono font-medium flex items-center gap-1.5 transition-colors"
@@ -633,7 +633,7 @@ require_once __DIR__ . '/includes/header.php';
               <i data-lucide="arrow-right" class="w-3.5 h-3.5 group-hover/link:translate-x-1 transition-transform"></i>
             </a>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I\'m interested in Branding & Creative.'); ?>"
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I\'m interested in Branding & Creative.'); ?>"
               target="_blank"
               rel="noopener noreferrer"
               class="px-2.5 py-1.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-700 border border-emerald-200 text-xs font-mono font-medium flex items-center gap-1.5 transition-colors"
@@ -835,7 +835,7 @@ require_once __DIR__ . '/includes/header.php';
             Featured <span class="text-gradient-brand">Digital Architecture</span>
           </h2>
           <p class="text-slate-600 text-base sm:text-lg">
-            Explore interactive concept previews demonstrating how YUKT IT SOLUTIONS engineers modern interfaces, AI automation dashboards, and digital campaigns.
+            Explore interactive concept previews demonstrating how VIVEK TECH engineers modern interfaces, AI automation dashboards, and digital campaigns.
           </p>
         </div>
 
@@ -876,7 +876,7 @@ require_once __DIR__ . '/includes/header.php';
                   <span class="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
                   <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
                 </div>
-                <span class="font-mono text-[10px] text-slate-400">enterprise.yukt.concept</span>
+                <span class="font-mono text-[10px] text-slate-400">enterprise.vivektech.concept</span>
                 <i data-lucide="external-link" class="w-3 h-3 text-slate-500"></i>
               </div>
               <div class="p-4 space-y-3 bg-gradient-to-br from-navy-950 via-navy-900 to-electric-600/20">
@@ -910,7 +910,7 @@ require_once __DIR__ . '/includes/header.php';
               <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Inspect Interactive UI
             </button>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I want to build a Business Website like your Corporate Web Portal concept.'); ?>"
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I want to build a Business Website like your Corporate Web Portal concept.'); ?>"
               target="_blank"
               rel="noopener noreferrer"
               class="text-xs font-semibold text-electric-600 hover:text-yukt-orange flex items-center gap-1"
@@ -937,7 +937,7 @@ require_once __DIR__ . '/includes/header.php';
                   <span class="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
                   <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
                 </div>
-                <span class="font-mono text-[10px] text-slate-400">commerce.yukt.concept</span>
+                <span class="font-mono text-[10px] text-slate-400">commerce.vivektech.concept</span>
                 <i data-lucide="shopping-bag" class="w-3 h-3 text-yukt-orange"></i>
               </div>
               <div class="p-4 space-y-3 bg-gradient-to-br from-navy-950 via-navy-900 to-yukt-orange/20">
@@ -975,7 +975,7 @@ require_once __DIR__ . '/includes/header.php';
               <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Inspect Interactive UI
             </button>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I want to build an E-commerce Platform.'); ?>"
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I want to build an E-commerce Platform.'); ?>"
               target="_blank"
               rel="noopener noreferrer"
               class="text-xs font-semibold text-electric-600 hover:text-yukt-orange flex items-center gap-1"
@@ -1002,7 +1002,7 @@ require_once __DIR__ . '/includes/header.php';
                   <span class="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
                   <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
                 </div>
-                <span class="font-mono text-[10px] text-slate-400">analytics.yukt.concept</span>
+                <span class="font-mono text-[10px] text-slate-400">analytics.vivektech.concept</span>
                 <i data-lucide="bar-chart-2" class="w-3 h-3 text-electric-400"></i>
               </div>
               <div class="p-4 space-y-3 bg-gradient-to-br from-navy-950 via-navy-900 to-indigo-600/20">
@@ -1041,7 +1041,7 @@ require_once __DIR__ . '/includes/header.php';
               <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Inspect Interactive UI
             </button>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I want to build a custom SaaS Dashboard or Software Platform.'); ?>"
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I want to build a custom SaaS Dashboard or Software Platform.'); ?>"
               target="_blank"
               rel="noopener noreferrer"
               class="text-xs font-semibold text-electric-600 hover:text-yukt-orange flex items-center gap-1"
@@ -1068,7 +1068,7 @@ require_once __DIR__ . '/includes/header.php';
                   <span class="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
                   <span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
                 </div>
-                <span class="font-mono text-[10px] text-slate-400">ai-agent.yukt.concept</span>
+                <span class="font-mono text-[10px] text-slate-400">ai-agent.vivektech.concept</span>
                 <i data-lucide="cpu" class="w-3 h-3 text-yukt-orange"></i>
               </div>
               <div class="p-4 space-y-3 bg-gradient-to-br from-navy-950 via-navy-900 to-yukt-orange/25">
@@ -1097,7 +1097,7 @@ require_once __DIR__ . '/includes/header.php';
               <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Inspect Interactive UI
             </button>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I want to build an AI Automation System.'); ?>"
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I want to build an AI Automation System.'); ?>"
               target="_blank"
               rel="noopener noreferrer"
               class="text-xs font-semibold text-electric-600 hover:text-yukt-orange flex items-center gap-1"
@@ -1126,7 +1126,7 @@ require_once __DIR__ . '/includes/header.php';
                 <div class="w-44 rounded-2xl bg-navy-900 border border-white/15 p-3 space-y-2 shadow-inner">
                   <div class="w-10 h-1 mx-auto rounded-full bg-white/20"></div>
                   <div class="h-10 rounded-xl bg-gradient-to-r from-electric-500 to-emerald-400 p-2 flex items-center justify-between">
-                    <span class="font-mono text-[9px] text-white font-bold">YUKT MOBILE</span>
+                    <span class="font-mono text-[9px] text-white font-bold">VIVEK TECH MOBILE</span>
                     <span class="w-3 h-3 rounded-full bg-white/30"></span>
                   </div>
                   <div class="grid grid-cols-2 gap-1.5">
@@ -1148,7 +1148,7 @@ require_once __DIR__ . '/includes/header.php';
               <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Inspect Interactive UI
             </button>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I want to build a Mobile Application.'); ?>"
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I want to build a Mobile Application.'); ?>"
               target="_blank"
               rel="noopener noreferrer"
               class="text-xs font-semibold text-electric-600 hover:text-yukt-orange flex items-center gap-1"
@@ -1170,7 +1170,7 @@ require_once __DIR__ . '/includes/header.php';
             <!-- 3D Floating Campaign Studio Mockup -->
             <div class="device-3d-frame rounded-2xl bg-navy-950 border border-slate-800 shadow-2xl overflow-hidden mb-6">
               <div class="px-3 py-2 bg-navy-900 border-b border-white/10 flex items-center justify-between">
-                <span class="font-mono text-[10px] text-purple-400">growth-studio.yukt.concept</span>
+                <span class="font-mono text-[10px] text-purple-400">growth-studio.vivektech.concept</span>
                 <i data-lucide="megaphone" class="w-3.5 h-3.5 text-yukt-orange"></i>
               </div>
               <div class="p-4 space-y-3 bg-gradient-to-br from-navy-950 via-navy-900 to-purple-600/20">
@@ -1197,7 +1197,7 @@ require_once __DIR__ . '/includes/header.php';
               <i data-lucide="maximize-2" class="w-3.5 h-3.5"></i> Inspect Interactive UI
             </button>
             <a 
-              href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I want to launch a Digital Marketing & AI Creative Campaign.'); ?>"
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I want to launch a Digital Marketing & AI Creative Campaign.'); ?>"
               target="_blank"
               rel="noopener noreferrer"
               class="text-xs font-semibold text-electric-600 hover:text-yukt-orange flex items-center gap-1"
@@ -1252,9 +1252,9 @@ require_once __DIR__ . '/includes/header.php';
   </section>
 
   <!-- ==========================================
-       SECTION 5: WHY CHOOSE YUKT IT SOLUTIONS?
+       SECTION 5: WHY CHOOSE VIVEK TECH?
   =========================================== -->
-  <section id="why-yukt" class="relative py-24 lg:py-32 bg-navy-950 text-white bg-grid-dark overflow-hidden">
+  <section id="why-vivektech" class="relative py-24 lg:py-32 bg-navy-950 text-white bg-grid-dark overflow-hidden">
     <!-- Subtle 3D Geometric Background Accents -->
     <div class="absolute -top-24 right-1/3 w-96 h-96 bg-electric-500/10 rounded-full blur-[120px] pointer-events-none"></div>
     <div class="absolute bottom-0 left-1/4 w-96 h-96 bg-yukt-orange/10 rounded-full blur-[120px] pointer-events-none"></div>
@@ -1266,11 +1266,11 @@ require_once __DIR__ . '/includes/header.php';
         <div class="lg:col-span-5 space-y-6 reveal-up">
           <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/[0.05] border border-white/10 text-yukt-orange font-mono text-xs uppercase tracking-widest">
             <i data-lucide="shield-check" class="w-3.5 h-3.5"></i>
-            <span>The YUKT Advantage</span>
+            <span>The VIVEK TECH Advantage</span>
           </div>
 
           <h2 class="font-display font-bold text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight">
-            Why Partner With <span class="text-gradient-electric">YUKT IT SOLUTIONS?</span>
+            Why Partner With <span class="text-gradient-electric">VIVEK TECH?</span>
           </h2>
 
           <p class="text-slate-300 text-base sm:text-lg leading-relaxed">
@@ -1370,7 +1370,7 @@ require_once __DIR__ . '/includes/header.php';
 
   <!-- ==========================================
        SECTION 6: VERIFIED LEADERSHIP & FOUNDERS
-       “Meet the Technical Architects Behind Yukt”
+       “Meet the Technical Architects Behind Vivek Tech”
   =========================================== -->
   <section id="leadership" class="relative py-20 lg:py-28 bg-navy-950 text-white bg-grid-dark border-t border-white/10 overflow-hidden">
     <!-- Ambient Lighting Glows Behind Cards -->
@@ -1385,7 +1385,7 @@ require_once __DIR__ . '/includes/header.php';
           <span>Verified Leadership</span>
         </div>
         <h2 class="font-display font-bold text-3xl sm:text-4xl lg:text-5xl tracking-tight text-white">
-          Meet the <span class="bg-gradient-to-r from-electric-400 via-cyan-400 to-electric-500 bg-clip-text text-transparent">Technical Architects</span> Behind Yukt
+          Meet the <span class="bg-gradient-to-r from-electric-400 via-cyan-400 to-electric-500 bg-clip-text text-transparent">Technical Architects</span> Behind Vivek Tech
         </h2>
         <p class="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto leading-relaxed">
           Direct senior engineering access without junior hand-offs or middlemen. Connect directly with the Founders and lead architects who design and deploy your solutions.
@@ -1416,11 +1416,11 @@ require_once __DIR__ . '/includes/header.php';
           <div class="mt-6 pt-5 border-t border-white/10 space-y-2.5 text-xs sm:text-sm relative z-10">
             <div class="flex items-center justify-between">
               <span class="text-slate-400 font-mono text-xs">Direct Line:</span>
-              <a href="tel:+919576338282" class="font-mono text-slate-200 hover:text-white transition-colors font-medium">+91 95763 38282</a>
+              <a href="tel:+919334968355" class="font-mono text-slate-200 hover:text-white transition-colors font-medium">+91 93349 68355</a>
             </div>
             <div class="flex items-center justify-between">
               <span class="text-slate-400 font-mono text-xs">WhatsApp Desk:</span>
-              <a href="https://wa.me/919576338282?text=Hi%20Ansar%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20Yukt." target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-mono text-xs flex items-center gap-1 font-semibold">
+              <a href="https://wa.me/919334968355?text=Hi%20Ansar%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20Yukt." target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-mono text-xs flex items-center gap-1 font-semibold">
                 <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
                 <span>Direct WhatsApp &rarr;</span>
               </a>
@@ -1462,11 +1462,11 @@ require_once __DIR__ . '/includes/header.php';
           <div class="mt-6 pt-5 border-t border-white/10 space-y-2.5 text-xs sm:text-sm relative z-10">
             <div class="flex items-center justify-between">
               <span class="text-slate-400 font-mono text-xs">Direct Line:</span>
-              <a href="tel:+917217645059" class="font-mono text-slate-200 hover:text-white transition-colors font-medium">+91 72176 45059</a>
+              <a href="tel:+919334968355" class="font-mono text-slate-200 hover:text-white transition-colors font-medium">+91 93349 68355</a>
             </div>
             <div class="flex items-center justify-between">
               <span class="text-slate-400 font-mono text-xs">WhatsApp Desk:</span>
-              <a href="https://wa.me/917217645059?text=Hi%20Ranjeet%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20Yukt." target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-mono text-xs flex items-center gap-1 font-semibold">
+              <a href="https://wa.me/919334968355?text=Hi%20Ranjeet%2C%20I%20would%20like%20to%20discuss%20a%20project%20with%20Yukt." target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-mono text-xs flex items-center gap-1 font-semibold">
                 <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
                 <span>Direct WhatsApp &rarr;</span>
               </a>
@@ -1505,7 +1505,7 @@ require_once __DIR__ . '/includes/header.php';
         <div class="text-center max-w-2xl mx-auto space-y-5 mb-10">
           <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-400/30 text-emerald-300 font-mono text-xs uppercase tracking-widest">
             <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
-            <span>Instant WhatsApp Consultation &bull; +91 82354 11806</span>
+            <span>Instant WhatsApp Consultation &bull; +91 93349 68355</span>
           </div>
 
           <h2 class="font-display font-bold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-white">
@@ -1520,7 +1520,7 @@ require_once __DIR__ . '/includes/header.php';
         <!-- Primary Direct WhatsApp CTA Button -->
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
           <a 
-            href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I want to discuss a project.'); ?>"
+            href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I want to discuss a project.'); ?>"
             target="_blank"
             rel="noopener noreferrer"
             class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-5 rounded-2xl font-display font-bold text-base sm:text-lg text-white bg-gradient-to-r from-yukt-orange via-amber-500 to-yukt-orange hover:from-yukt-orangeLight hover:to-amber-400 shadow-2xl shadow-yukt-orange/30 border border-amber-300/40 transition-all duration-300 hover:-translate-y-1 group"
@@ -1611,7 +1611,7 @@ require_once __DIR__ . '/includes/header.php';
         <span class="text-xs text-slate-400 font-mono">Illustrative Concept &bull; Customizable for Your Brand</span>
         <a 
           id="modal-wa-link"
-          href="<?php echo getWhatsAppUrl('Hi YUKT IT SOLUTIONS, I want to discuss a project.'); ?>"
+          href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, I want to discuss a project.'); ?>"
           target="_blank"
           rel="noopener noreferrer"
           class="w-full sm:w-auto px-6 py-3 rounded-xl font-display font-semibold text-sm text-white bg-gradient-to-r from-electric-500 to-yukt-orange flex items-center justify-center gap-2 shadow-lg"
@@ -1706,7 +1706,7 @@ require_once __DIR__ . '/includes/header.php';
       const coreGroup = new THREE.Group();
       scene.add(coreGroup);
 
-      // Lighting (Electric Blue + YUKT Orange + White Rim)
+      // Lighting (Electric Blue + VIVEK TECH Orange + White Rim)
       const ambientLight = new THREE.AmbientLight(0xffffff, 0.65);
       scene.add(ambientLight);
 
@@ -2158,42 +2158,42 @@ require_once __DIR__ . '/includes/header.php';
         title: 'Next-Gen Corporate Web Portal',
         desc: 'Designed for high-growth enterprises seeking an unforgettable digital presence. Combines interactive 3D WebGL storytelling, ultra-fast page transitions, and direct WhatsApp & CRM lead capture.',
         highlights: ['✓ Interactive 3D Hero Visuals', '✓ Mobile-First Responsive Grid', '✓ Technical SEO & Schema Ready', '✓ Direct WhatsApp Lead Funnels'],
-        waText: 'Hi YUKT IT SOLUTIONS, I want to discuss building a Business Website like your Corporate Web Portal concept.'
+        waText: 'Hi VIVEK TECH, I want to discuss building a Business Website like your Corporate Web Portal concept.'
       },
       {
         category: 'CONCEPT ARCHITECTURE // E-COMMERCE PLATFORM',
         title: 'Headless E-Commerce Storefront',
         desc: 'Engineered for high conversion rates and effortless product discovery. Features instant category filtering, streamlined checkout flows, and automated WhatsApp order notifications.',
         highlights: ['✓ Sub-Second Product Filtering', '✓ Multi-Currency & Payment Ready', '✓ Automated Inventory Sync', '✓ WhatsApp Cart Recovery'],
-        waText: 'Hi YUKT IT SOLUTIONS, I want to discuss building an E-Commerce Platform.'
+        waText: 'Hi VIVEK TECH, I want to discuss building an E-Commerce Platform.'
       },
       {
         category: 'CONCEPT ARCHITECTURE // SAAS DASHBOARD',
         title: 'Enterprise BI & SaaS Control Center',
         desc: 'A modular software interface concept for SaaS products and internal business operations, featuring real-time telemetry charts, role-based access control, and automated reporting.',
         highlights: ['✓ Real-Time Data Visualization', '✓ Role-Based Access Permissions', '✓ Dark & Light Theme Architecture', '✓ Custom API & Webhook Integrations'],
-        waText: 'Hi YUKT IT SOLUTIONS, I want to discuss building a custom SaaS Dashboard or Software Platform.'
+        waText: 'Hi VIVEK TECH, I want to discuss building a custom SaaS Dashboard or Software Platform.'
       },
       {
         category: 'CONCEPT ARCHITECTURE // AI AUTOMATION',
         title: 'Autonomous AI Support & Lead Engine',
         desc: 'An end-to-end AI workflow system that qualifies incoming inquiries 24/7, answers complex product questions using your company knowledge base, and routes hot leads to your team.',
         highlights: ['✓ Custom LLM Knowledge Retrieval', '✓ WhatsApp & Web Chat Integration', '✓ Automated CRM Pipeline Sync', '✓ 24/7 Instant Lead Qualification'],
-        waText: 'Hi YUKT IT SOLUTIONS, I want to discuss implementing an AI Automation System.'
+        waText: 'Hi VIVEK TECH, I want to discuss implementing an AI Automation System.'
       },
       {
         category: 'CONCEPT ARCHITECTURE // MOBILE APPLICATION',
         title: 'On-Demand Service & Booking App',
         desc: 'Cross-platform mobile application concept for iOS and Android featuring smooth native animations, live order status tracking, push notifications, and secure payments.',
         highlights: ['✓ iOS & Android Native Experience', '✓ Real-Time Status & GPS Tracking', '✓ Push Notifications & Alerts', '✓ Secure Cloud Backend API'],
-        waText: 'Hi YUKT IT SOLUTIONS, I want to discuss building a Mobile Application.'
+        waText: 'Hi VIVEK TECH, I want to discuss building a Mobile Application.'
       },
       {
         category: 'CONCEPT ARCHITECTURE // DIGITAL MARKETING',
         title: 'Full-Funnel Growth & Creative Campaign',
         desc: 'Combines high-converting landing pages, SEO authority building, paid ad campaigns, and AI-assisted video creatives to generate consistent, qualified business inquiries.',
         highlights: ['✓ Search & Social Ad Funnels', '✓ AI-Assisted Video & Ad Creatives', '✓ Conversion Rate Optimization', '✓ Direct WhatsApp Lead Attribution'],
-        waText: 'Hi YUKT IT SOLUTIONS, I want to discuss a Digital Marketing & AI Creative Campaign.'
+        waText: 'Hi VIVEK TECH, I want to discuss a Digital Marketing & AI Creative Campaign.'
       }
     ];
 
@@ -2213,7 +2213,7 @@ require_once __DIR__ . '/includes/header.php';
         const listEl = document.getElementById('modal-highlights');
         listEl.innerHTML = item.highlights.map(h => `<li class="text-slate-300">${h}</li>`).join('');
 
-        document.getElementById('modal-wa-link').href = `https://wa.me/918235411806?text=${encodeURIComponent(item.waText)}`;
+        document.getElementById('modal-wa-link').href = `https://wa.me/919334968355?text=${encodeURIComponent(item.waText)}`;
 
         portfolioModal.classList.remove('hidden');
         portfolioModal.classList.add('flex');
@@ -2262,7 +2262,7 @@ require_once __DIR__ . '/includes/header.php';
         const servicesList = Array.from(selectedServices);
         const note = customNoteInput ? customNoteInput.value.trim() : '';
 
-        let message = 'Hi YUKT IT SOLUTIONS, I want to discuss a project.';
+        let message = 'Hi VIVEK TECH, I want to discuss a project.';
         if (servicesList.length > 0) {
           message += ` Services needed: ${servicesList.join(', ')}.`;
         }
@@ -2270,7 +2270,7 @@ require_once __DIR__ . '/includes/header.php';
           message += ` Project details: ${note}`;
         }
 
-        const waUrl = `https://wa.me/918235411806?text=${encodeURIComponent(message)}`;
+        const waUrl = `https://wa.me/919334968355?text=${encodeURIComponent(message)}`;
         window.open(waUrl, '_blank', 'noopener,noreferrer');
       });
     }

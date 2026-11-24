@@ -2,67 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Core Pages -->
   <url>
-    <loc>https://yukt.online/</loc>
+    <loc>https://vivektech.online/</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://yukt.online/service-catalogue.php</loc>
+    <loc>https://vivektech.online/service-catalogue.php</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://yukt.online/partner.php</loc>
+    <loc>https://vivektech.online/partner.php</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://yukt.online/partner-login.php</loc>
+    <loc>https://vivektech.online/partner-login.php</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://yukt.online/services.php</loc>
+    <loc>https://vivektech.online/services.php</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://yukt.online/about.php</loc>
+    <loc>https://vivektech.online/about.php</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yukt.online/portfolio.php</loc>
+    <loc>https://vivektech.online/portfolio.php</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yukt.online/contact.php</loc>
+    <loc>https://vivektech.online/contact.php</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://yukt.online/privacy-policy</loc>
+    <loc>https://vivektech.online/privacy-policy</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://yukt.online/terms</loc>
+    <loc>https://vivektech.online/terms</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://yukt.online/data-deletion</loc>
+    <loc>https://vivektech.online/data-deletion</loc>
     <lastmod>2026-10-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -70,49 +70,49 @@
 
   <!-- Service Detail Pages -->
   <url>
-    <loc>https://yukt.online/service-website-development.php</loc>
+    <loc>https://vivektech.online/service-website-development.php</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://yukt.online/service-software-applications.php</loc>
+    <loc>https://vivektech.online/service-software-applications.php</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://yukt.online/service-ai-automation.php</loc>
+    <loc>https://vivektech.online/service-ai-automation.php</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://yukt.online/service-digital-marketing.php</loc>
+    <loc>https://vivektech.online/service-digital-marketing.php</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://yukt.online/service-ai-marketing.php</loc>
+    <loc>https://vivektech.online/service-ai-marketing.php</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://yukt.online/service-branding-creative.php</loc>
+    <loc>https://vivektech.online/service-branding-creative.php</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://yukt.online/service-ecommerce-solutions.php</loc>
+    <loc>https://vivektech.online/service-ecommerce-solutions.php</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://yukt.online/service-it-consulting.php</loc>
+    <loc>https://vivektech.online/service-it-consulting.php</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
@@ -120,37 +120,37 @@
 
   <!-- Project Case Studies -->
   <url>
-    <loc>https://yukt.online/project-enterprise-saas.php</loc>
+    <loc>https://vivektech.online/project-enterprise-saas.php</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://yukt.online/project-d2c-commerce.php</loc>
+    <loc>https://vivektech.online/project-d2c-commerce.php</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://yukt.online/project-rag-assistant.php</loc>
+    <loc>https://vivektech.online/project-rag-assistant.php</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://yukt.online/project-corporate-portal.php</loc>
+    <loc>https://vivektech.online/project-corporate-portal.php</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://yukt.online/project-b2b-marketing.php</loc>
+    <loc>https://vivektech.online/project-b2b-marketing.php</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://yukt.online/project-franchise-platform.php</loc>
+    <loc>https://vivektech.online/project-franchise-platform.php</loc>
     <lastmod>2026-10-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>

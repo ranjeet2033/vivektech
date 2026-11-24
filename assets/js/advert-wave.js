@@ -1,5 +1,5 @@
 /**
- * YUKT IT SOLUTIONS — WebGL 3D Wave Shader Animation Engine
+ * VIVEK TECH — WebGL 3D Wave Shader Animation Engine
  * Inspired by AdvertResources interactive wave shader
  * Generates an undulating 3D particle mesh with mouse interaction
  */
@@ -171,7 +171,7 @@
           // Color gradient: Electric Blue (0, 0.4, 1) to Cyan (0.2, 0.74, 0.97) with subtle Orange sparks (1, 0.42, 0)
           const isSpark = (i * 7 + j * 13) % 23 === 0;
           if (isSpark) {
-            colors.push(1.0, 0.42, 0.0, 0.85); // Yukt brand orange
+            colors.push(1.0, 0.42, 0.0, 0.85); // Vivek Tech brand orange
           } else {
             const r = 0.0 + u * 0.15;
             const g = 0.35 + v * 0.4;

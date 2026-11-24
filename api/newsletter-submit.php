@@ -26,7 +26,7 @@ try {
         $stmt = $pdo->prepare("INSERT IGNORE INTO newsletter_subscribers (email) VALUES (:email)");
         $stmt->execute([':email' => $email]);
     }
-    echo json_encode(['success' => true, 'message' => 'Subscribed! You will receive tech & architecture briefings from Yukt.']);
+    echo json_encode(['success' => true, 'message' => 'Subscribed! You will receive tech & architecture briefings from Vivek Tech.']);
 } catch (Exception $e) {
     echo json_encode(['success' => true, 'message' => 'Subscribed successfully.']);
 }

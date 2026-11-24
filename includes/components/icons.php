@@ -1,6 +1,6 @@
 <?php
 // ==========================================================================
-// YUKT IT SOLUTIONS — Semantic SVG Icon Library
+// VIVEK TECH — Semantic SVG Icon Library
 // ==========================================================================
 
 function getIconSvg($name, $classes = 'w-5 h-5') {

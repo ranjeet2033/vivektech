@@ -123,7 +123,6 @@ $schemaGraph = [
         "description" => $pageDesc,
         "telephone" => PHONE_NUMBER,
         "email" => EMAIL_PRIMARY,
-        "hasMap" => GOOGLE_MAPS_VIEW_URL,
         "address" => [
             "@type" => "PostalAddress",
             "streetAddress" => "Block A, Ram Datt Enclave, Uttam Nagar",
@@ -381,12 +380,12 @@ if (!empty($faqs) && is_array($faqs)) {
             About
           </a>
 
-          <!-- Why Choose YUKT -->
+          <!-- Why Choose VIVEK TECH -->
           <a 
-            href="<?php echo ($activePage === 'home') ? '#why-yukt' : 'index.php#why-yukt'; ?>" 
+            href="<?php echo ($activePage === 'home') ? '#why-vivektech' : 'index.php#why-vivektech'; ?>" 
             class="px-2 2xl:px-2.5 py-1.5 rounded-lg text-xs 2xl:text-sm font-medium text-slate-300 hover:text-white hover:bg-white/[0.06] transition-all whitespace-nowrap flex-shrink-0"
           >
-            Why YUKT
+            Why VIVEK TECH
           </a>
 
           <!-- Contact Page -->
@@ -551,20 +550,20 @@ if (!empty($faqs) && is_array($faqs)) {
             <i data-lucide="chevron-right" class="w-4 h-4 text-slate-500"></i>
           </a>
 
-          <!-- About YUKT -->
+          <!-- About VIVEK TECH -->
           <a href="about.php" class="mobile-nav-link px-3.5 py-2.5 rounded-xl text-sm font-medium <?php echo ($activePage === 'about') ? 'text-white bg-white/10' : 'text-slate-200 hover:bg-white/5'; ?> flex items-center justify-between transition-colors">
             <span class="flex items-center gap-2.5">
               <i data-lucide="info" class="w-4 h-4 text-electric-400"></i>
-              <span>About YUKT</span>
+              <span>About VIVEK TECH</span>
             </span>
             <i data-lucide="chevron-right" class="w-4 h-4 text-slate-500"></i>
           </a>
 
-          <!-- Why Choose YUKT -->
-          <a href="<?php echo ($activePage === 'home') ? '#why-yukt' : 'index.php#why-yukt'; ?>" class="mobile-nav-link px-3.5 py-2.5 rounded-xl text-sm font-medium text-slate-200 hover:bg-white/5 flex items-center justify-between transition-colors">
+          <!-- Why Choose VIVEK TECH -->
+          <a href="<?php echo ($activePage === 'home') ? '#why-vivektech' : 'index.php#why-vivektech'; ?>" class="mobile-nav-link px-3.5 py-2.5 rounded-xl text-sm font-medium text-slate-200 hover:bg-white/5 flex items-center justify-between transition-colors">
             <span class="flex items-center gap-2.5">
               <i data-lucide="shield-check" class="w-4 h-4 text-electric-400"></i>
-              <span>Why Choose YUKT</span>
+              <span>Why Choose VIVEK TECH</span>
             </span>
             <i data-lucide="chevron-right" class="w-4 h-4 text-slate-500"></i>
           </a>

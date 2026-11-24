@@ -3,7 +3,7 @@ require_once __DIR__ . '/includes/config.php';
 
 $service = $SERVICES['branding-creative'];
 
-$pageTitle = 'Brand Identity, UI/UX Design & Creative Services | YUKT IT SOLUTIONS';
+$pageTitle = 'Brand Identity, UI/UX Design & Creative Services | VIVEK TECH';
 $pageDesc = 'Strategic branding & creative services: distinctive logo design, full brand identity guidelines, interactive Figma UI/UX prototypes, and promotional videos.';
 
 $capabilities = [

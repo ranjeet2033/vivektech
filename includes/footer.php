@@ -34,13 +34,6 @@
               <i data-lucide="message-circle" class="w-3.5 h-3.5 text-emerald-400"></i>
               <a href="https://wa.me/919334968355?text=Hi%20Vivek%20Tech%2C%20I%20want%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">WhatsApp: +91 93349 68355</a>
             </div>
-            <div class="flex items-center gap-2">
-              <i data-lucide="map-pin" class="w-3.5 h-3.5 text-red-400"></i>
-              <a href="<?php echo defined('GOOGLE_MAPS_VIEW_URL') ? GOOGLE_MAPS_VIEW_URL : 'https://maps.google.com/?cid=7252994966779493168'; ?>" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors flex items-center gap-1">
-                <span>Delhi Office on Google Maps</span>
-                <i data-lucide="external-link" class="w-3 h-3 text-slate-500"></i>
-              </a>
-            </div>
           </div>
 
           <!-- Official Social Handles -->
@@ -110,7 +103,6 @@
             <li><a href="about.php" class="hover:text-white transition-colors">About Vivek Tech</a></li>
             <li><a href="portfolio.php" class="hover:text-white transition-colors">Client Work &amp; Case Studies</a></li>
             <li><a href="contact.php" class="hover:text-white transition-colors">Contact &amp; Scoping Desk</a></li>
-            <li><a href="contact.php#office-map" class="hover:text-white transition-colors">Office Location &amp; Map</a></li>
             <li><a href="index.php#services" class="hover:text-white transition-colors">3D Interactive Showcase</a></li>
             <li><a href="privacy-policy" class="hover:text-white transition-colors">Privacy Policy</a></li>
             <li><a href="terms" class="hover:text-white transition-colors">Terms &amp; Conditions</a></li>

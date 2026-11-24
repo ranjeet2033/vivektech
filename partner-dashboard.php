@@ -110,17 +110,17 @@ $refUrlHome = COMPANY_URL . '/?ref=' . urlencode($partnerCode);
 $refUrlPartner = COMPANY_URL . '/partner.php?ref=' . urlencode($partnerCode);
 $refUrlServices = COMPANY_URL . '/service-catalogue.php?ref=' . urlencode($partnerCode);
 
-$shareMessage = "Namaste! Agar aapko Website Development, Software, Business Automation, Professional Document Services ya Digital Marketing ki zarurat hai, to YUKT IT SOLUTIONS se contact kar sakte hain.\n\nYUKT Digital Partner Program ke through aap bhi apne area mein digital services ka business expand kar sakte hain.\n\nExplore: " . $refUrlHome;
+$shareMessage = "Namaste! Agar aapko Website Development, Software, Business Automation, Professional Document Services ya Digital Marketing ki zarurat hai, to VIVEK TECH se contact kar sakte hain.\n\nYUKT Digital Partner Program ke through aap bhi apne area mein digital services ka business expand kar sakte hain.\n\nExplore: " . $refUrlHome;
 $waShareUrl = 'https://api.whatsapp.com/send?text=' . rawurlencode($shareMessage);
 $fbShareUrl = 'https://www.facebook.com/sharer/sharer.php?u=' . urlencode($refUrlHome);
 $tgShareUrl = 'https://t.me/share/url?url=' . urlencode($refUrlHome) . '&text=' . rawurlencode($shareMessage);
-$emailShareUrl = 'mailto:?subject=' . rawurlencode('Explore Digital & IT Solutions from YUKT') . '&body=' . rawurlencode($shareMessage);
+$emailShareUrl = 'mailto:?subject=' . rawurlencode('Explore Digital & IT Solutions from VIVEK TECH') . '&body=' . rawurlencode($shareMessage);
 
 $catalogueCategories = getCatalogueCategories();
 $allCatalogueServices = getCatalogueServices();
 
-$pageTitle = 'Partner Dashboard | YUKT IT SOLUTIONS';
-$pageDesc = 'Manage your referrals, customer project enquiries, commission ledger, and support tickets in the YUKT Digital Partner Portal.';
+$pageTitle = 'Partner Dashboard | VIVEK TECH';
+$pageDesc = 'Manage your referrals, customer project enquiries, commission ledger, and support tickets in the VIVEK TECH Digital Partner Portal.';
 $activePage = 'partner';
 
 require_once __DIR__ . '/includes/header.php';
@@ -194,12 +194,12 @@ require_once __DIR__ . '/includes/header.php';
           <div>
             <div class="text-sm font-semibold text-white">Application Under Review (Verification Pending)</div>
             <p class="text-xs text-slate-300 mt-0.5">
-              Your partner account is being reviewed by the YUKT technical onboarding desk. You can already explore 140+ services, share your referral link, and submit customer project inquiries! Payout withdrawals will be enabled once your business credentials are verified.
+              Your partner account is being reviewed by the VIVEK TECH technical onboarding desk. You can already explore 140+ services, share your referral link, and submit customer project inquiries! Payout withdrawals will be enabled once your business credentials are verified.
             </p>
           </div>
         </div>
         <a 
-          href="<?php echo getWhatsAppUrl('Hi YUKT Team, please fast-track the verification for my Partner ID ' . $partnerCode . ' (' . $partner['shop_name'] . ').'); ?>" 
+          href="<?php echo getWhatsAppUrl('Hi VIVEK TECH Team, please fast-track the verification for my Partner ID ' . $partnerCode . ' (' . $partner['shop_name'] . ').'); ?>" 
           target="_blank" 
           rel="noopener noreferrer" 
           class="px-4 py-2 rounded-xl text-xs font-semibold text-amber-900 bg-amber-400 hover:bg-amber-300 transition-colors shrink-0 flex items-center justify-center gap-1.5"
@@ -325,7 +325,7 @@ require_once __DIR__ . '/includes/header.php';
         <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
           <div class="space-y-2 max-w-xl">
             <span class="text-xs font-mono uppercase tracking-wider text-electric-400">Instant Client Referral Link</span>
-            <h3 class="text-xl sm:text-2xl font-display font-bold text-white">Share YUKT with Local Clients</h3>
+            <h3 class="text-xl sm:text-2xl font-display font-bold text-white">Share VIVEK TECH with Local Clients</h3>
             <p class="text-xs sm:text-sm text-slate-300">
               When walk-in customers or business contacts visit your link, all their inquiries are tagged to your Partner ID.
             </p>
@@ -486,7 +486,7 @@ require_once __DIR__ . '/includes/header.php';
             </a>
 
             <?php if (true): ?>
-              <button type="button" onclick="if(navigator.share){navigator.share({title:'YUKT IT SOLUTIONS',text:'<?php echo addslashes($shareMessage); ?>',url:'<?php echo $refUrlHome; ?>'});}else{alert('Native share not supported on this browser. Use WhatsApp or Copy Link.');}" class="px-5 py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-semibold flex items-center gap-2 border border-white/10 transition-all">
+              <button type="button" onclick="if(navigator.share){navigator.share({title:'VIVEK TECH',text:'<?php echo addslashes($shareMessage); ?>',url:'<?php echo $refUrlHome; ?>'});}else{alert('Native share not supported on this browser. Use WhatsApp or Copy Link.');}" class="px-5 py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-semibold flex items-center gap-2 border border-white/10 transition-all">
                 <i data-lucide="share" class="w-4 h-4"></i>
                 <span>Native Share</span>
               </button>
@@ -988,7 +988,7 @@ require_once __DIR__ . '/includes/header.php';
                 </div>
                 <div>
                   <div class="text-xs font-bold text-white">Printable Shop Poster (A3 / A4)</div>
-                  <p class="text-[11px] text-slate-400 mt-0.5">"Digital &amp; IT Services Available Here" with YUKT Partner branding. Print and paste on shop wall or glass.</p>
+                  <p class="text-[11px] text-slate-400 mt-0.5">"Digital &amp; IT Services Available Here" with VIVEK TECH Partner branding. Print and paste on shop wall or glass.</p>
                 </div>
               </div>
               <a href="brochure/partner-poster-template.html" target="_blank" class="px-3.5 py-2 rounded-lg bg-electric-600 hover:bg-electric-500 text-white text-xs font-medium shrink-0 transition-colors">
@@ -1095,9 +1095,9 @@ require_once __DIR__ . '/includes/header.php';
           <!-- WhatsApp Direct Link -->
           <div class="pt-3 border-t border-white/10 flex items-center justify-between text-xs">
             <span class="text-slate-400">Need instant help?</span>
-            <a href="<?php echo getWhatsAppUrl('Hi YUKT Support, I am Partner ' . $partnerCode . '. I need urgent assistance.'); ?>" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-semibold flex items-center gap-1">
+            <a href="<?php echo getWhatsAppUrl('Hi VIVEK TECH Support, I am Partner ' . $partnerCode . '. I need urgent assistance.'); ?>" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-semibold flex items-center gap-1">
               <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
-              <span>Live WhatsApp Hotline (+91 82354 11806)</span>
+              <span>Live WhatsApp Hotline (+91 93349 68355)</span>
             </a>
           </div>
         </div>

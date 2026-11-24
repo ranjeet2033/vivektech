@@ -1,6 +1,6 @@
 <?php
 // ==========================================================================
-// YUKT IT SOLUTIONS — User Data Deletion API Endpoint
+// VIVEK TECH — User Data Deletion API Endpoint
 // Compliant with Meta Platform Terms, DPDP Act 2023 & GDPR Article 17
 // ==========================================================================
 

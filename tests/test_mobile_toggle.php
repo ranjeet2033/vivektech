@@ -82,16 +82,16 @@ if (!empty($menuMatches[1])) {
 }
 
 // Check WhatsApp CTAs in header and drawer
-if (strpos($headerHtml, 'Start Project on WhatsApp (+91 82354 11806)') !== false) {
-    $passes[] = "Mobile drawer WhatsApp CTA text displays company number (+91 82354 11806).";
+if (strpos($headerHtml, 'Start Project on WhatsApp (+91 93349 68355)') !== false) {
+    $passes[] = "Mobile drawer WhatsApp CTA text displays company number (+91 93349 68355).";
 } else {
-    $errors[] = "Mobile drawer WhatsApp CTA does not display (+91 82354 11806).";
+    $errors[] = "Mobile drawer WhatsApp CTA does not display (+91 93349 68355).";
 }
 
-if (strpos($headerHtml, 'Chat on WhatsApp (+91 82354 11806)') !== false) {
-    $passes[] = "Header desktop WhatsApp button title displays company number (+91 82354 11806).";
+if (strpos($headerHtml, 'Chat on WhatsApp (+91 93349 68355)') !== false) {
+    $passes[] = "Header desktop WhatsApp button title displays company number (+91 93349 68355).";
 } else {
-    $errors[] = "Header desktop WhatsApp button title does not display (+91 82354 11806).";
+    $errors[] = "Header desktop WhatsApp button title does not display (+91 93349 68355).";
 }
 
 // 2. Check JavaScript Logic in assets/js/app.js
@@ -115,10 +115,10 @@ if (strpos($jsCode, "window.toggleMobileServices = toggleServices") !== false) {
     $errors[] = "window.toggleMobileServices not exposed.";
 }
 
-if (strpos($jsCode, "https://wa.me/917217645059") === false) {
-    $passes[] = "app.js contains no legacy quote modal WhatsApp links pointing to 72176 (all point to company: 918235411806).";
+if (strpos($jsCode, "https://wa.me/919334968355") !== false && strpos($jsCode, "917217645059") === false && strpos($jsCode, "918235411806") === false) {
+    $passes[] = "app.js quote modal WhatsApp links point to Vivek Tech (+91 93349 68355).";
 } else {
-    $errors[] = "app.js still contains hardcoded links to 917217645059.";
+    $errors[] = "app.js does not point to 919334968355 or contains legacy numbers.";
 }
 
 // 3. Check CSS Rules in input.css and main.css

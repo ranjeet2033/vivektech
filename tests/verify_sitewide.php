@@ -1,29 +1,29 @@
 <?php
 $routes = [
-    "http://localhost/yukt/index.php",
-    "http://localhost/yukt/about.php",
-    "http://localhost/yukt/services.php",
-    "http://localhost/yukt/portfolio.php",
-    "http://localhost/yukt/contact.php",
-    "http://localhost/yukt/design-system.php",
-    "http://localhost/yukt/service-website-development.php",
-    "http://localhost/yukt/service-software-applications.php",
-    "http://localhost/yukt/service-ai-automation.php",
-    "http://localhost/yukt/service-digital-marketing.php",
-    "http://localhost/yukt/service-ai-marketing.php",
-    "http://localhost/yukt/service-branding-creative.php",
-    "http://localhost/yukt/service-ecommerce-solutions.php",
-    "http://localhost/yukt/service-it-consulting.php",
-    "http://localhost/yukt/project-enterprise-saas.php",
-    "http://localhost/yukt/project-d2c-commerce.php",
-    "http://localhost/yukt/project-rag-assistant.php",
-    "http://localhost/yukt/project-corporate-portal.php",
-    "http://localhost/yukt/project-b2b-marketing.php",
-    "http://localhost/yukt/project-franchise-platform.php",
-    "http://localhost/yukt/service-catalogue.php",
-    "http://localhost/yukt/partner.php",
-    "http://localhost/yukt/partner-login.php",
-    "http://localhost/yukt/admin-partners.php"
+    "http://localhost/vivektech/index.php",
+    "http://localhost/vivektech/about.php",
+    "http://localhost/vivektech/services.php",
+    "http://localhost/vivektech/portfolio.php",
+    "http://localhost/vivektech/contact.php",
+    "http://localhost/vivektech/design-system.php",
+    "http://localhost/vivektech/service-website-development.php",
+    "http://localhost/vivektech/service-software-applications.php",
+    "http://localhost/vivektech/service-ai-automation.php",
+    "http://localhost/vivektech/service-digital-marketing.php",
+    "http://localhost/vivektech/service-ai-marketing.php",
+    "http://localhost/vivektech/service-branding-creative.php",
+    "http://localhost/vivektech/service-ecommerce-solutions.php",
+    "http://localhost/vivektech/service-it-consulting.php",
+    "http://localhost/vivektech/project-enterprise-saas.php",
+    "http://localhost/vivektech/project-d2c-commerce.php",
+    "http://localhost/vivektech/project-rag-assistant.php",
+    "http://localhost/vivektech/project-corporate-portal.php",
+    "http://localhost/vivektech/project-b2b-marketing.php",
+    "http://localhost/vivektech/project-franchise-platform.php",
+    "http://localhost/vivektech/service-catalogue.php",
+    "http://localhost/vivektech/partner.php",
+    "http://localhost/vivektech/partner-login.php",
+    "http://localhost/vivektech/admin-partners.php"
 ];
 
 $errors = [];
@@ -39,7 +39,7 @@ foreach ($routes as $url) {
     }
 
     // Check floating WhatsApp button present (Company number)
-    if (strpos($html, 'wa.me/918235411806') === false) {
+    if (strpos($html, 'wa.me/919334968355') === false) {
         $errors[] = "Missing official WhatsApp link on: $url";
     }
 

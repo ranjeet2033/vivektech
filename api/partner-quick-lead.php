@@ -1,6 +1,6 @@
 <?php
 // ==========================================================================
-// YUKT PARTNER PROGRAM — QUICK CALLBACK & INQUIRY API
+// VIVEK TECH PARTNER PROGRAM — QUICK CALLBACK & INQUIRY API
 // ==========================================================================
 
 header('Content-Type: application/json');
@@ -46,8 +46,8 @@ if (strlen($clean_phone) < 10) {
 }
 
 // Generate pre-filled WhatsApp message
-$waMessage = "Namaste YUKT Team! Mera naam {$full_name} hai. Meri shop ka naam '{$shop_name}' ({$city}) hai. Main YUKT Partner Program ke baare me janna chahta hu. Business Type: {$business_type}, Service: {$service}.";
-$waUrl = getWhatsAppUrl($waMessage, '918235411806');
+$waMessage = "Namaste VIVEK TECH Team! Mera naam {$full_name} hai. Meri shop ka naam '{$shop_name}' ({$city}) hai. Main VIVEK TECH Partner Program ke baare me janna chahta hu. Business Type: {$business_type}, Service: {$service}.";
+$waUrl = getWhatsAppUrl($waMessage, '919334968355');
 
 // Save into partner_enquiries table if available
 if (isset($pdo) && $pdo) {
@@ -74,7 +74,7 @@ if (isset($pdo) && $pdo) {
 
 echo json_encode([
     'success' => true,
-    'message' => 'Dhanyawad! Aapki request mil gayi hai. YUKT team aapse jald hi call ya WhatsApp par baat karegi.',
+    'message' => 'Dhanyawad! Aapki request mil gayi hai. VIVEK TECH team aapse jald hi call ya WhatsApp par baat karegi.',
     'whatsapp_url' => $waUrl
 ]);
 exit;

@@ -1,6 +1,6 @@
 <?php
 // ==========================================================================
-// YUKT IT SOLUTIONS — Comprehensive Digital Services Catalogue (Master Data)
+// VIVEK TECH — Comprehensive Digital Services Catalogue (Master Data)
 // 10 Strategic Categories | 140+ Professional Services
 // ==========================================================================
 
@@ -45,7 +45,7 @@ if (!defined('YUKT_SERVICE_CATALOGUE_LOADED')) {
             'accent' => 'orange',
             'gradient' => 'from-amber-500 to-orange-600',
             'description' => 'Dedicated documentation desk for Cyber Cafes, CSC centres, job seekers, and businesses. Professional formatting, layout design, resumes, and business reports.',
-            'legal_disclaimer' => 'IMPORTANT LEGAL NOTICE: All legal document and agreement services are drafting and formatting assistance only and do not replace legal advice from qualified legal professionals. YUKT does not claim legal validity or guaranteed government approval.',
+            'legal_disclaimer' => 'IMPORTANT LEGAL NOTICE: All legal document and agreement services are drafting and formatting assistance only and do not replace legal advice from qualified legal professionals. VIVEK TECH does not claim legal validity or guaranteed government approval.',
             'count' => 48,
         ],
         'graphic-design' => [

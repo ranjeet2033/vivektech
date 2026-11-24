@@ -1,7 +1,7 @@
 <?php
 $activePage = 'design-system';
-$pageTitle = 'Design System & Component Library — Yukt IT Solutions';
-$pageDesc = 'Comprehensive design system, color tokens, typography scales, buttons, form controls, and reusable UI components for YUKT IT SOLUTIONS.';
+$pageTitle = 'Design System & Component Library — Vivek Tech';
+$pageDesc = 'Comprehensive design system, color tokens, typography scales, buttons, form controls, and reusable UI components for VIVEK TECH.';
 
 require_once __DIR__ . '/includes/header.php';
 require_once __DIR__ . '/includes/components/section-header.php';
@@ -16,10 +16,10 @@ require_once __DIR__ . '/includes/components/card-service.php';
         <span class="w-2 h-2 rounded-full bg-electric-600"></span> Design Specification v1.0
       </div>
       <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-navy-900 tracking-tight">
-        YUKT Design System &amp; Component Library
+        VIVEK TECH Design System &amp; Component Library
       </h1>
       <p class="text-lg text-navy-600 mt-4 leading-relaxed">
-        A minimalist, accessible, and high-performance design language engineered for <strong class="text-navy-900">YUKT IT SOLUTIONS (yukt.online)</strong>. Designed with clean off-white canvases, deep navy typography, electric blue precision lines, and subtle warm orange energy accents.
+        A minimalist, accessible, and high-performance design language engineered for <strong class="text-navy-900">VIVEK TECH (vivektech.online)</strong>. Designed with clean off-white canvases, deep navy typography, electric blue precision lines, and subtle warm orange energy accents.
       </p>
       
       <div class="mt-8 flex flex-wrap gap-4 items-center">
@@ -119,7 +119,7 @@ require_once __DIR__ . '/includes/components/card-service.php';
           <span class="w-3 h-3 rounded bg-brandOrange-500"></span>
           Subtle Warm Orange Secondary Accent Scale (#F97316)
         </h3>
-        <p class="text-xs text-navy-600 mb-4">Derived from the warm spark node in the Yukt logo mark. Used sparingly for high-impact callouts, conversion sparks, and notifications.</p>
+        <p class="text-xs text-navy-600 mb-4">Derived from the warm spark node in the Vivek Tech logo mark. Used sparingly for high-impact callouts, conversion sparks, and notifications.</p>
         <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
           <div class="p-3 bg-white border border-canvas-border rounded-lg shadow-xs">
             <div class="h-16 rounded-md bg-[#F97316] mb-2 flex items-end p-1.5"><span class="text-[10px] text-white font-mono">#F97316</span></div>
@@ -184,7 +184,7 @@ require_once __DIR__ . '/includes/components/card-service.php';
       <div class="pt-6">
         <div class="text-xs font-mono text-slate-400 mb-1">Body Text Large — 18px / Regular (400)</div>
         <p class="text-lg text-navy-600 leading-relaxed max-w-3xl">
-          At Yukt IT Solutions, we bridge the gap between creative visual excellence and hardened enterprise architecture. Every line of code is optimized for Core Web Vitals, maximum security, and frictionless scalability.
+          At Vivek Tech, we bridge the gap between creative visual excellence and hardened enterprise architecture. Every line of code is optimized for Core Web Vitals, maximum security, and frictionless scalability.
         </p>
       </div>
 
@@ -198,7 +198,7 @@ require_once __DIR__ . '/includes/components/card-service.php';
       <div class="pt-6">
         <div class="text-xs font-mono text-slate-400 mb-1">Monospace / Code / API Spec — JetBrains Mono</div>
         <div class="p-3 bg-canvas-muted rounded-md text-xs font-mono text-navy-800 border border-canvas-border">
-          curl -X POST https://api.yukt.online/v1/projects/estimate -H "Authorization: Bearer yukt_sec_token"
+          curl -X POST https://api.vivektech.online/v1/projects/estimate -H "Authorization: Bearer vivektech_sec_token"
         </div>
       </div>
 

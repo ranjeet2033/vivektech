@@ -1,6 +1,6 @@
 <?php
 // ==========================================================================
-// YUKT IT SOLUTIONS — Badge & Micro-Tag Component
+// VIVEK TECH — Badge & Micro-Tag Component
 // ==========================================================================
 
 function renderBadge($text, $color = 'blue', $icon = null, $extraClasses = '') {
