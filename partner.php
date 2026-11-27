@@ -157,7 +157,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               <span class="font-medium text-slate-700 truncate">Cyber Cafe &bull; CSC &bull; Kendra</span>
               <div class="flex items-center gap-1.5 shrink-0 ml-2">
                 <a href="#services-list" class="text-blue-600 hover:text-blue-700 font-semibold flex items-center gap-0.5">
-                  <span>10 Services</span>
+                  <span>11 Categories</span>
                 </a>
                 <span>&bull;</span>
                 <a href="#directory" class="text-emerald-600 hover:text-emerald-700 font-semibold flex items-center gap-0.5">
@@ -326,16 +326,16 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
        SECTION 4: CORE SERVICES SHOWCASE (EXACTLY 2 CARDS PER ROW EVERYWHERE)
        "mobile view me thoda gap de do" -> Generous spacing, clean layout, no truncations!
   ========================================================================== -->
-  <section id="services-list" class="py-6 sm:py-10 bg-white border-b border-slate-200 scroll-mt-16">
-    <div class="max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-8">
+  <section id="services-list" class="py-8 sm:py-12 bg-slate-50/80 border-b border-slate-200 scroll-mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <!-- Section Header with Clear Bottom Margin / Gap -->
-      <div class="text-center max-w-2xl mx-auto space-y-1.5 mb-5 sm:mb-7">
-        <span class="px-2.5 py-0.5 rounded-full text-[9px] sm:text-[10px] font-bold uppercase tracking-wider bg-emerald-50 text-emerald-800 border border-emerald-300">
-          10 Strategic Categories
+      <div class="text-center max-w-2xl mx-auto space-y-2 mb-6 sm:mb-8">
+        <span class="px-3 py-1 rounded-full text-[10px] sm:text-xs font-bold uppercase tracking-wider bg-emerald-50 text-emerald-800 border border-emerald-300">
+          11 Strategic Categories
         </span>
-        <h2 class="text-xl sm:text-2xl lg:text-3xl font-display font-extrabold text-slate-900 tracking-tight">
-          आप अपनी दुकान से ये 10 Services Provide कर सकते हैं
+        <h2 class="text-2xl sm:text-3xl font-display font-extrabold text-slate-900 tracking-tight">
+          आप अपनी दुकान से ये 11 Services Provide कर सकते हैं
         </h2>
         <p class="text-xs sm:text-sm text-slate-600">
           हर सर्विस के लिए सीधे WhatsApp पर इन्क्वायरी भेजें:
@@ -348,7 +348,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
         <!-- ==========================================
              CARD 1: WEBSITE & WEB DEVELOPMENT
         ========================================== -->
-        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4 sm:p-6 flex flex-col justify-between hover:border-blue-400 hover:shadow-md transition-all space-y-3">
+        <div class="rounded-2xl bg-white border border-slate-200/90 p-5 sm:p-6 flex flex-col justify-between shadow-sm hover:shadow-xl hover:-translate-y-0.5 transition-all duration-200 hover:border-blue-400 hover:shadow-md transition-all space-y-3">
           <div class="space-y-2">
             
             <!-- Top Row: Icon + Badge with Generous Spacing -->
@@ -406,7 +406,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
         <!-- ==========================================
              CARD 2: SOFTWARE & GST BILLING
         ========================================== -->
-        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4 sm:p-6 flex flex-col justify-between hover:border-yukt-orange hover:shadow-md transition-all space-y-3">
+        <div class="rounded-2xl bg-white border border-slate-200/90 p-5 sm:p-6 flex flex-col justify-between shadow-sm hover:shadow-xl hover:-translate-y-0.5 transition-all duration-200 hover:border-yukt-orange hover:shadow-md transition-all space-y-3">
           <div class="space-y-2">
             
             <!-- Top Row: Icon + Badge with Generous Spacing -->
@@ -527,7 +527,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
         <!-- ==========================================
              CARD 4: GRAPHIC DESIGN & PRINTING
         ========================================== -->
-        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4 sm:p-6 flex flex-col justify-between hover:border-purple-400 hover:shadow-md transition-all space-y-3">
+        <div class="rounded-2xl bg-white border border-slate-200/90 p-5 sm:p-6 flex flex-col justify-between shadow-sm hover:shadow-xl hover:-translate-y-0.5 transition-all duration-200 hover:border-purple-400 hover:shadow-md transition-all space-y-3">
           <div class="space-y-2">
             
             <!-- Top Row: Icon + Badge with Generous Spacing -->
@@ -585,7 +585,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
         <!-- ==========================================
              CARD 5: GOOGLE MAPS & LOCAL MARKETING
         ========================================== -->
-        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4 sm:p-6 flex flex-col justify-between hover:border-red-400 hover:shadow-md transition-all space-y-3">
+        <div class="rounded-2xl bg-white border border-slate-200/90 p-5 sm:p-6 flex flex-col justify-between shadow-sm hover:shadow-xl hover:-translate-y-0.5 transition-all duration-200 hover:border-red-400 hover:shadow-md transition-all space-y-3">
           <div class="space-y-2">
             
             <!-- Top Row: Icon + Badge with Generous Spacing -->
@@ -643,7 +643,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
         <!-- ==========================================
              CARD 6: WHATSAPP BOT & AI AUTOMATION
         ========================================== -->
-        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4 sm:p-6 flex flex-col justify-between hover:border-emerald-500 hover:shadow-md transition-all space-y-3">
+        <div class="rounded-2xl bg-white border border-slate-200/90 p-5 sm:p-6 flex flex-col justify-between shadow-sm hover:shadow-xl hover:-translate-y-0.5 transition-all duration-200 hover:border-emerald-500 hover:shadow-md transition-all space-y-3">
           <div class="space-y-2">
             
             <!-- Top Row: Icon + Badge with Generous Spacing -->
@@ -701,7 +701,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
         <!-- ==========================================
              CARD 7: MOBILE APP DEVELOPMENT
         ========================================== -->
-        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4 sm:p-6 flex flex-col justify-between hover:border-indigo-400 hover:shadow-md transition-all space-y-3">
+        <div class="rounded-2xl bg-white border border-slate-200/90 p-5 sm:p-6 flex flex-col justify-between shadow-sm hover:shadow-xl hover:-translate-y-0.5 transition-all duration-200 hover:border-indigo-400 hover:shadow-md transition-all space-y-3">
           <div class="space-y-2">
             
             <!-- Top Row: Icon + Badge with Generous Spacing -->
@@ -759,7 +759,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
         <!-- ==========================================
              CARD 8: SCHOOL & COACHING TECH
         ========================================== -->
-        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4 sm:p-6 flex flex-col justify-between hover:border-teal-400 hover:shadow-md transition-all space-y-3">
+        <div class="rounded-2xl bg-white border border-slate-200/90 p-5 sm:p-6 flex flex-col justify-between shadow-sm hover:shadow-xl hover:-translate-y-0.5 transition-all duration-200 hover:border-teal-400 hover:shadow-md transition-all space-y-3">
           <div class="space-y-2">
             
             <!-- Top Row: Icon + Badge with Generous Spacing -->
@@ -817,7 +817,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
         <!-- ==========================================
              CARD 9: IT & DOMAIN HOSTING
         ========================================== -->
-        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4 sm:p-6 flex flex-col justify-between hover:border-cyan-400 hover:shadow-md transition-all space-y-3">
+        <div class="rounded-2xl bg-white border border-slate-200/90 p-5 sm:p-6 flex flex-col justify-between shadow-sm hover:shadow-xl hover:-translate-y-0.5 transition-all duration-200 hover:border-cyan-400 hover:shadow-md transition-all space-y-3">
           <div class="space-y-2">
             
             <!-- Top Row: Icon + Badge with Generous Spacing -->
@@ -875,7 +875,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
         <!-- ==========================================
              CARD 10: COMPLETE SHOP DIGITALIZATION
         ========================================== -->
-        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4 sm:p-6 flex flex-col justify-between hover:border-emerald-400 hover:shadow-md transition-all space-y-3">
+        <div class="rounded-2xl bg-white border border-slate-200/90 p-5 sm:p-6 flex flex-col justify-between shadow-sm hover:shadow-xl hover:-translate-y-0.5 transition-all duration-200 hover:border-emerald-400 hover:shadow-md transition-all space-y-3">
           <div class="space-y-2">
             
             <!-- Top Row: Icon + Badge with Generous Spacing -->
@@ -922,7 +922,65 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, mujhe Complete Shop Digitalization partnership ke baare me janna hai. Local shop ko digital banana hai.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
-              class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-sm transition-all text-center"
+              class="w-full py-2.5 px-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs flex items-center justify-center gap-1.5 shadow-sm transition-all text-center"
+            >
+              <i data-lucide="message-circle" class="w-3.5 h-3.5 shrink-0"></i>
+              <span>WhatsApp Enquiry</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- ==========================================
+             CARD 11: MARKETPLACE & SELLER LISTING (AMAZON, MEESHO, FLIPKART, FACEBOOK)
+        ========================================== -->
+        <div class="rounded-2xl bg-white border border-slate-200/90 p-5 sm:p-6 flex flex-col justify-between shadow-sm hover:border-yukt-orange hover:shadow-xl hover:-translate-y-0.5 transition-all duration-200 space-y-4 sm:col-span-2">
+          <div class="space-y-2.5">
+            
+            <!-- Top Row: Icon + Badge -->
+            <div class="flex items-center justify-between pb-2.5 border-b border-slate-100">
+              <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-yukt-orange to-amber-500 text-white flex items-center justify-center shrink-0 shadow-sm">
+                <i data-lucide="shopping-bag" class="w-5 h-5"></i>
+              </div>
+              <span class="text-[10px] font-bold px-2.5 py-0.5 rounded-full bg-orange-100 text-orange-800 font-mono shrink-0">
+                12 Services &bull; Pan-India Demand
+              </span>
+            </div>
+
+            <!-- Title & Hindi Subtitle -->
+            <div class="space-y-0.5">
+              <h3 class="text-sm sm:text-lg font-bold text-slate-900 leading-snug">
+                11. Marketplace &amp; Seller Listing (Amazon, Meesho, Flipkart, Facebook)
+              </h3>
+              <p class="text-xs font-semibold text-orange-700 leading-tight">
+                Amazon, Flipkart, Meesho, Facebook, IndiaMART व JioMart पर प्रोडक्ट लिस्टिंग
+              </p>
+            </div>
+
+            <!-- Description -->
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Tier 1, 2 और 3 के हर दुकानदार, थोक व्यापारी और मैन्युफैक्चरर को ऑनलाइन बेचने में मदद करें: सेलर अकाउंट सेटअप, बल्क प्रोडक्ट अपलोड, A+ इमेज व मार्केटप्लेस एड्स।
+            </p>
+
+            <!-- Key Offerings Bullets (2-Col on wide card) -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-1.5 text-xs text-slate-700 pt-1">
+              <div class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-yukt-orange shrink-0"></i><span>Amazon, Flipkart &amp; Meesho Seller Onboarding</span></div>
+              <div class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-yukt-orange shrink-0"></i><span>Facebook Marketplace &amp; Instagram Shop Listing</span></div>
+              <div class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-yukt-orange shrink-0"></i><span>IndiaMART, JioMart &amp; Justdial B2B Cataloging</span></div>
+              <div class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-yukt-orange shrink-0"></i><span>Bulk Excel/CSV Upload, A+ Content &amp; Ads Setup</span></div>
+            </div>
+          </div>
+
+          <!-- Bottom Action -->
+          <div class="pt-3 border-t border-slate-100 flex flex-col sm:flex-row sm:items-center justify-between gap-2.5">
+            <div class="flex items-center gap-2 text-xs font-semibold">
+              <span class="text-slate-500">कमीशन:</span>
+              <span class="text-emerald-700 bg-emerald-50 border border-emerald-200 px-2.5 py-0.5 rounded-lg font-bold font-mono">₹1,000 – ₹10,000+</span>
+            </div>
+            <a 
+              href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, mujhe Amazon, Meesho, Flipkart & Facebook Marketplace Listing partnership ke baare me janna hai.'); ?>" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="sm:w-auto w-full py-2.5 px-5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs flex items-center justify-center gap-1.5 shadow-sm transition-all text-center"
             >
               <i data-lucide="message-circle" class="w-3.5 h-3.5 shrink-0"></i>
               <span>WhatsApp Enquiry</span>
@@ -1250,6 +1308,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
                 <option value="Document & Typing">Advanced Document &amp; Resume Typing</option>
                 <option value="Graphic Design">Graphic Design &amp; Flex Banner</option>
                 <option value="Google Business Profile">Google Maps &amp; Local Marketing</option>
+                <option value="Marketplace Listing">Amazon, Meesho, Flipkart &amp; FB Listing</option>
                 <option value="School Software">School &amp; Coaching Software</option>
               </select>
             </div>

@@ -138,6 +138,19 @@ if (!defined('VIVEKTECH_SERVICE_CATALOGUE_LOADED')) {
             'gradient' => 'from-indigo-600 to-blue-600',
             'description' => 'Turnkey digital platforms for schools, colleges, institutes, and private coaches with student portals, online tests, and fee collection.',
             'count' => 10,
+        ],
+        'marketplace-listing' => [
+            'id' => 'marketplace-listing',
+            'letter' => 'K',
+            'name' => 'Marketplace & Seller Listing',
+            'short_name' => 'Marketplace Listing',
+            'tagline' => 'Amazon, Flipkart, Meesho, Facebook & IndiaMART Seller Setup',
+            'icon' => 'shopping-bag',
+            'badge' => 'Pan-India Demand',
+            'accent' => 'orange',
+            'gradient' => 'from-orange-500 to-amber-500',
+            'description' => 'Complete seller onboarding, bulk product listing, A+ cataloging, and marketplace ad setup for Amazon, Flipkart, Meesho, Facebook, and IndiaMART.',
+            'count' => 12,
         ]
     ];
 
@@ -2151,6 +2164,142 @@ if (!defined('VIVEKTECH_SERVICE_CATALOGUE_LOADED')) {
             'timeline' => '7-15 Days',
             'popular' => false,
             'tags' => ['smart classroom', 'digital learning', 'smart board', 'elearning']
+        ],
+
+        // ----------------------------------------------------------------------
+        // CATEGORY K: MARKETPLACE & SELLER LISTING (12 Services)
+        // ----------------------------------------------------------------------
+        [
+            'id' => 'mkt-amazon-seller',
+            'category_id' => 'marketplace-listing',
+            'name' => 'Amazon Seller Onboarding & Listing',
+            'icon' => 'shopping-bag',
+            'short_desc' => 'Complete Amazon India seller account setup, brand approval, and SEO-optimized product listings.',
+            'deliverables' => ['Seller Account Setup', 'SEO Titles & Bullets', 'Category Mapping'],
+            'timeline' => '2-4 Days',
+            'popular' => true,
+            'tags' => ['amazon', 'amazon listing', 'seller account', 'ecommerce']
+        ],
+        [
+            'id' => 'mkt-meesho-seller',
+            'category_id' => 'marketplace-listing',
+            'name' => 'Meesho Supplier Account & Cataloging',
+            'icon' => 'shopping-bag',
+            'short_desc' => 'Meesho supplier registration, GST/bank verification, and high-converting single or bulk product uploads.',
+            'deliverables' => ['Supplier Onboarding', 'Catalog Upload', 'Pricing & Margin Setup'],
+            'timeline' => '1-3 Days',
+            'popular' => true,
+            'tags' => ['meesho', 'meesho listing', 'meesho supplier', 'reselling']
+        ],
+        [
+            'id' => 'mkt-flipkart-seller',
+            'category_id' => 'marketplace-listing',
+            'name' => 'Flipkart Seller Hub & Product Listing',
+            'icon' => 'shopping-bag',
+            'short_desc' => 'Flipkart seller registration, QC-compliant cataloging, and variation setup for apparel, electronics, and retail.',
+            'deliverables' => ['Flipkart Seller Setup', 'QC-Ready Catalog', 'Size & Color Variants'],
+            'timeline' => '2-4 Days',
+            'popular' => true,
+            'tags' => ['flipkart', 'flipkart listing', 'seller hub']
+        ],
+        [
+            'id' => 'mkt-facebook-marketplace',
+            'category_id' => 'marketplace-listing',
+            'name' => 'Facebook Marketplace & Instagram Shop',
+            'icon' => 'share-2',
+            'short_desc' => 'Facebook Page Shop, Marketplace product listings, and Instagram Shopping catalog sync for local & Pan-India sales.',
+            'deliverables' => ['FB Commerce Manager', 'Instagram Product Tags', 'WhatsApp Order Link'],
+            'timeline' => '2-3 Days',
+            'popular' => true,
+            'tags' => ['facebook listing', 'facebook marketplace', 'instagram shop', 'meta']
+        ],
+        [
+            'id' => 'mkt-indiamart-listing',
+            'category_id' => 'marketplace-listing',
+            'name' => 'IndiaMART & TradeIndia B2B Listing',
+            'icon' => 'briefcase',
+            'short_desc' => 'B2B manufacturer, wholesaler, and trader catalog setup on IndiaMART and TradeIndia for bulk inquiries.',
+            'deliverables' => ['B2B Seller Profile', 'Product Catalog', 'Lead Inquiry Setup'],
+            'timeline' => '2-4 Days',
+            'popular' => false,
+            'tags' => ['indiamart', 'tradeindia', 'b2b listing', 'wholesale']
+        ],
+        [
+            'id' => 'mkt-jiomart-listing',
+            'category_id' => 'marketplace-listing',
+            'name' => 'JioMart & GlowRoad Seller Setup',
+            'icon' => 'store',
+            'short_desc' => 'Seller onboarding and product catalog management on JioMart and GlowRoad for Tier 1, 2 & 3 reach.',
+            'deliverables' => ['Account Registration', 'Catalog Sync', 'Order Workflow Setup'],
+            'timeline' => '2-4 Days',
+            'popular' => false,
+            'tags' => ['jiomart', 'glowroad', 'marketplace', 'seller']
+        ],
+        [
+            'id' => 'mkt-justdial-listing',
+            'category_id' => 'marketplace-listing',
+            'name' => 'Justdial & Sulekha Business Listing',
+            'icon' => 'map-pin',
+            'short_desc' => 'Verified business profile, service keywords, and photo gallery setup on Justdial and Sulekha.',
+            'deliverables' => ['Verified Listing', 'Keyword Optimization', 'Contact & Timings'],
+            'timeline' => '1-2 Days',
+            'popular' => false,
+            'tags' => ['justdial', 'sulekha', 'local listing', 'directory']
+        ],
+        [
+            'id' => 'mkt-bulk-excel-upload',
+            'category_id' => 'marketplace-listing',
+            'name' => 'Bulk Product CSV / Excel Cataloging',
+            'icon' => 'file-spreadsheet',
+            'short_desc' => 'Bulk flat-file Excel/CSV preparation and error-free upload for 100 to 5,000+ SKUs across marketplaces.',
+            'deliverables' => ['Flat-File Formatting', 'Attribute Mapping', 'Error Resolution'],
+            'timeline' => '2-5 Days',
+            'popular' => false,
+            'tags' => ['bulk upload', 'csv', 'excel catalog', 'sku']
+        ],
+        [
+            'id' => 'mkt-aplus-content',
+            'category_id' => 'marketplace-listing',
+            'name' => 'Amazon A+ Content & Infographic Images',
+            'icon' => 'image',
+            'short_desc' => 'White-background product photo editing, lifestyle infographics, and Amazon A+ (EBC) banner modules.',
+            'deliverables' => ['White BG Editing', 'Feature Infographics', 'A+ Banner Layout'],
+            'timeline' => '3-5 Days',
+            'popular' => true,
+            'tags' => ['a+ content', 'ebc', 'product images', 'amazon']
+        ],
+        [
+            'id' => 'mkt-marketplace-ads',
+            'category_id' => 'marketplace-listing',
+            'name' => 'Amazon, Flipkart & Meesho Ads Setup',
+            'icon' => 'trending-up',
+            'short_desc' => 'Sponsored product ad campaigns, keyword bidding, and ACOS optimization to boost daily marketplace orders.',
+            'deliverables' => ['Ad Campaign Setup', 'Keyword Bidding', 'ROAS Tracking'],
+            'timeline' => '2-3 Days',
+            'popular' => false,
+            'tags' => ['amazon ads', 'flipkart ads', 'meesho ads', 'ppc']
+        ],
+        [
+            'id' => 'mkt-gst-brand-registry',
+            'category_id' => 'marketplace-listing',
+            'name' => 'GTIN Exemption & Brand Approval Support',
+            'icon' => 'shield-check',
+            'short_desc' => 'Assistance with Amazon GTIN exemption, brand name approval, and category ungating for new sellers.',
+            'deliverables' => ['GTIN Exemption', 'Brand Approval Docs', 'Category Ungating'],
+            'timeline' => '3-7 Days',
+            'popular' => false,
+            'tags' => ['gtin', 'brand approval', 'ungating', 'amazon']
+        ],
+        [
+            'id' => 'mkt-account-management',
+            'category_id' => 'marketplace-listing',
+            'name' => 'Monthly Seller Account Management',
+            'icon' => 'layers',
+            'short_desc' => 'End-to-end monthly management of orders, inventory sync, return claims (SPF/Safe-T), and seller health.',
+            'deliverables' => ['Daily Order Sync', 'Claim & Return Filing', 'Account Health'],
+            'timeline' => 'Monthly Retainer',
+            'popular' => false,
+            'tags' => ['account management', 'seller support', 'safe-t claim', 'ecommerce']
         ]
     ];
 
