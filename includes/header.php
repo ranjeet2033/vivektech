@@ -90,10 +90,10 @@ if (!isset($canonicalUrl)) {
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
 
-  <!-- Typography Preconnect & Google Fonts (Inter + JetBrains Mono + Plus Jakarta Sans + Space Grotesk) -->
+  <!-- Typography Preconnect & Google Fonts (Inter + Plus Jakarta Sans + JetBrains Mono + Noto Sans Devanagari) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
 
   <!-- Compiled Stylesheet (Tailwind CSS + Futuristic 3D Design Tokens) -->
   <link rel="stylesheet" href="assets/css/main.css?v=<?php echo $cssVersion; ?>">

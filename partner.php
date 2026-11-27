@@ -30,77 +30,77 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
 <div class="bg-slate-50 text-slate-800 font-sans selection:bg-yukt-orange selection:text-white pb-20 md:pb-10">
 
   <!-- ==========================================================================
-       SECTION 1: HERO SECTION (COMPACT, LIGHT, 16:9 BANNER)
+       SECTION 1: HERO SECTION (MODERN, CLEAN, 16:9 BANNER)
   ========================================================================== -->
-  <section class="relative pt-12 pb-5 sm:pt-16 sm:pb-8 lg:pt-16 lg:pb-8 bg-gradient-to-b from-white via-blue-50/20 to-slate-50 border-b border-slate-200 overflow-hidden">
+  <section class="relative pt-6 pb-10 sm:pt-8 sm:pb-14 bg-gradient-to-b from-white via-blue-50/40 to-slate-50 border-b border-slate-200 overflow-hidden">
     <!-- Ambient Light Glows -->
-    <div class="absolute -top-20 left-1/2 -translate-x-1/2 w-[550px] h-[250px] bg-blue-100/50 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute -top-20 left-1/2 -translate-x-1/2 w-[600px] h-[280px] bg-blue-100/60 rounded-full blur-3xl pointer-events-none"></div>
 
-    <div class="max-w-7xl mx-auto px-3.5 sm:px-6 lg:px-8 relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
       
       <!-- Top Announcement Pill -->
-      <div class="flex justify-center mb-2.5 sm:mb-3">
-        <div class="inline-flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-emerald-50 border border-emerald-300 text-emerald-800 text-[10px] sm:text-xs font-semibold shadow-xs">
+      <div class="flex justify-center lg:justify-start mb-4">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-50 border border-emerald-300 text-emerald-800 text-xs font-semibold shadow-sm">
           <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-          <span>Official VIVEK TECH Digital Partner Program &bull; 100% Free Joining &bull; Zero Investment</span>
+          <span>Official VIVEK TECH Partner Program &bull; 100% Free &bull; Zero Investment</span>
         </div>
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-8 items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-10 items-center">
         
         <!-- Left: Punchy Headline & Value Props (7 Cols) -->
-        <div class="lg:col-span-7 space-y-3 sm:space-y-4 text-center lg:text-left">
+        <div class="lg:col-span-7 space-y-4 sm:space-y-5 text-center lg:text-left">
           
-          <h1 class="text-2xl sm:text-3xl lg:text-4xl font-display font-extrabold text-slate-900 tracking-tight leading-[1.2]">
+          <h1 class="text-3xl sm:text-4xl lg:text-5xl font-display font-extrabold text-slate-900 tracking-tight leading-[1.15]">
             अपनी दुकान को बनाएं <br class="hidden sm:inline">
             <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-indigo-600 to-yukt-orange">Full IT Solutions Hub</span>
-            <span class="text-slate-800 block text-lg sm:text-2xl font-bold mt-0.5">बिना ₹1 खर्च किए!</span>
+            <span class="text-slate-800 block text-xl sm:text-2xl font-bold mt-1.5">बिना ₹1 खर्च किए!</span>
           </h1>
 
           <!-- Simple Message Box -->
-          <div class="p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200 shadow-xs text-slate-700 text-xs sm:text-sm leading-relaxed text-left">
+          <div class="p-4 rounded-2xl bg-white border border-slate-200/90 shadow-sm text-slate-700 text-xs sm:text-sm leading-relaxed text-left">
             <p class="font-medium text-slate-800">
               <span class="text-yukt-orange font-bold">💡</span> 
-              "Cyber Cafe, CSC, Jan Seva Kendra aur Computer Dukan ke liye sunahara mauka. Apni dukan se <strong class="text-blue-700">Website</strong>, <strong class="text-blue-700">Billing Software</strong>, <strong class="text-blue-700">Resume / Document Typing</strong> provide karein. Pura technical kaam VIVEK TECH karega — aur 15% se 25% commission seedha aapke Bank/UPI me aayega!"
+              Cyber Cafe, CSC, Jan Seva Kendra aur Computer Dukan ke liye sunahara mauka. Apni dukan se <strong class="text-blue-700">Website</strong>, <strong class="text-blue-700">Billing Software</strong>, aur <strong class="text-blue-700">Document Services</strong> provide karein. Pura technical kaam <strong class="text-slate-900">VIVEK TECH</strong> karega — aur <strong class="text-emerald-700">15% se 25% commission</strong> seedha aapke Bank/UPI me aayega!
             </p>
           </div>
 
-          <!-- 4 Core Trust Badges (Compact 4-Col Grid) -->
-          <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 pt-0.5">
-            <div class="p-2 sm:p-2.5 rounded-xl bg-white border border-slate-200 text-center shadow-xs">
-              <div class="text-[9px] sm:text-[10px] text-slate-500 font-medium">Upfront Kharch</div>
-              <div class="text-xs sm:text-base font-bold text-emerald-600">₹0 (Free)</div>
-              <div class="text-[8px] sm:text-[9px] text-slate-400">Zero Investment</div>
+          <!-- 4 Core Trust Badges (Clean 4-Col Grid) -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-3 pt-1">
+            <div class="p-3 rounded-2xl bg-white border border-slate-200 border-t-2 border-t-emerald-500 text-center shadow-sm hover:shadow-md transition-all">
+              <div class="text-[10px] sm:text-xs text-slate-500 font-medium">Upfront Kharch</div>
+              <div class="text-sm sm:text-lg font-extrabold text-emerald-600 mt-0.5">₹0 (Free)</div>
+              <div class="text-[10px] text-slate-400">Zero Investment</div>
             </div>
 
-            <div class="p-2 sm:p-2.5 rounded-xl bg-white border border-slate-200 text-center shadow-xs">
-              <div class="text-[9px] sm:text-[10px] text-slate-500 font-medium">Aapka Munafa</div>
-              <div class="text-xs sm:text-base font-bold text-yukt-orange">15% – 25%</div>
-              <div class="text-[8px] sm:text-[9px] text-slate-400">Per Project</div>
+            <div class="p-3 rounded-2xl bg-white border border-slate-200 border-t-2 border-t-yukt-orange text-center shadow-sm hover:shadow-md transition-all">
+              <div class="text-[10px] sm:text-xs text-slate-500 font-medium">Aapka Munafa</div>
+              <div class="text-sm sm:text-lg font-extrabold text-yukt-orange mt-0.5">15% – 25%</div>
+              <div class="text-[10px] text-slate-400">Per Project</div>
             </div>
 
-            <div class="p-2 sm:p-2.5 rounded-xl bg-white border border-slate-200 text-center shadow-xs">
-              <div class="text-[9px] sm:text-[10px] text-slate-500 font-medium">Services Menu</div>
-              <div class="text-xs sm:text-base font-bold text-blue-600">140+ Services</div>
-              <div class="text-[8px] sm:text-[9px] text-slate-400">Ready To Sell</div>
+            <div class="p-3 rounded-2xl bg-white border border-slate-200 border-t-2 border-t-blue-600 text-center shadow-sm hover:shadow-md transition-all">
+              <div class="text-[10px] sm:text-xs text-slate-500 font-medium">Services Menu</div>
+              <div class="text-sm sm:text-lg font-extrabold text-blue-600 mt-0.5">140+ Services</div>
+              <div class="text-[10px] text-slate-400">Ready To Sell</div>
             </div>
 
-            <div class="p-2 sm:p-2.5 rounded-xl bg-white border border-slate-200 text-center shadow-xs">
-              <div class="text-[9px] sm:text-[10px] text-slate-500 font-medium">Technical Kaam</div>
-              <div class="text-xs sm:text-base font-bold text-indigo-600">100% VIVEK TECH</div>
-              <div class="text-[8px] sm:text-[9px] text-slate-400">No Coding Needed</div>
+            <div class="p-3 rounded-2xl bg-white border border-slate-200 border-t-2 border-t-indigo-600 text-center shadow-sm hover:shadow-md transition-all">
+              <div class="text-[10px] sm:text-xs text-slate-500 font-medium">Technical Kaam</div>
+              <div class="text-sm sm:text-lg font-extrabold text-indigo-600 mt-0.5">100% Ours</div>
+              <div class="text-[10px] text-slate-400">No Coding Needed</div>
             </div>
           </div>
 
           <!-- Dual Instant Action Buttons (WhatsApp & Call) -->
-          <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-center lg:justify-start gap-2 pt-0.5">
+          <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-center lg:justify-start gap-3 pt-1">
             
             <!-- WhatsApp Chat Button (Primary) -->
             <a 
               href="<?php echo getWhatsAppUrl('Namaste VIVEK TECH Team! Mujhe VIVEK TECH Digital Business Partner Program me judna hai. Kripya details share karein.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
-              class="px-4 py-2.5 sm:px-5 sm:py-3 rounded-xl font-bold text-xs sm:text-sm text-white bg-emerald-600 hover:bg-emerald-500 shadow-md shadow-emerald-600/20 transition-all flex items-center justify-center gap-1.5 text-center"
+              class="px-5 py-3 sm:px-6 sm:py-3.5 rounded-xl font-bold text-xs sm:text-sm text-white bg-gradient-to-r from-emerald-600 to-teal-600 hover:from-emerald-500 hover:to-teal-500 shadow-lg shadow-emerald-600/25 hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2 text-center"
             >
               <i data-lucide="message-circle" class="w-4 h-4"></i>
               <span>WhatsApp Par Baat Karein</span>
@@ -109,7 +109,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
             <!-- Direct Call Button -->
             <a 
               href="tel:+919334968355" 
-              class="px-4 py-2.5 sm:px-5 sm:py-3 rounded-xl font-bold text-xs sm:text-sm text-slate-800 bg-white hover:bg-slate-100 border border-slate-300 shadow-xs transition-all flex items-center justify-center gap-1.5 text-center"
+              class="px-5 py-3 sm:px-6 sm:py-3.5 rounded-xl font-bold text-xs sm:text-sm text-slate-800 bg-white hover:bg-slate-50 border border-slate-300 shadow-sm hover:shadow hover:-translate-y-0.5 transition-all flex items-center justify-center gap-2 text-center"
             >
               <i data-lucide="phone-call" class="w-4 h-4 text-blue-600"></i>
               <span>Call Karein: +91 93349 68355</span>
@@ -118,10 +118,10 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
           </div>
 
           <!-- Trust Subtext -->
-          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-2.5 text-[10px] sm:text-[11px] text-slate-500">
-            <span class="flex items-center gap-1"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Free Shop Marketing Poster</span>
-            <span class="flex items-center gap-1"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> Direct UPI / Bank Payout</span>
-            <span class="flex items-center gap-1"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-500"></i> White-Label Support</span>
+          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-3 text-xs text-slate-600 font-medium">
+            <span class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-600"></i> Free Shop Marketing Poster</span>
+            <span class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-600"></i> Direct UPI / Bank Payout</span>
+            <span class="flex items-center gap-1.5"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-600"></i> White-Label Support</span>
           </div>
 
         </div>
@@ -140,7 +140,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               >
               
               <!-- Floating Live Badge Overlay -->
-              <div class="absolute top-2 left-2 bg-white/95 backdrop-blur-md px-2 py-0.5 rounded-full shadow-xs border border-slate-100 flex items-center gap-1 text-[9px] sm:text-[10px] font-bold text-slate-800">
+              <div class="absolute top-2 left-2 bg-white/95 backdrop-blur-md px-2 py-0.5 rounded-full shadow-sm border border-slate-100 flex items-center gap-1 text-[9px] sm:text-[10px] font-bold text-slate-800">
                 <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-ping"></span>
                 <span>VIVEK TECH Authorized Partner Hub</span>
               </div>
@@ -269,7 +269,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
       <!-- Compact Grid: 2 Cards per row on Mobile, 6 on Desktop -->
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2 sm:gap-2.5">
         
-        <div class="p-2 sm:p-2.5 rounded-xl bg-white border border-slate-200 shadow-xs flex flex-col items-center text-center space-y-1">
+        <div class="p-2 sm:p-2.5 rounded-xl bg-white border border-slate-200 shadow-sm flex flex-col items-center text-center space-y-1">
           <div class="w-8 h-8 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center">
             <i data-lucide="monitor" class="w-4 h-4"></i>
           </div>
@@ -277,7 +277,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
           <p class="text-[9px] sm:text-[10px] text-slate-500">Website, Resume, Typing</p>
         </div>
 
-        <div class="p-2 sm:p-2.5 rounded-xl bg-white border border-slate-200 shadow-xs flex flex-col items-center text-center space-y-1">
+        <div class="p-2 sm:p-2.5 rounded-xl bg-white border border-slate-200 shadow-sm flex flex-col items-center text-center space-y-1">
           <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center">
             <i data-lucide="building" class="w-4 h-4"></i>
           </div>
@@ -285,7 +285,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
           <p class="text-[9px] sm:text-[10px] text-slate-500">GST Billing, Software</p>
         </div>
 
-        <div class="p-2 sm:p-2.5 rounded-xl bg-white border border-slate-200 shadow-xs flex flex-col items-center text-center space-y-1">
+        <div class="p-2 sm:p-2.5 rounded-xl bg-white border border-slate-200 shadow-sm flex flex-col items-center text-center space-y-1">
           <div class="w-8 h-8 rounded-lg bg-orange-100 text-yukt-orange flex items-center justify-center">
             <i data-lucide="printer" class="w-4 h-4"></i>
           </div>
@@ -293,7 +293,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
           <p class="text-[9px] sm:text-[10px] text-slate-500">Logo, Banner, Flex</p>
         </div>
 
-        <div class="p-2 sm:p-2.5 rounded-xl bg-white border border-slate-200 shadow-xs flex flex-col items-center text-center space-y-1">
+        <div class="p-2 sm:p-2.5 rounded-xl bg-white border border-slate-200 shadow-sm flex flex-col items-center text-center space-y-1">
           <div class="w-8 h-8 rounded-lg bg-indigo-100 text-indigo-700 flex items-center justify-center">
             <i data-lucide="copy" class="w-4 h-4"></i>
           </div>
@@ -301,7 +301,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
           <p class="text-[9px] sm:text-[10px] text-slate-500">PDF, Typing, OCR</p>
         </div>
 
-        <div class="p-2 sm:p-2.5 rounded-xl bg-white border border-slate-200 shadow-xs flex flex-col items-center text-center space-y-1">
+        <div class="p-2 sm:p-2.5 rounded-xl bg-white border border-slate-200 shadow-sm flex flex-col items-center text-center space-y-1">
           <div class="w-8 h-8 rounded-lg bg-purple-100 text-purple-700 flex items-center justify-center">
             <i data-lucide="laptop" class="w-4 h-4"></i>
           </div>
@@ -309,7 +309,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
           <p class="text-[9px] sm:text-[10px] text-slate-500">App, Dev Outsource</p>
         </div>
 
-        <div class="p-2 sm:p-2.5 rounded-xl bg-white border border-slate-200 shadow-xs flex flex-col items-center text-center space-y-1">
+        <div class="p-2 sm:p-2.5 rounded-xl bg-white border border-slate-200 shadow-sm flex flex-col items-center text-center space-y-1">
           <div class="w-8 h-8 rounded-lg bg-amber-100 text-amber-800 flex items-center justify-center">
             <i data-lucide="users" class="w-4 h-4"></i>
           </div>
@@ -342,18 +342,18 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
         </p>
       </div>
 
-      <!-- EXACTLY 2 CARDS PER ROW GRID (GENEROUS BREATHING GAP ON MOBILE) -->
-      <div class="grid grid-cols-2 gap-3.5 sm:gap-5 lg:gap-6 mt-4 sm:mt-6">
+      <!-- CLEAN 2-COL GRID (1 COL MOBILE / 2 COL TABLET & DESKTOP) -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mt-5 sm:mt-7">
         
         <!-- ==========================================
              CARD 1: WEBSITE & WEB DEVELOPMENT
         ========================================== -->
-        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-3 sm:p-4.5 flex flex-col justify-between hover:border-blue-400 hover:shadow-md transition-all space-y-3">
+        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4 sm:p-6 flex flex-col justify-between hover:border-blue-400 hover:shadow-md transition-all space-y-3">
           <div class="space-y-2">
             
             <!-- Top Row: Icon + Badge with Generous Spacing -->
             <div class="flex items-center justify-between pb-2 border-b border-slate-200/80">
-              <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center shrink-0 shadow-2xs">
+              <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-blue-600 text-white flex items-center justify-center shrink-0 shadow-sm">
                 <i data-lucide="globe" class="w-4 h-4 sm:w-5 sm:h-5"></i>
               </div>
               <span class="text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-full bg-blue-100 text-blue-800 font-mono shrink-0">
@@ -395,7 +395,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, mujhe Website Development partnership ke baare me janna hai. Mere paas website banwane ka client hai.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
-              class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-xs transition-all text-center"
+              class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-sm transition-all text-center"
             >
               <i data-lucide="message-circle" class="w-3.5 h-3.5 shrink-0"></i>
               <span>WhatsApp Enquiry</span>
@@ -406,12 +406,12 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
         <!-- ==========================================
              CARD 2: SOFTWARE & GST BILLING
         ========================================== -->
-        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-3 sm:p-4.5 flex flex-col justify-between hover:border-yukt-orange hover:shadow-md transition-all space-y-3">
+        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4 sm:p-6 flex flex-col justify-between hover:border-yukt-orange hover:shadow-md transition-all space-y-3">
           <div class="space-y-2">
             
             <!-- Top Row: Icon + Badge with Generous Spacing -->
             <div class="flex items-center justify-between pb-2 border-b border-slate-200/80">
-              <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-yukt-orange text-white flex items-center justify-center shrink-0 shadow-2xs">
+              <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-yukt-orange text-white flex items-center justify-center shrink-0 shadow-sm">
                 <i data-lucide="cpu" class="w-4 h-4 sm:w-5 sm:h-5"></i>
               </div>
               <span class="text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-full bg-orange-100 text-orange-800 font-mono shrink-0">
@@ -453,7 +453,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, mujhe GST Billing & Shop Software partnership ke baare me janna hai. Client ko software chahiye.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
-              class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-xs transition-all text-center"
+              class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-sm transition-all text-center"
             >
               <i data-lucide="message-circle" class="w-3.5 h-3.5 shrink-0"></i>
               <span>WhatsApp Enquiry</span>
@@ -464,12 +464,12 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
         <!-- ==========================================
              CARD 3: ADVANCED DOCUMENT SERVICES (CSC SPECIAL)
         ========================================== -->
-        <div class="rounded-2xl bg-amber-50/70 border border-amber-300 p-3 sm:p-4.5 flex flex-col justify-between hover:border-amber-400 hover:shadow-md transition-all space-y-3">
+        <div class="rounded-2xl bg-amber-50/70 border border-amber-300 p-4 sm:p-6 flex flex-col justify-between hover:border-amber-400 hover:shadow-md transition-all space-y-3">
           <div class="space-y-2">
             
             <!-- Top Row: Icon + Badge with Generous Spacing -->
             <div class="flex items-center justify-between pb-2 border-b border-amber-200/80">
-              <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-amber-600 text-white flex items-center justify-center shrink-0 shadow-2xs">
+              <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-amber-600 text-white flex items-center justify-center shrink-0 shadow-sm">
                 <i data-lucide="file-text" class="w-4 h-4 sm:w-5 sm:h-5"></i>
               </div>
               <span class="text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-full bg-amber-200 text-amber-900 font-mono shrink-0">
@@ -516,7 +516,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, mujhe Advanced Document Services (Resume, Typing, Project Report, OCR) partnership ke baare me janna hai.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
-              class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-xs transition-all text-center"
+              class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-sm transition-all text-center"
             >
               <i data-lucide="message-circle" class="w-3.5 h-3.5 shrink-0"></i>
               <span>WhatsApp Enquiry</span>
@@ -527,12 +527,12 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
         <!-- ==========================================
              CARD 4: GRAPHIC DESIGN & PRINTING
         ========================================== -->
-        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-3 sm:p-4.5 flex flex-col justify-between hover:border-purple-400 hover:shadow-md transition-all space-y-3">
+        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4 sm:p-6 flex flex-col justify-between hover:border-purple-400 hover:shadow-md transition-all space-y-3">
           <div class="space-y-2">
             
             <!-- Top Row: Icon + Badge with Generous Spacing -->
             <div class="flex items-center justify-between pb-2 border-b border-slate-200/80">
-              <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-purple-600 text-white flex items-center justify-center shrink-0 shadow-2xs">
+              <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-purple-600 text-white flex items-center justify-center shrink-0 shadow-sm">
                 <i data-lucide="palette" class="w-4 h-4 sm:w-5 sm:h-5"></i>
               </div>
               <span class="text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-full bg-purple-100 text-purple-800 font-mono shrink-0">
@@ -574,7 +574,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, mujhe Graphic Design (Logo, Flex Banner, Visiting Card) partnership ke baare me janna hai.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
-              class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-xs transition-all text-center"
+              class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-sm transition-all text-center"
             >
               <i data-lucide="message-circle" class="w-3.5 h-3.5 shrink-0"></i>
               <span>WhatsApp Enquiry</span>
@@ -585,12 +585,12 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
         <!-- ==========================================
              CARD 5: GOOGLE MAPS & LOCAL MARKETING
         ========================================== -->
-        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-3 sm:p-4.5 flex flex-col justify-between hover:border-red-400 hover:shadow-md transition-all space-y-3">
+        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4 sm:p-6 flex flex-col justify-between hover:border-red-400 hover:shadow-md transition-all space-y-3">
           <div class="space-y-2">
             
             <!-- Top Row: Icon + Badge with Generous Spacing -->
             <div class="flex items-center justify-between pb-2 border-b border-slate-200/80">
-              <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-red-600 text-white flex items-center justify-center shrink-0 shadow-2xs">
+              <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-red-600 text-white flex items-center justify-center shrink-0 shadow-sm">
                 <i data-lucide="map-pin" class="w-4 h-4 sm:w-5 sm:h-5"></i>
               </div>
               <span class="text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-full bg-red-100 text-red-800 font-mono shrink-0">
@@ -632,7 +632,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, mujhe Google Business Profile / Local Marketing partnership ke baare me janna hai. Shop listing client hai.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
-              class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-xs transition-all text-center"
+              class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-sm transition-all text-center"
             >
               <i data-lucide="message-circle" class="w-3.5 h-3.5 shrink-0"></i>
               <span>WhatsApp Enquiry</span>
@@ -643,12 +643,12 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
         <!-- ==========================================
              CARD 6: WHATSAPP BOT & AI AUTOMATION
         ========================================== -->
-        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-3 sm:p-4.5 flex flex-col justify-between hover:border-emerald-500 hover:shadow-md transition-all space-y-3">
+        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4 sm:p-6 flex flex-col justify-between hover:border-emerald-500 hover:shadow-md transition-all space-y-3">
           <div class="space-y-2">
             
             <!-- Top Row: Icon + Badge with Generous Spacing -->
             <div class="flex items-center justify-between pb-2 border-b border-slate-200/80">
-              <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center shrink-0 shadow-2xs">
+              <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-emerald-600 text-white flex items-center justify-center shrink-0 shadow-sm">
                 <i data-lucide="bot" class="w-4 h-4 sm:w-5 sm:h-5"></i>
               </div>
               <span class="text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-mono shrink-0">
@@ -690,7 +690,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, mujhe WhatsApp Chatbot & AI Automation partnership ke baare me janna hai.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
-              class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-xs transition-all text-center"
+              class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-sm transition-all text-center"
             >
               <i data-lucide="message-circle" class="w-3.5 h-3.5 shrink-0"></i>
               <span>WhatsApp Enquiry</span>
@@ -701,12 +701,12 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
         <!-- ==========================================
              CARD 7: MOBILE APP DEVELOPMENT
         ========================================== -->
-        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-3 sm:p-4.5 flex flex-col justify-between hover:border-indigo-400 hover:shadow-md transition-all space-y-3">
+        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4 sm:p-6 flex flex-col justify-between hover:border-indigo-400 hover:shadow-md transition-all space-y-3">
           <div class="space-y-2">
             
             <!-- Top Row: Icon + Badge with Generous Spacing -->
             <div class="flex items-center justify-between pb-2 border-b border-slate-200/80">
-              <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-indigo-600 text-white flex items-center justify-center shrink-0 shadow-2xs">
+              <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-indigo-600 text-white flex items-center justify-center shrink-0 shadow-sm">
                 <i data-lucide="smartphone" class="w-4 h-4 sm:w-5 sm:h-5"></i>
               </div>
               <span class="text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-full bg-indigo-100 text-indigo-800 font-mono shrink-0">
@@ -748,7 +748,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, mujhe Mobile App Development partnership ke baare me janna hai. Client ko Android app banwana hai.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
-              class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-xs transition-all text-center"
+              class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-sm transition-all text-center"
             >
               <i data-lucide="message-circle" class="w-3.5 h-3.5 shrink-0"></i>
               <span>WhatsApp Enquiry</span>
@@ -759,12 +759,12 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
         <!-- ==========================================
              CARD 8: SCHOOL & COACHING TECH
         ========================================== -->
-        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-3 sm:p-4.5 flex flex-col justify-between hover:border-teal-400 hover:shadow-md transition-all space-y-3">
+        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4 sm:p-6 flex flex-col justify-between hover:border-teal-400 hover:shadow-md transition-all space-y-3">
           <div class="space-y-2">
             
             <!-- Top Row: Icon + Badge with Generous Spacing -->
             <div class="flex items-center justify-between pb-2 border-b border-slate-200/80">
-              <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-teal-600 text-white flex items-center justify-center shrink-0 shadow-2xs">
+              <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-teal-600 text-white flex items-center justify-center shrink-0 shadow-sm">
                 <i data-lucide="graduation-cap" class="w-4 h-4 sm:w-5 sm:h-5"></i>
               </div>
               <span class="text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-full bg-teal-100 text-teal-800 font-mono shrink-0">
@@ -806,7 +806,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, mujhe School & Coaching Software partnership ke baare me janna hai. Mere contact me school/coaching hai.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
-              class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-xs transition-all text-center"
+              class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-sm transition-all text-center"
             >
               <i data-lucide="message-circle" class="w-3.5 h-3.5 shrink-0"></i>
               <span>WhatsApp Enquiry</span>
@@ -817,12 +817,12 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
         <!-- ==========================================
              CARD 9: IT & DOMAIN HOSTING
         ========================================== -->
-        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-3 sm:p-4.5 flex flex-col justify-between hover:border-cyan-400 hover:shadow-md transition-all space-y-3">
+        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4 sm:p-6 flex flex-col justify-between hover:border-cyan-400 hover:shadow-md transition-all space-y-3">
           <div class="space-y-2">
             
             <!-- Top Row: Icon + Badge with Generous Spacing -->
             <div class="flex items-center justify-between pb-2 border-b border-slate-200/80">
-              <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-cyan-700 text-white flex items-center justify-center shrink-0 shadow-2xs">
+              <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-cyan-700 text-white flex items-center justify-center shrink-0 shadow-sm">
                 <i data-lucide="server" class="w-4 h-4 sm:w-5 sm:h-5"></i>
               </div>
               <span class="text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-full bg-cyan-100 text-cyan-800 font-mono shrink-0">
@@ -864,7 +864,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, mujhe Domain, Hosting & Business Email partnership ke baare me janna hai.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
-              class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-xs transition-all text-center"
+              class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-sm transition-all text-center"
             >
               <i data-lucide="message-circle" class="w-3.5 h-3.5 shrink-0"></i>
               <span>WhatsApp Enquiry</span>
@@ -875,12 +875,12 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
         <!-- ==========================================
              CARD 10: COMPLETE SHOP DIGITALIZATION
         ========================================== -->
-        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-3 sm:p-4.5 flex flex-col justify-between hover:border-emerald-400 hover:shadow-md transition-all space-y-3">
+        <div class="rounded-2xl bg-slate-50 border border-slate-200 p-4 sm:p-6 flex flex-col justify-between hover:border-emerald-400 hover:shadow-md transition-all space-y-3">
           <div class="space-y-2">
             
             <!-- Top Row: Icon + Badge with Generous Spacing -->
             <div class="flex items-center justify-between pb-2 border-b border-slate-200/80">
-              <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-emerald-700 text-white flex items-center justify-center shrink-0 shadow-2xs">
+              <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-emerald-700 text-white flex items-center justify-center shrink-0 shadow-sm">
                 <i data-lucide="qr-code" class="w-4 h-4 sm:w-5 sm:h-5"></i>
               </div>
               <span class="text-[9px] sm:text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 font-mono shrink-0">
@@ -922,7 +922,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               href="<?php echo getWhatsAppUrl('Hi VIVEK TECH, mujhe Complete Shop Digitalization partnership ke baare me janna hai. Local shop ko digital banana hai.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
-              class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-xs transition-all text-center"
+              class="w-full py-2 sm:py-2.5 px-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10.5px] sm:text-xs flex items-center justify-center gap-1.5 shadow-sm transition-all text-center"
             >
               <i data-lucide="message-circle" class="w-3.5 h-3.5 shrink-0"></i>
               <span>WhatsApp Enquiry</span>
@@ -936,7 +936,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
       <div class="text-center pt-3 sm:pt-4">
         <a 
           href="#directory" 
-          class="inline-flex items-center gap-1.5 px-4 py-2 sm:px-6 sm:py-2.5 rounded-xl bg-blue-50 hover:bg-blue-100 border border-blue-300 text-blue-800 font-bold text-[11px] sm:text-xs shadow-xs transition-all"
+          class="inline-flex items-center gap-1.5 px-4 py-2 sm:px-6 sm:py-2.5 rounded-xl bg-blue-50 hover:bg-blue-100 border border-blue-300 text-blue-800 font-bold text-[11px] sm:text-xs shadow-sm transition-all"
         >
           <i data-lucide="search" class="w-4 h-4 text-blue-600"></i>
           <span>नीचे सम्पूर्ण 140+ सर्विसेज डायरेक्टरी में खोजें &darr;</span>
@@ -976,7 +976,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
             type="text" 
             id="partnerDirSearch" 
             placeholder="सर्विस खोजें... (उदा. GST Billing, Resume, School ERP, Website, Flex, OCR...)" 
-            class="w-full pl-10 pr-20 py-2.5 rounded-xl bg-white border border-slate-300 text-slate-900 placeholder-slate-400 text-xs sm:text-sm focus:border-blue-600 focus:outline-none shadow-2xs transition-all"
+            class="w-full pl-10 pr-20 py-2.5 rounded-xl bg-white border border-slate-300 text-slate-900 placeholder-slate-400 text-xs sm:text-sm focus:border-blue-600 focus:outline-none shadow-sm transition-all"
           >
           <button 
             id="clearPartnerDirBtn" 
@@ -988,7 +988,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
 
         <!-- Filter Pills -->
         <div class="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none text-[10.5px] sm:text-xs">
-          <button class="pdir-cat-btn active whitespace-nowrap px-3 py-1.5 rounded-full font-bold bg-blue-600 text-white shadow-xs" data-category="all">
+          <button class="pdir-cat-btn active whitespace-nowrap px-3 py-1.5 rounded-full font-bold bg-blue-600 text-white shadow-sm" data-category="all">
             All (140+)
           </button>
           <button class="pdir-cat-btn whitespace-nowrap px-3 py-1.5 rounded-full font-medium bg-white text-slate-700 border border-slate-200 hover:bg-slate-100" data-category="web-dev">
@@ -1024,7 +1024,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
       </div>
 
       <!-- Services Grid: EXACT 2 CARDS PER ROW WITH GENEROUS BREATHING GAP -->
-      <div id="partnerServicesGrid" class="grid grid-cols-2 gap-3 sm:gap-4.5 max-h-[650px] overflow-y-auto p-2 sm:p-3 border border-slate-200 rounded-2xl bg-white shadow-2xs mt-3 sm:mt-4">
+      <div id="partnerServicesGrid" class="grid grid-cols-2 gap-3 sm:gap-4 sm:p-6 max-h-[650px] overflow-y-auto p-2 sm:p-3 border border-slate-200 rounded-2xl bg-white shadow-sm mt-3 sm:mt-4">
         <?php foreach ($SERVICES_CATALOGUE as $srv): 
           $catInfo = $CATALOGUE_CATEGORIES[$srv['category_id']] ?? null;
           $catName = $catInfo['short_name'] ?? 'General';
@@ -1055,7 +1055,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               href="<?php echo getWhatsAppUrl('Namaste VIVEK TECH! Mujhe [' . $srv['name'] . '] service me interest hai. Details aur partner quotation bhejein.'); ?>" 
               target="_blank" 
               rel="noopener noreferrer" 
-              class="w-full py-1.5 sm:py-2 px-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10px] sm:text-xs flex items-center justify-center gap-1 shadow-2xs transition-all text-center"
+              class="w-full py-1.5 sm:py-2 px-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-[10px] sm:text-xs flex items-center justify-center gap-1 shadow-sm transition-all text-center"
             >
               <i data-lucide="message-circle" class="w-3.5 h-3.5 shrink-0"></i>
               <span class="truncate">WhatsApp Enquiry</span>
@@ -1153,7 +1153,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
       </div>
 
       <!-- Clean Compact Form Card -->
-      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-3.5 sm:p-6 shadow-xs">
+      <div class="bg-slate-50 border border-slate-200 rounded-2xl p-3.5 sm:p-6 shadow-sm">
         
         <div id="quickLeadFeedback" class="hidden p-2.5 rounded-xl mb-3 text-xs"></div>
 
@@ -1174,7 +1174,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
                 name="full_name" 
                 required 
                 placeholder="उदा. रमेश कुमार" 
-                class="w-full px-3 py-2 rounded-xl bg-white border border-slate-300 text-slate-900 placeholder-slate-400 text-xs sm:text-sm focus:border-blue-600 focus:outline-none shadow-2xs"
+                class="w-full px-3 py-2 rounded-xl bg-white border border-slate-300 text-slate-900 placeholder-slate-400 text-xs sm:text-sm focus:border-blue-600 focus:outline-none shadow-sm"
               >
             </div>
 
@@ -1187,7 +1187,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
                 name="phone" 
                 required 
                 placeholder="उदा. 9876543210" 
-                class="w-full px-3 py-2 rounded-xl bg-white border border-slate-300 text-slate-900 placeholder-slate-400 text-xs sm:text-sm focus:border-blue-600 focus:outline-none shadow-2xs"
+                class="w-full px-3 py-2 rounded-xl bg-white border border-slate-300 text-slate-900 placeholder-slate-400 text-xs sm:text-sm focus:border-blue-600 focus:outline-none shadow-sm"
               >
             </div>
 
@@ -1199,7 +1199,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
                 type="text" 
                 name="shop_name" 
                 placeholder="उदा. वर्मा साइबर कैफे" 
-                class="w-full px-3 py-2 rounded-xl bg-white border border-slate-300 text-slate-900 placeholder-slate-400 text-xs sm:text-sm focus:border-blue-600 focus:outline-none shadow-2xs"
+                class="w-full px-3 py-2 rounded-xl bg-white border border-slate-300 text-slate-900 placeholder-slate-400 text-xs sm:text-sm focus:border-blue-600 focus:outline-none shadow-sm"
               >
             </div>
 
@@ -1211,7 +1211,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
                 type="text" 
                 name="city" 
                 placeholder="उदा. पटना, वाराणसी, दानापुर" 
-                class="w-full px-3 py-2 rounded-xl bg-white border border-slate-300 text-slate-900 placeholder-slate-400 text-xs sm:text-sm focus:border-blue-600 focus:outline-none shadow-2xs"
+                class="w-full px-3 py-2 rounded-xl bg-white border border-slate-300 text-slate-900 placeholder-slate-400 text-xs sm:text-sm focus:border-blue-600 focus:outline-none shadow-sm"
               >
             </div>
 
@@ -1225,7 +1225,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               </label>
               <select 
                 name="business_type" 
-                class="w-full px-3 py-2 rounded-xl bg-white border border-slate-300 text-slate-900 text-xs sm:text-sm focus:border-blue-600 focus:outline-none shadow-2xs"
+                class="w-full px-3 py-2 rounded-xl bg-white border border-slate-300 text-slate-900 text-xs sm:text-sm focus:border-blue-600 focus:outline-none shadow-sm"
               >
                 <option value="Cyber Cafe">Cyber Cafe / Online Center</option>
                 <option value="CSC Centre">CSC Centre / Jan Seva Kendra</option>
@@ -1242,7 +1242,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
               </label>
               <select 
                 name="service" 
-                class="w-full px-3 py-2 rounded-xl bg-white border border-slate-300 text-slate-900 text-xs sm:text-sm focus:border-blue-600 focus:outline-none shadow-2xs"
+                class="w-full px-3 py-2 rounded-xl bg-white border border-slate-300 text-slate-900 text-xs sm:text-sm focus:border-blue-600 focus:outline-none shadow-sm"
               >
                 <option value="All Services">सभी 10 सर्विसेज (All Services)</option>
                 <option value="Website Development">Website Development</option>
@@ -1273,15 +1273,15 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
             या सीधे फ़ोन करके अभी बात करें:
           </p>
           <div class="flex flex-wrap items-center justify-center gap-1.5 sm:gap-3 text-[11px] sm:text-xs font-bold text-slate-800">
-            <a href="tel:+919334968355" class="hover:text-blue-600 flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white border border-slate-200 shadow-2xs">
+            <a href="tel:+919334968355" class="hover:text-blue-600 flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white border border-slate-200 shadow-sm">
               <i data-lucide="phone" class="w-3.5 h-3.5 text-emerald-600"></i>
               <span>हेल्पलाइन: +91 93349 68355</span>
             </a>
-            <a href="tel:+919334968355" class="hover:text-blue-600 flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white border border-slate-200 shadow-2xs">
+            <a href="tel:+919334968355" class="hover:text-blue-600 flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white border border-slate-200 shadow-sm">
               <i data-lucide="user" class="w-3.5 h-3.5 text-blue-600"></i>
               <span>विवेक: +91 93349 68355</span>
             </a>
-            <a href="tel:+917217645059" class="hover:text-blue-600 flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white border border-slate-200 shadow-2xs">
+            <a href="tel:+917217645059" class="hover:text-blue-600 flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white border border-slate-200 shadow-sm">
               <i data-lucide="user-check" class="w-3.5 h-3.5 text-yukt-orange"></i>
               <span>रंजीत: +91 72176 45059</span>
             </a>
@@ -1310,7 +1310,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
 
       <div class="space-y-2">
         
-        <details class="group p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200 shadow-2xs open:border-blue-400 transition-all">
+        <details class="group p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200 shadow-sm open:border-blue-400 transition-all">
           <summary class="font-bold text-xs sm:text-sm text-slate-900 cursor-pointer list-none flex items-center justify-between">
             <span>क्या मुझे कंप्यूटर कोडिंग या टेक्निकल नॉलेज होना जरूरी है?</span>
             <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 group-open:rotate-180 transition-transform shrink-0 ml-2"></i>
@@ -1320,7 +1320,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
           </p>
         </details>
 
-        <details class="group p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200 shadow-2xs open:border-blue-400 transition-all">
+        <details class="group p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200 shadow-sm open:border-blue-400 transition-all">
           <summary class="font-bold text-xs sm:text-sm text-slate-900 cursor-pointer list-none flex items-center justify-between">
             <span>पार्टनर बनने के लिए क्या कोई फीस या चार्ज देना होगा?</span>
             <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 group-open:rotate-180 transition-transform shrink-0 ml-2"></i>
@@ -1330,7 +1330,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
           </p>
         </details>
 
-        <details class="group p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200 shadow-2xs open:border-blue-400 transition-all">
+        <details class="group p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200 shadow-sm open:border-blue-400 transition-all">
           <summary class="font-bold text-xs sm:text-sm text-slate-900 cursor-pointer list-none flex items-center justify-between">
             <span>कमीशन का पैसा कब और कैसे मिलेगा?</span>
             <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 group-open:rotate-180 transition-transform shrink-0 ml-2"></i>
@@ -1340,7 +1340,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
           </p>
         </details>
 
-        <details class="group p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200 shadow-2xs open:border-blue-400 transition-all">
+        <details class="group p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200 shadow-sm open:border-blue-400 transition-all">
           <summary class="font-bold text-xs sm:text-sm text-slate-900 cursor-pointer list-none flex items-center justify-between">
             <span>क्या मैं अपनी दुकान के नाम से यह सर्विस दे सकता हूँ (White-Label)?</span>
             <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 group-open:rotate-180 transition-transform shrink-0 ml-2"></i>
@@ -1350,7 +1350,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
           </p>
         </details>
 
-        <details class="group p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200 shadow-2xs open:border-blue-400 transition-all">
+        <details class="group p-3 sm:p-3.5 rounded-xl bg-white border border-slate-200 shadow-sm open:border-blue-400 transition-all">
           <summary class="font-bold text-xs sm:text-sm text-slate-900 cursor-pointer list-none flex items-center justify-between">
             <span>मेरी दुकान के लिए पोस्टर कैसे मिलेगा?</span>
             <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 group-open:rotate-180 transition-transform shrink-0 ml-2"></i>
@@ -1494,10 +1494,10 @@ document.addEventListener('DOMContentLoaded', function() {
   pdirCatBtns.forEach(btn => {
     btn.addEventListener('click', function() {
       pdirCatBtns.forEach(b => {
-        b.classList.remove('active', 'bg-blue-600', 'text-white', 'shadow-xs');
+        b.classList.remove('active', 'bg-blue-600', 'text-white', 'shadow-sm');
         b.classList.add('bg-white', 'text-slate-700');
       });
-      this.classList.add('active', 'bg-blue-600', 'text-white', 'shadow-xs');
+      this.classList.add('active', 'bg-blue-600', 'text-white', 'shadow-sm');
       this.classList.remove('bg-white', 'text-slate-700');
 
       activeCat = this.getAttribute('data-category');
