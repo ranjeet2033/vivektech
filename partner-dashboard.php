@@ -755,7 +755,7 @@ require_once __DIR__ . '/includes/header.php';
             Commission &amp; Payout Ledger
           </h2>
           <p class="text-xs sm:text-sm text-slate-300 mt-1 max-w-2xl">
-            Review detailed accounting for every completed and in-progress client project. Commissions range from 15% to 25% of the total project milestone value.
+            Review detailed accounting for every completed and in-progress client project. Commissions range from 20% to 30% of the total project cost.
           </p>
         </div>
 

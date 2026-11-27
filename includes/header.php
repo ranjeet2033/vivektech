@@ -525,7 +525,7 @@ if (!empty($faqs) && is_array($faqs)) {
               <span class="flex items-center gap-2.5">
                 <i data-lucide="store" class="w-4 h-4 text-yukt-orange"></i>
                 <span>Digital Partner Program</span>
-                <span class="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-yukt-orange/20 text-yukt-orange border border-yukt-orange/30">Earn 15-25%</span>
+                <span class="text-[10px] font-mono px-1.5 py-0.5 rounded-full bg-yukt-orange/20 text-yukt-orange border border-yukt-orange/30">Earn 20-30%</span>
               </span>
               <i data-lucide="chevron-right" class="w-4 h-4 text-slate-500"></i>
             </a>

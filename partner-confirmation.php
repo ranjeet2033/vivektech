@@ -136,7 +136,7 @@ require_once __DIR__ . '/includes/header.php';
         <div class="p-3.5 rounded-2xl bg-white/[0.03] border border-white/5 text-xs text-slate-300 flex items-start gap-2.5">
           <i data-lucide="info" class="w-4 h-4 text-electric-400 shrink-0 mt-0.5"></i>
           <span>
-            Every client who visits your link is automatically tracked. Whenever they request a quote or project, you earn <strong>15% to 25% commission</strong> upon project milestones!
+            Every client who visits your link is automatically tracked. Whenever they request a quote or project, you earn <strong>20% to 30% commission</strong> of the project cost upon project milestones!
           </span>
         </div>
       </div>

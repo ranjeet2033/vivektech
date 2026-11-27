@@ -61,7 +61,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
           <div class="p-4 rounded-2xl bg-white border border-slate-200/90 shadow-sm text-slate-700 text-xs sm:text-sm leading-relaxed text-left">
             <p class="font-medium text-slate-800">
               <span class="text-yukt-orange font-bold">💡</span> 
-              Cyber Cafe, CSC, Jan Seva Kendra aur Computer Dukan ke liye sunahara mauka. Apni dukan se <strong class="text-blue-700">Website</strong>, <strong class="text-blue-700">Billing Software</strong>, aur <strong class="text-blue-700">Document Services</strong> provide karein. Pura technical kaam <strong class="text-slate-900">VIVEK TECH</strong> karega — aur <strong class="text-emerald-700">15% se 25% commission</strong> seedha aapke Bank/UPI me aayega!
+              Cyber Cafe, CSC, Jan Seva Kendra aur Computer Dukan ke liye sunahara mauka. Apni dukan se <strong class="text-blue-700">Website</strong>, <strong class="text-blue-700">Billing Software</strong>, aur <strong class="text-blue-700">Document Services</strong> provide karein. Pura technical kaam <strong class="text-slate-900">VIVEK TECH</strong> karega — aur <strong class="text-emerald-700">project cost ka 20% se 30% commission</strong> seedha aapke Bank/UPI me aayega!
             </p>
           </div>
 
@@ -75,8 +75,8 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
 
             <div class="p-3 rounded-2xl bg-white border border-slate-200 border-t-2 border-t-yukt-orange text-center shadow-sm hover:shadow-md transition-all">
               <div class="text-[10px] sm:text-xs text-slate-500 font-medium">Aapka Munafa</div>
-              <div class="text-sm sm:text-lg font-extrabold text-yukt-orange mt-0.5">15% – 25%</div>
-              <div class="text-[10px] text-slate-400">Per Project</div>
+              <div class="text-sm sm:text-lg font-extrabold text-yukt-orange mt-0.5">20% – 30%</div>
+              <div class="text-[10px] text-slate-400">Of Project Cost</div>
             </div>
 
             <div class="p-3 rounded-2xl bg-white border border-slate-200 border-t-2 border-t-blue-600 text-center shadow-sm hover:shadow-md transition-all">
@@ -238,7 +238,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
             <h3 class="text-xs sm:text-sm font-bold text-slate-900">काम पूरा &bull; सीधा कमीशन</h3>
           </div>
           <p class="text-[11px] sm:text-xs text-slate-600 leading-relaxed">
-            VIVEK TECH टीम प्रोजेक्ट डिलीवर करेगी और आपका <strong>15% से 25% कमीशन</strong> तुरंत आपके <strong>Bank या UPI</strong> में आ जाएगा!
+            VIVEK TECH टीम प्रोजेक्ट डिलीवर करेगी और आपका <strong>प्रोजेक्ट कॉस्ट का 20% से 30% कमीशन</strong> तुरंत आपके <strong>Bank या UPI</strong> में आ जाएगा!
           </p>
           <div class="text-[10px] sm:text-[11px] font-semibold text-emerald-700 flex items-center gap-1 pt-0.5">
             <i data-lucide="check" class="w-3 h-3 text-emerald-600"></i>
@@ -1395,7 +1395,7 @@ require_once __DIR__ . '/includes/services-catalogue-data.php';
             <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400 group-open:rotate-180 transition-transform shrink-0 ml-2"></i>
           </summary>
           <p class="text-[11px] sm:text-xs text-slate-600 mt-1.5 leading-relaxed">
-            हर प्रोजेक्ट पर आपको 15% से 25% तक कमीशन मिलता है। कस्टमर का पेमेंट क्लियर होते ही आपका कमीशन सीधे आपके <strong>Bank Account या Google Pay / PhonePe / UPI</strong> पर भेज दिया जाता है।
+            हर प्रोजेक्ट पर आपको प्रोजेक्ट कॉस्ट का 20% से 30% तक कमीशन मिलता है। कस्टमर का पेमेंट क्लियर होते ही आपका कमीशन सीधे आपके <strong>Bank Account या Google Pay / PhonePe / UPI</strong> पर भेज दिया जाता है।
           </p>
         </details>
 

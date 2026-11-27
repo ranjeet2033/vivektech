@@ -240,7 +240,7 @@ if (!function_exists('getCatalogueWhatsAppUrl')) {
         अपनी दुकान से ये सभी 140+ सर्विसेज Provide करना चाहते हैं?
       </h2>
       <p class="text-xs sm:text-sm text-slate-200 max-w-2xl mx-auto">
-        VIVEK TECH डिजिटल पार्टनर प्रोग्राम 100% फ्री है। कोई जॉइनिंग फीस नहीं। प्रोजेक्ट्स रेफर करें और हर काम पर 15% से 25% तक सीधा कमीशन पाएं!
+        VIVEK TECH डिजिटल पार्टनर प्रोग्राम 100% फ्री है। कोई जॉइनिंग फीस नहीं। प्रोजेक्ट्स रेफर करें और हर काम पर प्रोजेक्ट कॉस्ट का 20% से 30% तक सीधा कमीशन पाएं!
       </p>
       <div class="flex flex-wrap items-center justify-center gap-2.5 pt-2">
         <a 
